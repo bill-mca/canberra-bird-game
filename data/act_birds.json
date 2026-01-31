@@ -1,0 +1,2112 @@
+{
+  "title": "Birds of the Australian Capital Territory",
+  "source": "Canberra Ornithologists Group - Annotated Checklist (November 2017)",
+  "sourceUrl": "https://canberrabirds.org.au/publications/maps-forms-and-lists/annotated-checklist-of-the-birds-of-the-australian-capital-territory/",
+  "totalSpecies": 297,
+  "generatedDate": "2026-01-30T12:25:11.901430",
+  "photoSources": [
+    {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org",
+      "licences": "CC BY, CC BY-SA, CC0, Public Domain"
+    },
+    {
+      "name": "Atlas of Living Australia",
+      "url": "https://ala.org.au",
+      "licences": "Various CC"
+    },
+    {
+      "name": "iNaturalist",
+      "url": "https://inaturalist.org",
+      "licences": "CC BY, CC BY-NC, CC0"
+    }
+  ],
+  "birds": [
+    {
+      "commonName": "Emu",
+      "scientificName": "Dromaius novaehollandiae",
+      "family": "Casuariidae",
+      "statusInACT": "Rare, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Magpie Goose",
+      "scientificName": "Anseranas semipalmata",
+      "family": "Anseranatidae",
+      "statusInACT": "Reintroduced. Rare, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Stubble Quail",
+      "scientificName": "Coturnix pectoralis",
+      "family": "Phasianidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Brown Quail",
+      "scientificName": "Synoicus ypsilophorus",
+      "family": "Phasianidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Indian Peafowl",
+      "scientificName": "Pavo cristatus",
+      "family": "Phasianidae",
+      "statusInACT": "Rare breeding resident/escapee. Introduced",
+      "photos": []
+    },
+    {
+      "commonName": "Plumed Whistling-Duck",
+      "scientificName": "Dendrocygna eytoni",
+      "family": "Anatidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Musk Duck",
+      "scientificName": "Biziura lobata",
+      "family": "Anatidae",
+      "statusInACT": "Rare, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Freckled Duck",
+      "scientificName": "Stictonetta naevosa",
+      "family": "Anatidae",
+      "statusInACT": "Uncommon, non-breeding visitor. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Black Swan",
+      "scientificName": "Cygnus atratus",
+      "family": "Anatidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Australian Shelduck",
+      "scientificName": "Tadorna tadornoides",
+      "family": "Anatidae",
+      "statusInACT": "Rare, breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Australian Wood Duck",
+      "scientificName": "Chenonetta jubata",
+      "family": "Anatidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Pink-eared Duck",
+      "scientificName": "Malacorhynchus membranaceus",
+      "family": "Anatidae",
+      "statusInACT": "Uncommon, breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Australasian Shoveler",
+      "scientificName": "Spatula rhynchotis",
+      "family": "Anatidae",
+      "statusInACT": "Uncommon, breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Grey Teal",
+      "scientificName": "Anas gracilis",
+      "family": "Anatidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Chestnut Teal",
+      "scientificName": "Anas castanea",
+      "family": "Anatidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Pacific Black Duck",
+      "scientificName": "Anas superciliosa",
+      "family": "Anatidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Hardhead",
+      "scientificName": "Aythya australis",
+      "family": "Anatidae",
+      "statusInACT": "Common, breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Blue-billed Duck",
+      "scientificName": "Oxyura australis",
+      "family": "Anatidae",
+      "statusInACT": "Rare, breeding resident. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Australian Brush-turkey",
+      "scientificName": "Alectura lathami",
+      "family": "Megapodiidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Australasian Grebe",
+      "scientificName": "Tachybaptus novaehollandiae",
+      "family": "Podicipedidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Hoary-headed Grebe",
+      "scientificName": "Poliocephalus poliocephalus",
+      "family": "Podicipedidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Great Crested Grebe",
+      "scientificName": "Podiceps cristatus",
+      "family": "Podicipedidae",
+      "statusInACT": "Rare, breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Rock Dove",
+      "scientificName": "Columba livia",
+      "family": "Columbidae",
+      "statusInACT": "Very common, breeding resident. Introduced",
+      "photos": []
+    },
+    {
+      "commonName": "White-headed Pigeon",
+      "scientificName": "Columba leucomela",
+      "family": "Columbidae",
+      "statusInACT": "Rare, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Spotted Dove",
+      "scientificName": "Streptopelia chinensis",
+      "family": "Columbidae",
+      "statusInACT": "Uncommon, breeding resident. Introduced",
+      "photos": []
+    },
+    {
+      "commonName": "Brown Cuckoo-Dove",
+      "scientificName": "Macropygia phasianella",
+      "family": "Columbidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Common Bronzewing",
+      "scientificName": "Phaps chalcoptera",
+      "family": "Columbidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Brush Bronzewing",
+      "scientificName": "Phaps elegans",
+      "family": "Columbidae",
+      "statusInACT": "Rare, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Crested Pigeon",
+      "scientificName": "Ocyphaps lophotes",
+      "family": "Columbidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Diamond Dove",
+      "scientificName": "Geopelia cuneata",
+      "family": "Columbidae",
+      "statusInACT": "Rare, non-breeding visitor/escapee",
+      "photos": []
+    },
+    {
+      "commonName": "Peaceful Dove",
+      "scientificName": "Geopelia placida",
+      "family": "Columbidae",
+      "statusInACT": "Rare, non-breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Bar-shouldered Dove",
+      "scientificName": "Geopelia humeralis",
+      "family": "Columbidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Wonga Pigeon",
+      "scientificName": "Leucosarcia melanoleuca",
+      "family": "Columbidae",
+      "statusInACT": "Rare, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Superb Fruit-Dove",
+      "scientificName": "Ptilinopus superbus",
+      "family": "Columbidae",
+      "statusInACT": "Non-breeding vagrant. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Tawny Frogmouth",
+      "scientificName": "Podargus strigoides",
+      "family": "Podargidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "White-throated Nightjar",
+      "scientificName": "Eurostopodus mystacalis",
+      "family": "Caprimulgidae",
+      "statusInACT": "Rare, breeding summer visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Spotted Nightjar",
+      "scientificName": "Eurostopodus argus",
+      "family": "Caprimulgidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Australian Owlet-nightjar",
+      "scientificName": "Aegotheles cristatus",
+      "family": "Aegothelidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "White-throated Needletail",
+      "scientificName": "Hirundapus caudacutus",
+      "family": "Apodidae",
+      "statusInACT": "Uncommon, non-breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Fork-tailed Swift",
+      "scientificName": "Apus pacificus",
+      "family": "Apodidae",
+      "statusInACT": "Rare, non-breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Australasian Darter",
+      "scientificName": "Anhinga novaehollandiae",
+      "family": "Anhingidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Little Pied Cormorant",
+      "scientificName": "Microcarbo melanoleucos",
+      "family": "Phalacrocoracidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Great Cormorant",
+      "scientificName": "Phalacrocorax carbo",
+      "family": "Phalacrocoracidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Little Black Cormorant",
+      "scientificName": "Phalacrocorax sulcirostris",
+      "family": "Phalacrocoracidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Pied Cormorant",
+      "scientificName": "Phalacrocorax varius",
+      "family": "Phalacrocoracidae",
+      "statusInACT": "Rare, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Australian Pelican",
+      "scientificName": "Pelecanus conspicillatus",
+      "family": "Pelecanidae",
+      "statusInACT": "Common, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Black-necked Stork",
+      "scientificName": "Ephippiorhynchus asiaticus",
+      "family": "Ciconiidae",
+      "statusInACT": "Non-breeding vagrant. Endangered NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Australasian Bittern",
+      "scientificName": "Botaurus poiciloptilus",
+      "family": "Ardeidae",
+      "statusInACT": "Non-breeding vagrant. Endangered NSW/EPBC",
+      "photos": []
+    },
+    {
+      "commonName": "Australian Little Bittern",
+      "scientificName": "Ixobrychus dubius",
+      "family": "Ardeidae",
+      "statusInACT": "Rare, breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "White-necked Heron",
+      "scientificName": "Ardea pacifica",
+      "family": "Ardeidae",
+      "statusInACT": "Uncommon, breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Great Egret",
+      "scientificName": "Ardea alba",
+      "family": "Ardeidae",
+      "statusInACT": "Uncommon, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Intermediate Egret",
+      "scientificName": "Ardea intermedia",
+      "family": "Ardeidae",
+      "statusInACT": "Rare, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Cattle Egret",
+      "scientificName": "Bubulcus ibis",
+      "family": "Ardeidae",
+      "statusInACT": "Uncommon, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "White-faced Heron",
+      "scientificName": "Egretta novaehollandiae",
+      "family": "Ardeidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Little Egret",
+      "scientificName": "Egretta garzetta",
+      "family": "Ardeidae",
+      "statusInACT": "Rare, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Nankeen Night-Heron",
+      "scientificName": "Nycticorax caledonicus",
+      "family": "Ardeidae",
+      "statusInACT": "Uncommon, breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Glossy Ibis",
+      "scientificName": "Plegadis falcinellus",
+      "family": "Threskiornithidae",
+      "statusInACT": "Rare, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Australian White Ibis",
+      "scientificName": "Threskiornis moluccus",
+      "family": "Threskiornithidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Straw-necked Ibis",
+      "scientificName": "Threskiornis spinicollis",
+      "family": "Threskiornithidae",
+      "statusInACT": "Common, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Royal Spoonbill",
+      "scientificName": "Platalea regia",
+      "family": "Threskiornithidae",
+      "statusInACT": "Uncommon, breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Yellow-billed Spoonbill",
+      "scientificName": "Platalea flavipes",
+      "family": "Threskiornithidae",
+      "statusInACT": "Uncommon, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Osprey",
+      "scientificName": "Pandion haliaetus",
+      "family": "Pandionidae",
+      "statusInACT": "Non-breeding vagrant. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Black-shouldered Kite",
+      "scientificName": "Elanus axillaris",
+      "family": "Accipitridae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Letter-winged Kite",
+      "scientificName": "Elanus scriptus",
+      "family": "Accipitridae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Square-tailed Kite",
+      "scientificName": "Lophoictinia isura",
+      "family": "Accipitridae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "White-bellied Sea-Eagle",
+      "scientificName": "Haliaeetus leucogaster",
+      "family": "Accipitridae",
+      "statusInACT": "Uncommon, breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Whistling Kite",
+      "scientificName": "Haliastur sphenurus",
+      "family": "Accipitridae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Black Kite",
+      "scientificName": "Milvus migrans",
+      "family": "Accipitridae",
+      "statusInACT": "Rare, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Brown Goshawk",
+      "scientificName": "Accipiter fasciatus",
+      "family": "Accipitridae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Collared Sparrowhawk",
+      "scientificName": "Accipiter cirrocephalus",
+      "family": "Accipitridae",
+      "statusInACT": "Common, breeding resident/summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Grey Goshawk",
+      "scientificName": "Accipiter novaehollandiae",
+      "family": "Accipitridae",
+      "statusInACT": "Rare, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Spotted Harrier",
+      "scientificName": "Circus assimilis",
+      "family": "Accipitridae",
+      "statusInACT": "Rare, non-breeding visitor. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Swamp Harrier",
+      "scientificName": "Circus approximans",
+      "family": "Accipitridae",
+      "statusInACT": "Rare, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Wedge-tailed Eagle",
+      "scientificName": "Aquila audax",
+      "family": "Accipitridae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Little Eagle",
+      "scientificName": "Hieraaetus morphnoides",
+      "family": "Accipitridae",
+      "statusInACT": "Uncommon, breeding resident. Vulnerable ACT/NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Nankeen Kestrel",
+      "scientificName": "Falco cenchroides",
+      "family": "Falconidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Brown Falcon",
+      "scientificName": "Falco berigora",
+      "family": "Falconidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Australian Hobby",
+      "scientificName": "Falco longipennis",
+      "family": "Falconidae",
+      "statusInACT": "Common, breeding resident/summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Grey Falcon",
+      "scientificName": "Falco hypoleucos",
+      "family": "Falconidae",
+      "statusInACT": "Non-breeding vagrant. Endangered NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Black Falcon",
+      "scientificName": "Falco subniger",
+      "family": "Falconidae",
+      "statusInACT": "Rare, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Peregrine Falcon",
+      "scientificName": "Falco peregrinus",
+      "family": "Falconidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Brolga",
+      "scientificName": "Antigone rubicunda",
+      "family": "Gruidae",
+      "statusInACT": "Extinct. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Purple Swamphen",
+      "scientificName": "Porphyrio porphyrio",
+      "family": "Rallidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Lewin's Rail",
+      "scientificName": "Lewinia pectoralis",
+      "family": "Rallidae",
+      "statusInACT": "Rare, breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Buff-banded Rail",
+      "scientificName": "Hypotaenidia philippensis",
+      "family": "Rallidae",
+      "statusInACT": "Uncommon, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Baillon's Crake",
+      "scientificName": "Zapornia pusilla",
+      "family": "Rallidae",
+      "statusInACT": "Rare, non-breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Australian Spotted Crake",
+      "scientificName": "Porzana fluminea",
+      "family": "Rallidae",
+      "statusInACT": "Uncommon, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Spotless Crake",
+      "scientificName": "Zapornia tabuensis",
+      "family": "Rallidae",
+      "statusInACT": "Uncommon, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Black-tailed Native-hen",
+      "scientificName": "Tribonyx ventralis",
+      "family": "Rallidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Dusky Moorhen",
+      "scientificName": "Gallinula tenebrosa",
+      "family": "Rallidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Eurasian Coot",
+      "scientificName": "Fulica atra",
+      "family": "Rallidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Australian Bustard",
+      "scientificName": "Ardeotis australis",
+      "family": "Otididae",
+      "statusInACT": "Extinct. Endangered NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Bush Stone-curlew",
+      "scientificName": "Burhinus grallarius",
+      "family": "Burhinidae",
+      "statusInACT": "Reintroduced. Rare, breeding resident. Endangered NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Pied Stilt",
+      "scientificName": "Himantopus leucocephalus",
+      "family": "Recurvirostridae",
+      "statusInACT": "Uncommon, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Red-necked Avocet",
+      "scientificName": "Recurvirostra novaehollandiae",
+      "family": "Recurvirostridae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Pacific Golden Plover",
+      "scientificName": "Pluvialis fulva",
+      "family": "Charadriidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Red-capped Plover",
+      "scientificName": "Charadrius ruficapillus",
+      "family": "Charadriidae",
+      "statusInACT": "Rare, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Double-banded Plover",
+      "scientificName": "Charadrius bicinctus",
+      "family": "Charadriidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Black-fronted Dotterel",
+      "scientificName": "Elseyornis melanops",
+      "family": "Charadriidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Red-kneed Dotterel",
+      "scientificName": "Erythrogonys cinctus",
+      "family": "Charadriidae",
+      "statusInACT": "Uncommon, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Banded Lapwing",
+      "scientificName": "Vanellus tricolor",
+      "family": "Charadriidae",
+      "statusInACT": "Rare, breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Masked Lapwing",
+      "scientificName": "Vanellus miles",
+      "family": "Charadriidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Plains-wanderer",
+      "scientificName": "Pedionomus torquatus",
+      "family": "Pedionomidae",
+      "statusInACT": "Extinct. Endangered NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Australian Painted-snipe",
+      "scientificName": "Rostratula australis",
+      "family": "Rostratulidae",
+      "statusInACT": "Rare, non-breeding visitor. Endangered NSW/EPBC",
+      "photos": []
+    },
+    {
+      "commonName": "Latham's Snipe",
+      "scientificName": "Gallinago hardwickii",
+      "family": "Scolopacidae",
+      "statusInACT": "Common, non-breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Bar-tailed Godwit",
+      "scientificName": "Limosa lapponica",
+      "family": "Scolopacidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Eastern Curlew",
+      "scientificName": "Numenius madagascariensis",
+      "family": "Scolopacidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Common Sandpiper",
+      "scientificName": "Actitis hypoleucos",
+      "family": "Scolopacidae",
+      "statusInACT": "Rare, non-breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Common Greenshank",
+      "scientificName": "Tringa nebularia",
+      "family": "Scolopacidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Marsh Sandpiper",
+      "scientificName": "Tringa stagnatilis",
+      "family": "Scolopacidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Wood Sandpiper",
+      "scientificName": "Tringa glareola",
+      "family": "Scolopacidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Ruddy Turnstone",
+      "scientificName": "Arenaria interpres",
+      "family": "Scolopacidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Red Knot",
+      "scientificName": "Calidris canutus",
+      "family": "Scolopacidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Red-necked Stint",
+      "scientificName": "Calidris ruficollis",
+      "family": "Scolopacidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Long-toed Stint",
+      "scientificName": "Calidris subminuta",
+      "family": "Scolopacidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Pectoral Sandpiper",
+      "scientificName": "Calidris melanotos",
+      "family": "Scolopacidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Sharp-tailed Sandpiper",
+      "scientificName": "Calidris acuminata",
+      "family": "Scolopacidae",
+      "statusInACT": "Uncommon, non-breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Curlew Sandpiper",
+      "scientificName": "Calidris ferruginea",
+      "family": "Scolopacidae",
+      "statusInACT": "Non-breeding vagrant. Endangered NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Painted Button-quail",
+      "scientificName": "Turnix varius",
+      "family": "Turnicidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Red-chested Button-quail",
+      "scientificName": "Turnix pyrrhothorax",
+      "family": "Turnicidae",
+      "statusInACT": "Breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Little Button-quail",
+      "scientificName": "Turnix velox",
+      "family": "Turnicidae",
+      "statusInACT": "Rare, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Gull-billed Tern",
+      "scientificName": "Gelochelidon nilotica",
+      "family": "Laridae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Caspian Tern",
+      "scientificName": "Hydroprogne caspia",
+      "family": "Laridae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "White-winged Black Tern",
+      "scientificName": "Chlidonias leucopterus",
+      "family": "Laridae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Whiskered Tern",
+      "scientificName": "Chlidonias hybrida",
+      "family": "Laridae",
+      "statusInACT": "Rare, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Silver Gull",
+      "scientificName": "Chroicocephalus novaehollandiae",
+      "family": "Laridae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Glossy Black-Cockatoo",
+      "scientificName": "Calyptorhynchus lathami",
+      "family": "Cacatuidae",
+      "statusInACT": "Rare, breeding visitor. Vulnerable ACT/NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Yellow-tailed Black-Cockatoo",
+      "scientificName": "Zanda funereus",
+      "family": "Cacatuidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Gang-gang Cockatoo",
+      "scientificName": "Callocephalon fimbriatum",
+      "family": "Cacatuidae",
+      "statusInACT": "Common, breeding resident/altitudinal migrant. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Major Mitchell's Cockatoo",
+      "scientificName": "Cacatua leadbeateri",
+      "family": "Cacatuidae",
+      "statusInACT": "Non-breeding escapee. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Galah",
+      "scientificName": "Eolophus roseicapilla",
+      "family": "Cacatuidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Long-billed Corella",
+      "scientificName": "Cacatua tenuirostris",
+      "family": "Cacatuidae",
+      "statusInACT": "Uncommon, breeding resident/escapee",
+      "photos": []
+    },
+    {
+      "commonName": "Little Corella",
+      "scientificName": "Cacatua sanguinea",
+      "family": "Cacatuidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Sulphur-crested Cockatoo",
+      "scientificName": "Cacatua galerita",
+      "family": "Cacatuidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Cockatiel",
+      "scientificName": "Nymphicus hollandicus",
+      "family": "Cacatuidae",
+      "statusInACT": "Rare, non-breeding visitor/escapee",
+      "photos": []
+    },
+    {
+      "commonName": "Rainbow Lorikeet",
+      "scientificName": "Trichoglossus moluccanus",
+      "family": "Psittaculidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Scaly-breasted Lorikeet",
+      "scientificName": "Trichoglossus chlorolepidotus",
+      "family": "Psittaculidae",
+      "statusInACT": "Non-breeding vagrant/escapee",
+      "photos": []
+    },
+    {
+      "commonName": "Musk Lorikeet",
+      "scientificName": "Glossopsitta concinna",
+      "family": "Psittaculidae",
+      "statusInACT": "Rare, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Little Lorikeet",
+      "scientificName": "Glossopsitta pusilla",
+      "family": "Psittaculidae",
+      "statusInACT": "Rare, non-breeding visitor. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Purple-crowned Lorikeet",
+      "scientificName": "Glossopsitta porphyrocephala",
+      "family": "Psittaculidae",
+      "statusInACT": "Non-breeding vagrant. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Australian King-Parrot",
+      "scientificName": "Alisterus scapularis",
+      "family": "Psittaculidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Superb Parrot",
+      "scientificName": "Polytelis swainsonii",
+      "family": "Psittaculidae",
+      "statusInACT": "Common, breeding summer migrant. Vulnerable ACT/NSW/EPBC",
+      "photos": []
+    },
+    {
+      "commonName": "Crimson Rosella",
+      "scientificName": "Platycercus elegans",
+      "family": "Psittaculidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Eastern Rosella",
+      "scientificName": "Platycercus eximius",
+      "family": "Psittaculidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Swift Parrot",
+      "scientificName": "Lathamus discolor",
+      "family": "Psittaculidae",
+      "statusInACT": "Rare, non-breeding winter migrant. Vulnerable ACT, Endangered NSW, Critically Endangered EPBC",
+      "photos": []
+    },
+    {
+      "commonName": "Red-rumped Parrot",
+      "scientificName": "Psephotus haematonotus",
+      "family": "Psittaculidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Budgerigar",
+      "scientificName": "Melopsittacus undulatus",
+      "family": "Psittaculidae",
+      "statusInACT": "Rare, non-breeding visitor/escapee",
+      "photos": []
+    },
+    {
+      "commonName": "Blue-winged Parrot",
+      "scientificName": "Neophema chrysostoma",
+      "family": "Psittaculidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Turquoise Parrot",
+      "scientificName": "Neophema pulchella",
+      "family": "Psittaculidae",
+      "statusInACT": "Non-breeding vagrant/escapee. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Eastern Koel",
+      "scientificName": "Eudynamys orientalis",
+      "family": "Cuculidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Channel-billed Cuckoo",
+      "scientificName": "Scythrops novaehollandiae",
+      "family": "Cuculidae",
+      "statusInACT": "Rare, non-breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Horsfield's Bronze-Cuckoo",
+      "scientificName": "Chalcites basalis",
+      "family": "Cuculidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Black-eared Cuckoo",
+      "scientificName": "Chalcites osculans",
+      "family": "Cuculidae",
+      "statusInACT": "Rare, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Shining Bronze-Cuckoo",
+      "scientificName": "Chalcites lucidus",
+      "family": "Cuculidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Pallid Cuckoo",
+      "scientificName": "Heteroscenes pallidus",
+      "family": "Cuculidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Fan-tailed Cuckoo",
+      "scientificName": "Cacomantis flabelliformis",
+      "family": "Cuculidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Brush Cuckoo",
+      "scientificName": "Cacomantis variolosus",
+      "family": "Cuculidae",
+      "statusInACT": "Uncommon, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Powerful Owl",
+      "scientificName": "Ninox strenua",
+      "family": "Strigidae",
+      "statusInACT": "Rare, breeding resident. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Barking Owl",
+      "scientificName": "Ninox connivens",
+      "family": "Strigidae",
+      "statusInACT": "Non-breeding vagrant. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Southern Boobook",
+      "scientificName": "Ninox boobook",
+      "family": "Strigidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Masked Owl",
+      "scientificName": "Tyto novaehollandiae",
+      "family": "Tytonidae",
+      "statusInACT": "Non-breeding vagrant. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Barn Owl",
+      "scientificName": "Tyto alba",
+      "family": "Tytonidae",
+      "statusInACT": "Rare, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Azure Kingfisher",
+      "scientificName": "Ceyx azureus",
+      "family": "Alcedinidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Laughing Kookaburra",
+      "scientificName": "Dacelo novaeguineae",
+      "family": "Alcedinidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Red-backed Kingfisher",
+      "scientificName": "Todiramphus pyrrhopygius",
+      "family": "Alcedinidae",
+      "statusInACT": "Breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Sacred Kingfisher",
+      "scientificName": "Todiramphus sanctus",
+      "family": "Alcedinidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Rainbow Bee-eater",
+      "scientificName": "Merops ornatus",
+      "family": "Meropidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Dollarbird",
+      "scientificName": "Eurystomus orientalis",
+      "family": "Coraciidae",
+      "statusInACT": "Uncommon, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Superb Lyrebird",
+      "scientificName": "Menura novaehollandiae",
+      "family": "Menuridae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "White-throated Treecreeper",
+      "scientificName": "Cormobates leucophaea",
+      "family": "Climacteridae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Red-browed Treecreeper",
+      "scientificName": "Climacteris erythrops",
+      "family": "Climacteridae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Brown Treecreeper",
+      "scientificName": "Climacteris picumnus",
+      "family": "Climacteridae",
+      "statusInACT": "Rare, breeding resident. Vulnerable ACT/NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Satin Bowerbird",
+      "scientificName": "Ptilonorhynchus violaceus",
+      "family": "Ptilonorhynchidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Superb Fairy-wren",
+      "scientificName": "Malurus cyaneus",
+      "family": "Maluridae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Pilotbird",
+      "scientificName": "Pycnoptilus floccosus",
+      "family": "Acanthizidae",
+      "statusInACT": "Rare, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "White-browed Scrubwren",
+      "scientificName": "Sericornis frontalis",
+      "family": "Acanthizidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Chestnut-rumped Heathwren",
+      "scientificName": "Calamanthus pyrrhopygius",
+      "family": "Acanthizidae",
+      "statusInACT": "Rare, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Speckled Warbler",
+      "scientificName": "Pyrrholaemus sagittatus",
+      "family": "Acanthizidae",
+      "statusInACT": "Uncommon, breeding resident. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Weebill",
+      "scientificName": "Smicrornis brevirostris",
+      "family": "Acanthizidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Brown Gerygone",
+      "scientificName": "Gerygone mouki",
+      "family": "Acanthizidae",
+      "statusInACT": "Rare, winter visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Western Gerygone",
+      "scientificName": "Gerygone fusca",
+      "family": "Acanthizidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "White-throated Gerygone",
+      "scientificName": "Gerygone olivacea",
+      "family": "Acanthizidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Striated Thornbill",
+      "scientificName": "Acanthiza lineata",
+      "family": "Acanthizidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Yellow Thornbill",
+      "scientificName": "Acanthiza nana",
+      "family": "Acanthizidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Yellow-rumped Thornbill",
+      "scientificName": "Acanthiza chrysorrhoa",
+      "family": "Acanthizidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Chestnut-rumped Thornbill",
+      "scientificName": "Acanthiza uropygialis",
+      "family": "Acanthizidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Buff-rumped Thornbill",
+      "scientificName": "Acanthiza reguloides",
+      "family": "Acanthizidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Brown Thornbill",
+      "scientificName": "Acanthiza pusilla",
+      "family": "Acanthizidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Southern Whiteface",
+      "scientificName": "Aphelocephala leucopsis",
+      "family": "Acanthizidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Spotted Pardalote",
+      "scientificName": "Pardalotus punctatus",
+      "family": "Pardalotidae",
+      "statusInACT": "Very common, breeding resident/migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Striated Pardalote",
+      "scientificName": "Pardalotus striatus",
+      "family": "Pardalotidae",
+      "statusInACT": "Very common, breeding resident/migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Eastern Spinebill",
+      "scientificName": "Acanthorhynchus tenuirostris",
+      "family": "Meliphagidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Lewin's Honeyeater",
+      "scientificName": "Meliphaga lewinii",
+      "family": "Meliphagidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Yellow-faced Honeyeater",
+      "scientificName": "Caligavis chrysops",
+      "family": "Meliphagidae",
+      "statusInACT": "Very common, breeding resident/summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Singing Honeyeater",
+      "scientificName": "Gavicalis virescens",
+      "family": "Meliphagidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "White-eared Honeyeater",
+      "scientificName": "Nesoptilotis leucotis",
+      "family": "Meliphagidae",
+      "statusInACT": "Common, breeding resident/altitudinal migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Yellow-tufted Honeyeater",
+      "scientificName": "Lichenostomus melanops",
+      "family": "Meliphagidae",
+      "statusInACT": "Rare, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Fuscous Honeyeater",
+      "scientificName": "Ptilotula fusca",
+      "family": "Meliphagidae",
+      "statusInACT": "Uncommon, breeding resident/autumn migrant",
+      "photos": []
+    },
+    {
+      "commonName": "White-plumed Honeyeater",
+      "scientificName": "Ptilotula penicillata",
+      "family": "Meliphagidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "White-fronted Honeyeater",
+      "scientificName": "Purnella albifrons",
+      "family": "Meliphagidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Bell Miner",
+      "scientificName": "Manorina melanophrys",
+      "family": "Meliphagidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Noisy Miner",
+      "scientificName": "Manorina melanocephala",
+      "family": "Meliphagidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Spiny-cheeked Honeyeater",
+      "scientificName": "Acanthagenys rufogularis",
+      "family": "Meliphagidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Little Wattlebird",
+      "scientificName": "Anthochaera chrysoptera",
+      "family": "Meliphagidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Regent Honeyeater",
+      "scientificName": "Anthochaera phrygia",
+      "family": "Meliphagidae",
+      "statusInACT": "Rare, breeding visitor. Endangered ACT, Critically Endangered NSW/EPBC",
+      "photos": []
+    },
+    {
+      "commonName": "Red Wattlebird",
+      "scientificName": "Anthochaera carunculata",
+      "family": "Meliphagidae",
+      "statusInACT": "Very common, breeding resident/autumn migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Crimson Chat",
+      "scientificName": "Epthianura tricolor",
+      "family": "Meliphagidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "White-fronted Chat",
+      "scientificName": "Epthianura albifrons",
+      "family": "Meliphagidae",
+      "statusInACT": "Rare, breeding resident. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Black Honeyeater",
+      "scientificName": "Sugomel niger",
+      "family": "Meliphagidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Scarlet Honeyeater",
+      "scientificName": "Myzomela sanguinolenta",
+      "family": "Meliphagidae",
+      "statusInACT": "Rare, non-breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Tawny-crowned Honeyeater",
+      "scientificName": "Glyciphila melanops",
+      "family": "Meliphagidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Crescent Honeyeater",
+      "scientificName": "Phylidonyris pyrrhopterus",
+      "family": "Meliphagidae",
+      "statusInACT": "Uncommon, breeding resident/altitudinal migrant",
+      "photos": []
+    },
+    {
+      "commonName": "New Holland Honeyeater",
+      "scientificName": "Phylidonyris novaehollandiae",
+      "family": "Meliphagidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "White-cheeked Honeyeater",
+      "scientificName": "Phylidonyris niger",
+      "family": "Meliphagidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Black-chinned Honeyeater",
+      "scientificName": "Melithreptus gularis",
+      "family": "Meliphagidae",
+      "statusInACT": "Non-breeding vagrant. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Brown-headed Honeyeater",
+      "scientificName": "Melithreptus brevirostris",
+      "family": "Meliphagidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "White-naped Honeyeater",
+      "scientificName": "Melithreptus lunatus",
+      "family": "Meliphagidae",
+      "statusInACT": "Very common, breeding resident/summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Blue-faced Honeyeater",
+      "scientificName": "Entomyzon cyanotis",
+      "family": "Meliphagidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Noisy Friarbird",
+      "scientificName": "Philemon corniculatus",
+      "family": "Meliphagidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Little Friarbird",
+      "scientificName": "Philemon citreogularis",
+      "family": "Meliphagidae",
+      "statusInACT": "Rare, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Striped Honeyeater",
+      "scientificName": "Plectorhyncha lanceolata",
+      "family": "Meliphagidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Painted Honeyeater",
+      "scientificName": "Grantiella picta",
+      "family": "Meliphagidae",
+      "statusInACT": "Rare, breeding visitor. Vulnerable ACT/NSW/EPBC",
+      "photos": []
+    },
+    {
+      "commonName": "Grey-crowned Babbler",
+      "scientificName": "Pomatostomus temporalis",
+      "family": "Pomatostomidae",
+      "statusInACT": "Non-breeding vagrant. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "White-browed Babbler",
+      "scientificName": "Pomatostomus superciliosus",
+      "family": "Pomatostomidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Spotted Quail-thrush",
+      "scientificName": "Cinclosoma punctatum",
+      "family": "Cinclosomatidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Eastern Whipbird",
+      "scientificName": "Psophodes olivaceus",
+      "family": "Psophodidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Varied Sittella",
+      "scientificName": "Daphoenositta chrysoptera",
+      "family": "Neosittidae",
+      "statusInACT": "Uncommon, breeding resident. Vulnerable ACT/NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Black-faced Cuckoo-shrike",
+      "scientificName": "Coracina novaehollandiae",
+      "family": "Campephagidae",
+      "statusInACT": "Common, breeding resident/summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "White-bellied Cuckoo-shrike",
+      "scientificName": "Coracina papuensis",
+      "family": "Campephagidae",
+      "statusInACT": "Rare, non-breeding autumn migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Cicadabird",
+      "scientificName": "Edolisoma tenuirostris",
+      "family": "Campephagidae",
+      "statusInACT": "Rare, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "White-winged Triller",
+      "scientificName": "Lalage tricolor",
+      "family": "Campephagidae",
+      "statusInACT": "Uncommon, breeding summer migrant. Vulnerable ACT",
+      "photos": []
+    },
+    {
+      "commonName": "Crested Shrike-tit",
+      "scientificName": "Falcunculus frontatus",
+      "family": "Falcunculidae",
+      "statusInACT": "Rare, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Olive Whistler",
+      "scientificName": "Pachycephala olivacea",
+      "family": "Pachycephalidae",
+      "statusInACT": "Uncommon, breeding resident/altitudinal migrant. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Golden Whistler",
+      "scientificName": "Pachycephala pectoralis",
+      "family": "Pachycephalidae",
+      "statusInACT": "Common, breeding resident/altitudinal migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Rufous Whistler",
+      "scientificName": "Pachycephala rufiventris",
+      "family": "Pachycephalidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Grey Shrike-thrush",
+      "scientificName": "Colluricincla harmonica",
+      "family": "Pachycephalidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Australasian Figbird",
+      "scientificName": "Sphecotheres vieilloti",
+      "family": "Oriolidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Olive-backed Oriole",
+      "scientificName": "Oriolus sagittatus",
+      "family": "Oriolidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Masked Woodswallow",
+      "scientificName": "Artamus personatus",
+      "family": "Artamidae",
+      "statusInACT": "Rare, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "White-browed Woodswallow",
+      "scientificName": "Artamus superciliosus",
+      "family": "Artamidae",
+      "statusInACT": "Uncommon, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Dusky Woodswallow",
+      "scientificName": "Artamus cyanopterus",
+      "family": "Artamidae",
+      "statusInACT": "Common, breeding summer migrant. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Grey Butcherbird",
+      "scientificName": "Cracticus torquatus",
+      "family": "Artamidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Pied Butcherbird",
+      "scientificName": "Cracticus nigrogularis",
+      "family": "Artamidae",
+      "statusInACT": "Rare, breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Australian Magpie",
+      "scientificName": "Gymnorhina tibicen",
+      "family": "Artamidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Pied Currawong",
+      "scientificName": "Strepera graculina",
+      "family": "Artamidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Grey Currawong",
+      "scientificName": "Strepera versicolor",
+      "family": "Artamidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Spangled Drongo",
+      "scientificName": "Dicrurus bracteatus",
+      "family": "Dicruridae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Rufous Fantail",
+      "scientificName": "Rhipidura rufifrons",
+      "family": "Rhipiduridae",
+      "statusInACT": "Uncommon, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Grey Fantail",
+      "scientificName": "Rhipidura albiscapa",
+      "family": "Rhipiduridae",
+      "statusInACT": "Common, breeding resident/summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Willie Wagtail",
+      "scientificName": "Rhipidura leucophrys",
+      "family": "Rhipiduridae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Australian Raven",
+      "scientificName": "Corvus coronoides",
+      "family": "Corvidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Little Raven",
+      "scientificName": "Corvus mellori",
+      "family": "Corvidae",
+      "statusInACT": "Uncommon, breeding resident/winter migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Leaden Flycatcher",
+      "scientificName": "Myiagra rubecula",
+      "family": "Monarchidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Satin Flycatcher",
+      "scientificName": "Myiagra cyanoleuca",
+      "family": "Monarchidae",
+      "statusInACT": "Uncommon, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Restless Flycatcher",
+      "scientificName": "Myiagra inquieta",
+      "family": "Monarchidae",
+      "statusInACT": "Rare, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Black-faced Monarch",
+      "scientificName": "Monarcha melanopsis",
+      "family": "Monarchidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Magpie-lark",
+      "scientificName": "Grallina cyanoleuca",
+      "family": "Monarchidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "White-winged Chough",
+      "scientificName": "Corcorax melanorhamphos",
+      "family": "Corcoracidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Apostlebird",
+      "scientificName": "Struthidea cinerea",
+      "family": "Corcoracidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Jacky Winter",
+      "scientificName": "Microeca fascinans",
+      "family": "Petroicidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Scarlet Robin",
+      "scientificName": "Petroica boodang",
+      "family": "Petroicidae",
+      "statusInACT": "Uncommon, breeding resident/altitudinal migrant. Vulnerable ACT/NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Red-capped Robin",
+      "scientificName": "Petroica goodenovii",
+      "family": "Petroicidae",
+      "statusInACT": "Uncommon, breeding visitor",
+      "photos": []
+    },
+    {
+      "commonName": "Flame Robin",
+      "scientificName": "Petroica phoenicea",
+      "family": "Petroicidae",
+      "statusInACT": "Uncommon, breeding resident/altitudinal migrant. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Rose Robin",
+      "scientificName": "Petroica rosea",
+      "family": "Petroicidae",
+      "statusInACT": "Uncommon, breeding migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Pink Robin",
+      "scientificName": "Petroica rodinogaster",
+      "family": "Petroicidae",
+      "statusInACT": "Rare, non-breeding winter migrant. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Hooded Robin",
+      "scientificName": "Melanodryas cucullata",
+      "family": "Petroicidae",
+      "statusInACT": "Rare, breeding resident. Vulnerable ACT/NSW",
+      "photos": []
+    },
+    {
+      "commonName": "Eastern Yellow Robin",
+      "scientificName": "Eopsaltria australis",
+      "family": "Petroicidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Horsfield's Bushlark",
+      "scientificName": "Mirafra javanica",
+      "family": "Alaudidae",
+      "statusInACT": "Rare, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Eurasian Skylark",
+      "scientificName": "Alauda arvensis",
+      "family": "Alaudidae",
+      "statusInACT": "Common, breeding resident. Introduced",
+      "photos": []
+    },
+    {
+      "commonName": "Golden-headed Cisticola",
+      "scientificName": "Cisticola exilis",
+      "family": "Cisticolidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Australian Reed-Warbler",
+      "scientificName": "Acrocephalus australis",
+      "family": "Acrocephalidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Tawny Grassbird",
+      "scientificName": "Cincloramphus timoriensis",
+      "family": "Locustellidae",
+      "statusInACT": "Non-breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Little Grassbird",
+      "scientificName": "Poodytes gramineus",
+      "family": "Locustellidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Rufous Songlark",
+      "scientificName": "Cincloramphus mathewsi",
+      "family": "Locustellidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Brown Songlark",
+      "scientificName": "Cincloramphus cruralis",
+      "family": "Locustellidae",
+      "statusInACT": "Rare, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Silvereye",
+      "scientificName": "Zosterops lateralis",
+      "family": "Zosteropidae",
+      "statusInACT": "Very common, breeding resident/migrant",
+      "photos": []
+    },
+    {
+      "commonName": "White-backed Swallow",
+      "scientificName": "Cheramoeca leucosterna",
+      "family": "Hirundinidae",
+      "statusInACT": "Breeding vagrant",
+      "photos": []
+    },
+    {
+      "commonName": "Welcome Swallow",
+      "scientificName": "Hirundo neoxena",
+      "family": "Hirundinidae",
+      "statusInACT": "Very common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Fairy Martin",
+      "scientificName": "Petrochelidon ariel",
+      "family": "Hirundinidae",
+      "statusInACT": "Uncommon, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Tree Martin",
+      "scientificName": "Petrochelidon nigricans",
+      "family": "Hirundinidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Red-whiskered Bulbul",
+      "scientificName": "Pycnonotus jocosus",
+      "family": "Pycnonotidae",
+      "statusInACT": "Non-breeding vagrant. Introduced",
+      "photos": []
+    },
+    {
+      "commonName": "Bassian Thrush",
+      "scientificName": "Zoothera lunulata",
+      "family": "Turdidae",
+      "statusInACT": "Uncommon, breeding resident/altitudinal migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Common Blackbird",
+      "scientificName": "Turdus merula",
+      "family": "Turdidae",
+      "statusInACT": "Common, breeding resident. Introduced",
+      "photos": []
+    },
+    {
+      "commonName": "Song Thrush",
+      "scientificName": "Turdus philomelos",
+      "family": "Turdidae",
+      "statusInACT": "Extinct. Introduced",
+      "photos": []
+    },
+    {
+      "commonName": "Common Starling",
+      "scientificName": "Sturnus vulgaris",
+      "family": "Sturnidae",
+      "statusInACT": "Very common, breeding resident. Introduced",
+      "photos": []
+    },
+    {
+      "commonName": "Common Myna",
+      "scientificName": "Acridotheres tristis",
+      "family": "Sturnidae",
+      "statusInACT": "Very common, breeding resident. Introduced",
+      "photos": []
+    },
+    {
+      "commonName": "Mistletoebird",
+      "scientificName": "Dicaeum hirundinaceum",
+      "family": "Dicaeidae",
+      "statusInACT": "Common, breeding summer migrant",
+      "photos": []
+    },
+    {
+      "commonName": "Zebra Finch",
+      "scientificName": "Taeniopygia guttata",
+      "family": "Estrildidae",
+      "statusInACT": "Rare, breeding visitor/escapee",
+      "photos": []
+    },
+    {
+      "commonName": "Double-barred Finch",
+      "scientificName": "Taeniopygia bichenovii",
+      "family": "Estrildidae",
+      "statusInACT": "Uncommon, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Plum-headed Finch",
+      "scientificName": "Neochmia modesta",
+      "family": "Estrildidae",
+      "statusInACT": "Non-breeding vagrant/escapee",
+      "photos": []
+    },
+    {
+      "commonName": "Red-browed Finch",
+      "scientificName": "Neochmia temporalis",
+      "family": "Estrildidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "Diamond Firetail",
+      "scientificName": "Stagonopleura guttata",
+      "family": "Estrildidae",
+      "statusInACT": "Uncommon, breeding resident. Vulnerable NSW",
+      "photos": []
+    },
+    {
+      "commonName": "House Sparrow",
+      "scientificName": "Passer domesticus",
+      "family": "Passeridae",
+      "statusInACT": "Common, breeding resident. Introduced",
+      "photos": []
+    },
+    {
+      "commonName": "Eurasian Tree Sparrow",
+      "scientificName": "Passer montanus",
+      "family": "Passeridae",
+      "statusInACT": "Extinct. Introduced",
+      "photos": []
+    },
+    {
+      "commonName": "Australasian Pipit",
+      "scientificName": "Anthus novaeseelandiae",
+      "family": "Motacillidae",
+      "statusInACT": "Common, breeding resident",
+      "photos": []
+    },
+    {
+      "commonName": "European Goldfinch",
+      "scientificName": "Carduelis carduelis",
+      "family": "Fringillidae",
+      "statusInACT": "Common, breeding resident. Introduced",
+      "photos": []
+    },
+    {
+      "commonName": "Common Greenfinch",
+      "scientificName": "Chloris chloris",
+      "family": "Fringillidae",
+      "statusInACT": "Uncommon, breeding resident. Introduced",
+      "photos": []
+    }
+  ],
+  "statistics": {
+    "totalBirds": 297,
+    "birdsWithPhotos": 0,
+    "birdsWithoutPhotos": 297,
+    "totalPhotos": 0,
+    "averagePhotosPerBird": 0.0
+  }
+}
