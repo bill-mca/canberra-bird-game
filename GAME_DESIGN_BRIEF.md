@@ -132,15 +132,6 @@ After identifying a bird (correctly or incorrectly), show:
 - Audio recordist credits
 - All properly licensed (CC BY, CC BY-SA, CC BY-NC, etc.)
 
-### Field Guide
-**Build as you play**
-
-- Collect species you've correctly identified
-- Review any time from main menu
-- Search by name, family, rarity
-- Filter by attributes
-- Mark favorites
-- Add personal notes
 ---
 
 ## Scoring System
