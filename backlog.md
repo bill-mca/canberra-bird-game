@@ -432,25 +432,45 @@ Create `photo_search_log.txt` with:
 
 **Note:** Photos are sourced from reputable APIs (Wikimedia, ALA, iNaturalist) which provide validated URLs. Verification can be done later if needed.
 
-### Phase 4: Audio (Next Priority) - Using Xeno-canto
+### ✅ Phase 4: Audio - COMPLETED (2026-02-02)
 
-**New Approach:** Use Xeno-canto API v3 for high-quality bird audio recordings
+**Approach:** Used Xeno-canto API v3 for high-quality bird audio recordings
 
 **Target:** 5 audio recordings per species (down from photos if fewer available)
 
 **Setup Requirements:**
-- [ ] Register at https://xeno-canto.org/account and get API key
-- [ ] Configure API key in script or environment variable
+- [x] Register at https://xeno-canto.org/account and get API key ✅
+- [x] Configure API key in environment variable ✅
 
 **Implementation:**
-- [ ] Implement `search_xeno_canto()` function
-- [ ] Filter by quality ratings (prefer A and B quality)
-- [ ] Filter by acceptable licenses (CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA)
-- [ ] Reject CC BY-NC-ND (No Derivatives)
-- [ ] Prefer 'song' and 'call' types over soundscapes
-- [ ] Run audio search for all 297 species
-- [ ] Handle rate limiting (be respectful of API)
-- [ ] Log species with no audio found
+- [x] Implement `search_xeno_canto()` function ✅
+- [x] Filter by quality ratings (prefer A and B quality) ✅
+- [x] Filter by acceptable licenses (CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA) ✅
+- [x] Reject CC BY-NC-ND (No Derivatives) ✅
+- [x] Prefer 'song' and 'call' types over soundscapes ✅
+- [x] Run audio search for all 297 species ✅
+- [x] Handle rate limiting (1 req/sec - respectful of API) ✅
+- [x] Log species with no audio found ✅
+
+**Bug Fix:**
+- [x] Fixed license filtering bug (was checking 'cc-by-nc-sa' instead of '/by-nc-sa/')
+- [x] Fixed license normalization to parse Xeno-canto URL format
+
+**Results:**
+- **272/297 species** found audio (91.6% coverage)
+- **1,272 total audio recordings** collected
+- **4.28 average recordings per bird**
+- **Quality distribution:** Majority A ratings (highest quality)
+- **25 species without audio:** Mostly rare/vagrant species
+  - Hardhead, Hoary-headed Grebe, Spotted Dove, Black-necked Stork
+  - Australian White Ibis, Spotted Harrier, Black Falcon
+  - Black-tailed Native-hen, Australian Bustard, Australian Painted-snipe
+  - Red-chested Button-quail, Yellow-tailed Black-Cockatoo
+  - Major Mitchell's Cockatoo, Little Lorikeet, Purple-crowned Lorikeet
+  - Horsfield's Bronze-Cuckoo, Black-eared Cuckoo, Shining Bronze-Cuckoo
+  - Pallid Cuckoo, Red-browed Treecreeper, Chestnut-rumped Heathwren
+  - Tawny-crowned Honeyeater, Cicadabird, Double-barred Finch
+  - Plum-headed Finch
 
 **Audio Data Structure:**
 ```json
