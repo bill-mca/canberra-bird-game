@@ -125,7 +125,13 @@
           "attribution": "Greg McLachlan",
           "description": "Low grunts made by a pair of independent immature Emu."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Magpie Goose",
@@ -229,7 +235,13 @@
           "recordingId": "617352",
           "attribution": "Greg McLachlan"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": true,
+      "isReintroduced": true,
+      "isEscapee": false
     },
     {
       "commonName": "Stubble Quail",
@@ -331,7 +343,13 @@
           "attribution": "Richard Boon",
           "description": "The recording was normalised and a high pass filter was used. A number of birds were calling in short, wet grassland. None were seen or flushed."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Brown Quail",
@@ -435,7 +453,13 @@
           "attribution": "Richard White",
           "description": "Typical two-note call. One of many birds calling from an area of rank grass and low shrubs."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Indian Peafowl",
@@ -537,7 +561,13 @@
           "recordingId": "1015856",
           "attribution": "David Darrell-Lambert"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": true,
+      "isReintroduced": false,
+      "isEscapee": true
     },
     {
       "commonName": "Plumed Whistling-Duck",
@@ -642,7 +672,13 @@
           "attribution": "Phil Gregory",
           "description": "Formerly vagrant, now seen regularly here following a large influx several years back"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Musk Duck",
@@ -747,7 +783,13 @@
           "attribution": "Vittorio Pedrocchi",
           "description": "Nocturnal, two cain of repetitive calls placed one behind other"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Freckled Duck",
@@ -801,7 +843,18 @@
           "attribution": "Ramit Singal",
           "description": "Harsh, low calls by a flock"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Black Swan",
@@ -904,7 +957,13 @@
           "attribution": "Richard White",
           "description": "Soft contact calls of young birds around the adults as they feed on seaweed on the jetty."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australian Shelduck",
@@ -1008,7 +1067,13 @@
           "attribution": "nick talbot",
           "description": "Several birds on a pond calling quietly"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australian Wood Duck",
@@ -1098,7 +1163,13 @@
           "attribution": "nick talbot",
           "description": "A female calling from a tree branch."
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Pink-eared Duck",
@@ -1202,7 +1273,13 @@
           "attribution": "nick talbot",
           "description": "Birds calling from a large flock on the water"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australasian Shoveler",
@@ -1259,7 +1336,13 @@
           "attribution": "Nick Talbot",
           "description": "A flock of males and females splashing and making calls in what might have been a display. A teal also cals several times but i'm not sure which species."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Grey Teal",
@@ -1350,7 +1433,13 @@
           "attribution": "Drew Davison",
           "description": "Large number of birds calling and flapping wings while in water, creating the water splashing sounds.\r\nWeather rainy (light drizzle) and heavy cloud cover (>90%)."
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Chestnut Teal",
@@ -1440,7 +1529,13 @@
           "attribution": "nick talbot",
           "description": "A female calling from a wetland."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Pacific Black Duck",
@@ -1535,7 +1630,13 @@
           "attribution": "nick talbot",
           "description": "A bird calling repeatedly from a pond"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Hardhead",
@@ -1572,7 +1673,13 @@
           "attribution": "Toby Hudson"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "common",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Blue-billed Duck",
@@ -1653,7 +1760,18 @@
           "attribution": "Ramit Singal",
           "description": "Calls and splashes by two males as they chased each other around."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australian Brush-turkey",
@@ -1757,7 +1875,13 @@
           "attribution": "James Lambert",
           "description": "repeated 'ornk' calls"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australasian Grebe",
@@ -1862,7 +1986,13 @@
           "attribution": "Greg McLachlan",
           "description": "Two birds present and calling. Adult - non-breeding - with an immature bird."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Hoary-headed Grebe",
@@ -1906,7 +2036,13 @@
           "attribution": "Roger Culos"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Great Crested Grebe",
@@ -2008,7 +2144,13 @@
           "attribution": "Jarek Matusiak",
           "description": "One of the males singing to the females on the middle of the open water lake in some kind of arena  with the group of birds starting to formating pairs."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Rock Dove",
@@ -2105,7 +2247,13 @@
           "recordingId": "462611",
           "attribution": "Stanislas Wroza"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": true,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-headed Pigeon",
@@ -2206,7 +2354,13 @@
           "recordingId": "1066128",
           "attribution": "Rob Nicholson"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Spotted Dove",
@@ -2250,7 +2404,13 @@
           "attribution": "JJ Harrison (https://www.jjharrison.com.au/)"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": true,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Brown Cuckoo-Dove",
@@ -2351,7 +2511,13 @@
           "recordingId": "354646",
           "attribution": "Greg McLachlan"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Common Bronzewing",
@@ -2453,7 +2619,13 @@
           "attribution": "Eddy Smith",
           "description": "Adult bird hooting softly high up in tree canopy , very difficult to locate but call was loud and constant."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Brush Bronzewing",
@@ -2557,7 +2729,13 @@
           "recordingId": "621109",
           "attribution": "Iain Woxvold"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Crested Pigeon",
@@ -2654,7 +2832,13 @@
           "attribution": "Peter Russell",
           "description": "The birds sound like a distant dog bark ( woof ) and the zebra finch and Painted Firetail finches are in the back ground calling as this was near a water-hole ."
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Diamond Dove",
@@ -2708,7 +2892,13 @@
           "recordingId": "165147",
           "attribution": "Nigel Jackett"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": true
     },
     {
       "commonName": "Peaceful Dove",
@@ -2803,7 +2993,13 @@
           "attribution": "James Lambert",
           "description": "rattling call; calling from high up in treetop"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Bar-shouldered Dove",
@@ -2905,7 +3101,13 @@
           "attribution": "James Lambert",
           "description": "three different calls in a row"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Wonga Pigeon",
@@ -3007,7 +3209,13 @@
           "attribution": "Greg McLachlan",
           "description": "Typical repetitive call."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Superb Fruit-Dove",
@@ -3109,7 +3317,18 @@
           "recordingId": "140431",
           "attribution": "Bas van Balen"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Tawny Frogmouth",
@@ -3207,7 +3426,13 @@
           "attribution": "Mike FitzGerald",
           "description": "bird directly above 4m away , some light wind"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-throated Nightjar",
@@ -3286,7 +3511,13 @@
           "recordingId": "157673",
           "attribution": "Gary Warner"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Spotted Nightjar",
@@ -3353,7 +3584,13 @@
           "attribution": "nick talbot",
           "description": "A bird calling twice at night"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australian Owlet-nightjar",
@@ -3456,7 +3693,13 @@
           "attribution": "Raoul Beunen",
           "description": "Bird heard a couple of times during the night. Recorded one call early morning."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-throated Needletail",
@@ -3561,7 +3804,13 @@
           "attribution": "Murtaza Khalil Hassan",
           "description": "Somehow they always appear at 6pm in the evening flying round and round a building"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Fork-tailed Swift",
@@ -3660,7 +3909,13 @@
           "recordingId": "841094",
           "attribution": "Ray Tsu \u8bf8\u4ec1"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australasian Darter",
@@ -3746,7 +4001,13 @@
           "attribution": "nick talbot",
           "description": "A bird calling from oyster leases."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Little Pied Cormorant",
@@ -3814,7 +4075,13 @@
           "recordingId": "182028",
           "attribution": "nick talbot"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Great Cormorant",
@@ -3909,7 +4176,13 @@
           "recordingId": "987714",
           "attribution": "David Darrell-Lambert"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Little Black Cormorant",
@@ -3977,7 +4250,13 @@
           "attribution": "nick talbot",
           "description": "A group of roosting birds squabbling on a breakwater."
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Pied Cormorant",
@@ -4057,7 +4336,13 @@
           "recordingId": "215247",
           "attribution": "Johannes Fischer"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australian Pelican",
@@ -4154,7 +4439,13 @@
           "attribution": "nick talbot",
           "description": "A group of birds grunting while perching on an oyster lease."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Black-necked Stork",
@@ -4198,7 +4489,18 @@
           "attribution": "Tisha Mukherjee"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": {
+        "level": "endangered",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australasian Bittern",
@@ -4266,7 +4568,18 @@
           "attribution": "Pieter de Groot Boersma",
           "description": "Three birds called in flight above a reedbed. The calls are of two different birds flying over my head in a space of about 20 seconds, editted together."
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": {
+        "level": "endangered",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australian Little Bittern",
@@ -4367,7 +4680,13 @@
           "attribution": "Drew Davison",
           "description": "Recording not modified significantly, except for some removal of background noise.\r\nBird in dense reeds, not seen but recordist is familiar with the call.\r\nSun had already set, getting darker."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-necked Heron",
@@ -4448,7 +4767,13 @@
           "attribution": "Zebedee Muller",
           "description": "Calling in flight above a flood plain."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Great Egret",
@@ -4549,7 +4874,13 @@
           "recordingId": "1039212",
           "attribution": "Kasper Wieck"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Intermediate Egret",
@@ -4650,7 +4981,13 @@
           "recordingId": "810654",
           "attribution": "GABRIEL LEITE"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Cattle Egret",
@@ -4744,7 +5081,13 @@
           "recordingId": "1036890",
           "attribution": "Lionel FREDERIC"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-faced Heron",
@@ -4834,7 +5177,13 @@
           "attribution": "Nick Talbot",
           "description": "A bird calling in flight over the lake"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Little Egret",
@@ -4936,7 +5285,13 @@
           "attribution": "Lionel FREDERIC",
           "description": "5 Little Egret calls, 1 Grey Heron call + Great Egret snoring"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Nankeen Night-Heron",
@@ -5039,7 +5394,13 @@
           "attribution": "John Graff",
           "description": "Recording has been amplified, otherwise not modified. Bird made a several calls as it flew past. Habitat was open grassy area adjacent to area of open water on the lake."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Glossy Ibis",
@@ -5144,7 +5505,13 @@
           "attribution": "Esperanza Poveda",
           "description": "Marisma somera con vegetaci\u00f3n baja y betas de tierra de diversos tama\u00f1os donde anidan las aves acu\u00e1ticas."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australian White Ibis",
@@ -5181,7 +5548,13 @@
           "attribution": "JJ Harrison (https://www.jjharrison.com.au/)"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Straw-necked Ibis",
@@ -5262,7 +5635,13 @@
           "attribution": "Nick Talbot",
           "description": "An adult bird utters a single grunt as it takes off from a lawn"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Royal Spoonbill",
@@ -5322,7 +5701,13 @@
           "recordingId": "901701",
           "attribution": "Malcolm Rutherford"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Yellow-billed Spoonbill",
@@ -5378,7 +5763,13 @@
           "recordingId": "896224",
           "attribution": "nick talbot"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Osprey",
@@ -5477,7 +5868,18 @@
           "recordingId": "1013321",
           "attribution": "David Darrell-Lambert"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Black-shouldered Kite",
@@ -5569,7 +5971,13 @@
           "recordingId": "753441",
           "attribution": "Eddy Smith"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Letter-winged Kite",
@@ -5670,7 +6078,13 @@
           "recordingId": "924858",
           "attribution": "Louis Masarei"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Square-tailed Kite",
@@ -5770,7 +6184,13 @@
           "recordingId": "574512",
           "attribution": "Tom Tarrant"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-bellied Sea-Eagle",
@@ -5871,7 +6291,13 @@
           "recordingId": "345588",
           "attribution": "Greg Irving"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Whistling Kite",
@@ -5967,7 +6393,13 @@
           "recordingId": "140185",
           "attribution": "Marc Anderson"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Black Kite",
@@ -6069,7 +6501,13 @@
           "attribution": "Pampa Mistri",
           "description": "Same bird at same place as in XC1049147. Only difference is in place of Merlin, Dolby app was used for call recording."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Brown Goshawk",
@@ -6171,7 +6609,13 @@
           "recordingId": "597339",
           "attribution": "James Lambert"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Collared Sparrowhawk",
@@ -6269,7 +6713,13 @@
           "attribution": "nick talbot",
           "description": "At least two birds calling, one of them whilst chasing off an Australian Magpie."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident_or_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Grey Goshawk",
@@ -6372,7 +6822,13 @@
           "recordingId": "134249",
           "attribution": "Marc Anderson"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Spotted Harrier",
@@ -6416,7 +6872,18 @@
           "attribution": "Aviceda"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Swamp Harrier",
@@ -6516,7 +6983,13 @@
           "recordingId": "926864",
           "attribution": "David Boyle"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Wedge-tailed Eagle",
@@ -6584,7 +7057,13 @@
           "recordingId": "165139",
           "attribution": "Nigel Jackett"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Little Eagle",
@@ -6676,7 +7155,18 @@
           "attribution": "nick talbot",
           "description": "Two birds calling while in flight."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "ACT"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Nankeen Kestrel",
@@ -6738,7 +7228,13 @@
           "attribution": "nick talbot",
           "description": "A female calling while perching on a building."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Brown Falcon",
@@ -6843,7 +7339,13 @@
           "attribution": "Christopher Watson",
           "description": "ARU recording. At least two birds interacting and giving their cackling flight call."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australian Hobby",
@@ -6935,7 +7437,13 @@
           "attribution": "Nigel Jackett",
           "description": "Pair were flying above me and perched in nearby Eucalyptus. Appeared to be an adult pair, with the weaker call in the recording presumably the (smaller) male."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident_or_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Grey Falcon",
@@ -7002,7 +7510,18 @@
           "recordingId": "378907",
           "attribution": "Jim Holmes"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": {
+        "level": "endangered",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Black Falcon",
@@ -7046,7 +7565,13 @@
           "attribution": "Atlas of Living Australia and Australian Faunal Directory"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Peregrine Falcon",
@@ -7148,7 +7673,13 @@
           "attribution": "David Boyle",
           "description": "Seemed unhappy about something"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Brolga",
@@ -7253,7 +7784,18 @@
           "attribution": "Greg McLachlan",
           "description": "Pairs of birds displaying and calling."
         }
-      ]
+      ],
+      "rarity": "extinct",
+      "breedingStatus": null,
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Purple Swamphen",
@@ -7353,7 +7895,13 @@
           "recordingId": "1034015",
           "attribution": "Garry Bakker"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Lewin's Rail",
@@ -7455,7 +8003,13 @@
           "attribution": "Zebedee Muller",
           "description": "Squeaky grunting call"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Buff-banded Rail",
@@ -7556,7 +8110,13 @@
           "recordingId": "614593",
           "attribution": "Dominik Maximili\u00e1n Ram\u00edk"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Baillon's Crake",
@@ -7657,7 +8217,13 @@
           "attribution": "Leander Khil",
           "description": "bird singing from flooded sedge vegetation at close range (ca. 5 m)"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australian Spotted Crake",
@@ -7747,7 +8313,13 @@
           "recordingId": "320999",
           "attribution": "nick talbot"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Spotless Crake",
@@ -7849,7 +8421,13 @@
           "recordingId": "395240",
           "attribution": "JACOB Herv\u00e9"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Black-tailed Native-hen",
@@ -7893,7 +8471,13 @@
           "attribution": "Ron Knight from Seaford, East Sussex, United Kingdom"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Dusky Moorhen",
@@ -7994,7 +8578,13 @@
           "recordingId": "1025931",
           "attribution": "GABRIEL LEITE"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Eurasian Coot",
@@ -8097,7 +8687,13 @@
           "recordingId": "1016934",
           "attribution": "David Darrell-Lambert"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australian Bustard",
@@ -8141,7 +8737,18 @@
           "attribution": "Ron Knight from Seaford, East Sussex, United Kingdom"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "extinct",
+      "breedingStatus": null,
+      "conservationStatus": {
+        "level": "endangered",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Bush Stone-curlew",
@@ -8244,7 +8851,18 @@
           "attribution": "James Lambert",
           "description": "vocalisations by three birds in unison"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": {
+        "level": "endangered",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": true,
+      "isReintroduced": true,
+      "isEscapee": false
     },
     {
       "commonName": "Pied Stilt",
@@ -8345,7 +8963,13 @@
           "recordingId": "638374",
           "attribution": "Drew Davison"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Red-necked Avocet",
@@ -8425,7 +9049,13 @@
           "recordingId": "610905",
           "attribution": "nick talbot"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Pacific Golden Plover",
@@ -8525,7 +9155,13 @@
           "recordingId": "926318",
           "attribution": "AUDEVARD Aur\u00e9lien"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Red-capped Plover",
@@ -8606,7 +9242,13 @@
           "attribution": "nick talbot",
           "description": "A pair of birds defending a nesting site beside the runway"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Double-banded Plover",
@@ -8710,7 +9352,13 @@
           "attribution": "Romuald Mikusek",
           "description": "near at least 1 nestling"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Black-fronted Dotterel",
@@ -8813,7 +9461,13 @@
           "attribution": "Greg McLachlan",
           "description": "Birds flushed from wetland by raptor."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Red-kneed Dotterel",
@@ -8882,7 +9536,13 @@
           "attribution": "nick talbot",
           "description": "A bird calling from a wetland."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Banded Lapwing",
@@ -8983,7 +9643,13 @@
           "attribution": "Christopher Watson",
           "description": "ARU recording. Sounds like a small flock of birds in flight. Start at a distance but pass close to the recorder."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Masked Lapwing",
@@ -9085,7 +9751,13 @@
           "attribution": "David Boyle",
           "description": "Soft calls coming from a bird close to the recorder"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Plains-wanderer",
@@ -9177,7 +9849,18 @@
           "attribution": "Mike Letnic",
           "description": "Plains wanderer calling with little corellas and white winged fairty wrens in background"
         }
-      ]
+      ],
+      "rarity": "extinct",
+      "breedingStatus": null,
+      "conservationStatus": {
+        "level": "endangered",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australian Painted-snipe",
@@ -9221,7 +9904,18 @@
           "attribution": "JJ Harrison"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": {
+        "level": "endangered",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Latham's Snipe",
@@ -9325,7 +10019,13 @@
           "attribution": "Uku Paal",
           "description": "HPF. Strong wind."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Bar-tailed Godwit",
@@ -9428,7 +10128,13 @@
           "attribution": "Lars Edenius",
           "description": "[SNR 57dB(ISO/ITU)](https://xeno-canto.org/article/275) Actual site within larger area"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Eastern Curlew",
@@ -9531,7 +10237,13 @@
           "recordingId": "379698",
           "attribution": "Alex Thomas"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Common Sandpiper",
@@ -9632,7 +10344,13 @@
           "recordingId": "1014961",
           "attribution": "Eetu Paljakka"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Common Greenshank",
@@ -9732,7 +10450,13 @@
           "recordingId": "1027139",
           "attribution": "David Darrell-Lambert"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Marsh Sandpiper",
@@ -9833,7 +10557,13 @@
           "recordingId": "840657",
           "attribution": "Bo Shunqi \u8584\u987a\u5947"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Wood Sandpiper",
@@ -9937,7 +10667,13 @@
           "attribution": "Lars Edenius",
           "description": "[SNR 58dB(ISO/ITU)](https://xeno-canto.org/article/275)"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Ruddy Turnstone",
@@ -10039,7 +10775,13 @@
           "recordingId": "1032484",
           "attribution": "David Darrell-Lambert"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Red Knot",
@@ -10139,7 +10881,13 @@
           "recordingId": "1037489",
           "attribution": "Lars Mogensen"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Red-necked Stint",
@@ -10239,7 +10987,13 @@
           "recordingId": "837840",
           "attribution": "Ray Tsu \u8bf8\u4ec1"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Long-toed Stint",
@@ -10339,7 +11093,13 @@
           "recordingId": "838638",
           "attribution": "Ray Tsu \u8bf8\u4ec1"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Pectoral Sandpiper",
@@ -10440,7 +11200,13 @@
           "recordingId": "1046339",
           "attribution": "AUDEVARD Aur\u00e9lien"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Sharp-tailed Sandpiper",
@@ -10497,7 +11263,13 @@
           "attribution": "Sunny",
           "description": "High pass filter (1200Hz, 6dB)"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Curlew Sandpiper",
@@ -10598,7 +11370,18 @@
           "recordingId": "930834",
           "attribution": "Ricardo Hevia"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": {
+        "level": "endangered",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Painted Button-quail",
@@ -10700,7 +11483,13 @@
           "recordingId": "387137",
           "attribution": "Greg McLachlan"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Red-chested Button-quail",
@@ -10741,7 +11530,13 @@
           "attribution": "Nathan Ruser"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Little Button-quail",
@@ -10796,7 +11591,13 @@
           "attribution": "Ian Starling",
           "description": "An Emu can be heard grunting at the start and later in the recording, along with calls from a male Hooded Robin."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Gull-billed Tern",
@@ -10901,7 +11702,13 @@
           "attribution": "Esperanza Poveda",
           "description": "Ancho canal con tarays y otra vegetaci\u00f3n en las orillas y abundantes plantas sumergidas."
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Caspian Tern",
@@ -11001,7 +11808,13 @@
           "recordingId": "1034435",
           "attribution": "David Darrell-Lambert"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-winged Black Tern",
@@ -11103,7 +11916,13 @@
           "recordingId": "765291",
           "attribution": "Stanislas Wroza"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Whiskered Tern",
@@ -11207,7 +12026,13 @@
           "attribution": "Esperanza Poveda",
           "description": "Zona con un canal salpicado de tarays y otra vegetaci\u00f3n adem\u00e1s de algunas charcas temporales cerca de varias edificaciones medio derrumbadas."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Silver Gull",
@@ -11302,7 +12127,13 @@
           "attribution": "Phil Gregory",
           "description": "Calling out on the mudflats near Muddies"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Glossy Black-Cockatoo",
@@ -11407,7 +12238,18 @@
           "attribution": "Nigel Jackett",
           "description": "Single young with parents in woodland beside creek. Begging call most frequently heard, with occasional adult calls."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "ACT"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Yellow-tailed Black-Cockatoo",
@@ -11450,7 +12292,13 @@
           "attribution": "KenKnM"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Gang-gang Cockatoo",
@@ -11554,7 +12402,18 @@
           "recordingId": "134459",
           "attribution": "Gary Warner"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "altitudinal_migrant",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Major Mitchell's Cockatoo",
@@ -11598,7 +12457,18 @@
           "attribution": "JJ Harrison (https://www.jjharrison.com.au/)"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "unknown",
+      "breedingStatus": null,
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": true
     },
     {
       "commonName": "Galah",
@@ -11700,7 +12570,13 @@
           "recordingId": "935423",
           "attribution": "Romuald Mikusek"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Long-billed Corella",
@@ -11801,7 +12677,13 @@
           "recordingId": "953026",
           "attribution": "Romuald Mikusek"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": true
     },
     {
       "commonName": "Little Corella",
@@ -11904,7 +12786,13 @@
           "attribution": "James Lambert",
           "description": "calls made from a few birds of a 200-strong flock perched in tall eucalypt; creaky whining call probably an immature begging"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Sulphur-crested Cockatoo",
@@ -12006,7 +12894,13 @@
           "attribution": "Romuald Mikusek",
           "description": "forest, few birds near the holes"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Cockatiel",
@@ -12107,7 +13001,13 @@
           "attribution": "Adam85",
           "description": "Is it a male or female Cockatiel?"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": true
     },
     {
       "commonName": "Rainbow Lorikeet",
@@ -12211,7 +13111,13 @@
           "attribution": "Richard White",
           "description": "Recording not modified"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Scaly-breasted Lorikeet",
@@ -12315,7 +13221,13 @@
           "attribution": "Greg McLachlan",
           "description": "Calls from perched birds."
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": true
     },
     {
       "commonName": "Musk Lorikeet",
@@ -12412,7 +13324,13 @@
           "attribution": "nick talbot",
           "description": "Two birds making various calls while feeding in a small flowerng eucalypt"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Little Lorikeet",
@@ -12448,7 +13366,18 @@
           "licence": "Public domain"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Purple-crowned Lorikeet",
@@ -12492,7 +13421,18 @@
           "attribution": "Calistemon"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australian King-Parrot",
@@ -12595,7 +13535,13 @@
           "recordingId": "1070748",
           "attribution": "\u00c9tienne Leroy"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Superb Parrot",
@@ -12699,7 +13645,18 @@
           "recordingId": "605786",
           "attribution": "Liam Manderson"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "ACT"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Crimson Rosella",
@@ -12801,7 +13758,13 @@
           "attribution": "Richard White",
           "description": "Recording modified. Used noise reduction tool in Audacity (levels: NR=12,S=4, FS=6), also trimmed out some noisy bits."
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Eastern Rosella",
@@ -12902,7 +13865,13 @@
           "recordingId": "793737",
           "attribution": "David Darrell-Lambert"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Swift Parrot",
@@ -13006,7 +13975,18 @@
           "attribution": "Greg McLachlan",
           "description": "Mixed flock feeding in flowering Eucalyptus. A few birds took flight flying around the tree also."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_winter_migrant",
+      "conservationStatus": {
+        "level": "critically_endangered",
+        "jurisdictions": [
+          "EPBC"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Red-rumped Parrot",
@@ -13111,7 +14091,13 @@
           "attribution": "David Butler",
           "description": "Not a great recording; you can hear a child playing in the background.  However, this was my first sighting of this bird at 'my patch'"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Budgerigar",
@@ -13212,7 +14198,13 @@
           "recordingId": "134241",
           "attribution": "Marc Anderson"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": true
     },
     {
       "commonName": "Blue-winged Parrot",
@@ -13303,7 +14295,13 @@
           "attribution": "nick talbot",
           "description": "A male calling from a tree."
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Turquoise Parrot",
@@ -13394,7 +14392,18 @@
           "recordingId": "327278",
           "attribution": "Pieter de Groot Boersma"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": true
     },
     {
       "commonName": "Eastern Koel",
@@ -13497,7 +14506,13 @@
           "attribution": "John Munro",
           "description": "No post editing except for fade in/out and trimming to remove heavy traffic noise.  Recorded next to a roadbridge over One Mile Ck.  some traffic noise"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Channel-billed Cuckoo",
@@ -13601,7 +14616,13 @@
           "recordingId": "599366",
           "attribution": "James Lambert"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Horsfield's Bronze-Cuckoo",
@@ -13645,7 +14666,13 @@
           "attribution": "patrickkavanagh"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Black-eared Cuckoo",
@@ -13688,7 +14715,13 @@
           "licence": "Public domain"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Shining Bronze-Cuckoo",
@@ -13732,7 +14765,13 @@
           "attribution": "Frankzed"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Pallid Cuckoo",
@@ -13776,7 +14815,13 @@
           "attribution": "Aviceda"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Fan-tailed Cuckoo",
@@ -13879,7 +14924,13 @@
           "attribution": "Romuald Mikusek",
           "description": "2 ex., open bushes near the sea"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Brush Cuckoo",
@@ -13980,7 +15031,13 @@
           "recordingId": "1027216",
           "attribution": "Kelle Moreau"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Powerful Owl",
@@ -14083,7 +15140,18 @@
           "recordingId": "924045",
           "attribution": "Eddy Smith"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Barking Owl",
@@ -14183,7 +15251,18 @@
           "recordingId": "582487",
           "attribution": "Ken Behrens"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Southern Boobook",
@@ -14284,7 +15363,13 @@
           "recordingId": "676314",
           "attribution": "Phil Gregory"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Masked Owl",
@@ -14388,7 +15473,18 @@
           "recordingId": "330985",
           "attribution": "Greg McLachlan"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Barn Owl",
@@ -14490,7 +15586,13 @@
           "attribution": "Pere Josa",
           "description": "Cerca de una caja nido. Se observan 6 ejemplares juntos."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Azure Kingfisher",
@@ -14593,7 +15695,13 @@
           "attribution": "GABRIEL LEITE",
           "description": "Wing flight"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Laughing Kookaburra",
@@ -14694,7 +15802,13 @@
           "recordingId": "937218",
           "attribution": "Romuald Mikusek"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Red-backed Kingfisher",
@@ -14773,7 +15887,13 @@
           "attribution": "Eddy Smith",
           "description": "EDITS: 400hrz to 12db high pass filter. \r\nAn adult perched high while singing."
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Sacred Kingfisher",
@@ -14867,7 +15987,13 @@
           "recordingId": "973960",
           "attribution": "Rapha\u00ebl SANE"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Rainbow Bee-eater",
@@ -14971,7 +16097,13 @@
           "attribution": "Nick Talbot",
           "description": "Several birds calling from trees in the distance"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Dollarbird",
@@ -15074,7 +16206,13 @@
           "recordingId": "1000130",
           "attribution": "Penghui Lou"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Superb Lyrebird",
@@ -15168,7 +16306,13 @@
           "recordingId": "974554",
           "attribution": "Andrew McCafferty"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-throated Treecreeper",
@@ -15268,7 +16412,13 @@
           "recordingId": "1062623",
           "attribution": "Romuald Mikusek"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Red-browed Treecreeper",
@@ -15311,7 +16461,13 @@
           "attribution": "Mdekool"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Brown Treecreeper",
@@ -15406,7 +16562,18 @@
           "recordingId": "384528",
           "attribution": "Frank Antram"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "ACT"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Satin Bowerbird",
@@ -15508,7 +16675,13 @@
           "attribution": "Greg McLachlan",
           "description": "Atypical abrupt single note call."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Superb Fairy-wren",
@@ -15602,7 +16775,13 @@
           "attribution": "Romuald Mikusek",
           "description": "old eucalyptus forest"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Pilotbird",
@@ -15704,7 +16883,13 @@
           "attribution": "Mike FitzGerald",
           "description": "soundscape recording in sandstone gorge habitat 12 months after massive intense bushfires\r\nsong variations"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-browed Scrubwren",
@@ -15798,7 +16983,13 @@
           "attribution": "Romuald Mikusek",
           "description": "old eucalyptus forest"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Chestnut-rumped Heathwren",
@@ -15842,7 +17033,13 @@
           "attribution": "JJ Harrison (https://www.jjharrison.com.au/)"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Speckled Warbler",
@@ -15939,7 +17136,18 @@
           "attribution": "nick talbot",
           "description": "Two birds making low-churring call."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Weebill",
@@ -16042,7 +17250,13 @@
           "attribution": "Kakadu Nat Park, Australia, Fire Study 2018",
           "description": "Clear notes"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Brown Gerygone",
@@ -16144,7 +17358,13 @@
           "attribution": "Meena Haribal",
           "description": "A flycatcher? Se discussion for ID"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Western Gerygone",
@@ -16247,7 +17467,13 @@
           "attribution": "nick talbot",
           "description": "A bird calling while feeding in the outer foliage of a tree on the golf course"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-throated Gerygone",
@@ -16347,7 +17573,13 @@
           "recordingId": "603295",
           "attribution": "Iain Woxvold"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Striated Thornbill",
@@ -16452,7 +17684,13 @@
           "attribution": "Greg McLachlan",
           "description": "Bird calling while feeding."
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Yellow Thornbill",
@@ -16555,7 +17793,13 @@
           "recordingId": "628842",
           "attribution": "James Lambert"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Yellow-rumped Thornbill",
@@ -16657,7 +17901,13 @@
           "attribution": "Ramit Singal",
           "description": "Calls and song by an unseen Yellow-rumped Thornbill (another 1/2 birds in the background)"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Chestnut-rumped Thornbill",
@@ -16760,7 +18010,13 @@
           "attribution": "Pieter de Groot Boersma",
           "description": "Singing from an Eucalyptus tree along a ridge next to an open woodland, interspersed with grassland."
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Buff-rumped Thornbill",
@@ -16855,7 +18111,13 @@
           "recordingId": "405475",
           "attribution": "Niels Poul Dreyer"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Brown Thornbill",
@@ -16955,7 +18217,13 @@
           "recordingId": "1069911",
           "attribution": "\u00c9tienne Leroy"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Southern Whiteface",
@@ -17053,7 +18321,13 @@
           "attribution": "Martin Cake",
           "description": "A bird within a small group, calling while actively feeding on the ground and in low vegetation"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Spotted Pardalote",
@@ -17155,7 +18429,13 @@
           "attribution": "Greg McLachlan",
           "description": "Repeated single note call."
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident_or_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Striated Pardalote",
@@ -17250,7 +18530,13 @@
           "attribution": "Richard White",
           "description": "Typical two-note call."
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident_or_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Eastern Spinebill",
@@ -17348,7 +18634,13 @@
           "attribution": "Eddy Smith",
           "description": "Recorder:Iphone 12pro \r\nEdits: Noise reduction \r\nNormalize to -3db\r\nHigh Pass filter 400 hrtz\r\n\r\nAn adult actively foraging in the canopy. Chased by crescent honeyeaters."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Lewin's Honeyeater",
@@ -17452,7 +18744,13 @@
           "recordingId": "628852",
           "attribution": "James Lambert"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Yellow-faced Honeyeater",
@@ -17546,7 +18844,13 @@
           "attribution": "Romuald Mikusek",
           "description": "bush, such as xc1062946"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident_or_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Singing Honeyeater",
@@ -17650,7 +18954,13 @@
           "attribution": "nick talbot",
           "description": "A bird calling from scrub near the lighthouse"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-eared Honeyeater",
@@ -17751,7 +19061,13 @@
           "attribution": "Nick Talbot",
           "description": "A bird singing twice from trees next to the creek"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "altitudinal_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Yellow-tufted Honeyeater",
@@ -17855,7 +19171,13 @@
           "attribution": "nick talbot",
           "description": "A flock of birds high up in the trees above the trail before it reaches the rock. I didn&#039;t have binoculars with me but they looked about the size of a Honeyeater (lichenostomus or melithreptus)"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Fuscous Honeyeater",
@@ -17958,7 +19280,13 @@
           "recordingId": "558129",
           "attribution": "Phil Gregory"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-plumed Honeyeater",
@@ -18060,7 +19388,13 @@
           "recordingId": "134246",
           "attribution": "Marc Anderson"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-fronted Honeyeater",
@@ -18163,7 +19497,13 @@
           "attribution": "Nick Talbot",
           "description": "A bird calling from mallee beside the road on the northern boundary"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Bell Miner",
@@ -18257,7 +19597,13 @@
           "recordingId": "571662",
           "attribution": "James Lambert"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Noisy Miner",
@@ -18359,7 +19705,13 @@
           "attribution": "Romuald Mikusek",
           "description": "park"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Spiny-cheeked Honeyeater",
@@ -18463,7 +19815,13 @@
           "attribution": "Christopher Watson",
           "description": "ARU recording. Bird singing very close to recorder."
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Little Wattlebird",
@@ -18558,7 +19916,13 @@
           "recordingId": "871688",
           "attribution": "Sunny Tseng"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Regent Honeyeater",
@@ -18660,7 +20024,18 @@
           "recordingId": "660500",
           "attribution": "Ross Crates"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": {
+        "level": "critically_endangered",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Red Wattlebird",
@@ -18762,7 +20137,13 @@
           "attribution": "Romuald Mikusek",
           "description": "forest between river and ocean"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Crimson Chat",
@@ -18818,7 +20199,13 @@
           "recordingId": "121704",
           "attribution": "Tom Tarrant"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-fronted Chat",
@@ -18887,7 +20274,18 @@
           "attribution": "nick talbot",
           "description": "A bird calling from a saltmarsh."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Black Honeyeater",
@@ -18966,7 +20364,13 @@
           "recordingId": "239359",
           "attribution": "Nigel Jackett"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Scarlet Honeyeater",
@@ -19069,7 +20473,13 @@
           "attribution": "Colin Reid",
           "description": "Noise reduction applied via Audacity to remove background traffic and plane noise, several species calling in background."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Tawny-crowned Honeyeater",
@@ -19113,7 +20523,13 @@
           "attribution": "JJ Harrison (https://www.jjharrison.com.au/)"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Crescent Honeyeater",
@@ -19213,7 +20629,13 @@
           "recordingId": "1072320",
           "attribution": "Romuald Mikusek"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "altitudinal_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "New Holland Honeyeater",
@@ -19314,7 +20736,13 @@
           "attribution": "Richard White",
           "description": "Repeated loud, sharp whistle."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-cheeked Honeyeater",
@@ -19419,7 +20847,13 @@
           "attribution": "Greg McLachlan",
           "description": "Bird was low, near the ground and calling. Sandstone heath with pockets of swampy heath."
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Black-chinned Honeyeater",
@@ -19522,7 +20956,18 @@
           "attribution": "Greg McLachlan",
           "description": "Slightly longer two part call."
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Brown-headed Honeyeater",
@@ -19625,7 +21070,13 @@
           "recordingId": "203154",
           "attribution": "nick talbot"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-naped Honeyeater",
@@ -19720,7 +21171,13 @@
           "recordingId": "871666",
           "attribution": "Sunny Tseng"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident_or_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Blue-faced Honeyeater",
@@ -19824,7 +21281,13 @@
           "attribution": "Colin Reid",
           "description": "A well developed juvenile calling for and being fed by both parents. Minimal adjustment made to call via Audacity."
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Noisy Friarbird",
@@ -19921,7 +21384,13 @@
           "attribution": "Andrew Galbraith",
           "description": "Bird about 20m away"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Little Friarbird",
@@ -20023,7 +21492,13 @@
           "recordingId": "640542",
           "attribution": "James Lambert"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Striped Honeyeater",
@@ -20127,7 +21602,13 @@
           "attribution": "nick talbot",
           "description": "A bird calling from trees beside a wetland."
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Painted Honeyeater",
@@ -20230,7 +21711,18 @@
           "recordingId": "605806",
           "attribution": "Liam Manderson"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "ACT"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Grey-crowned Babbler",
@@ -20333,7 +21825,18 @@
           "attribution": "Phil Gregory",
           "description": "5 birds feeding in figs in Lockhart River town centre, the last calls were given in flight"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-browed Babbler",
@@ -20434,7 +21937,13 @@
           "recordingId": "959366",
           "attribution": "Louis Masarei"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Spotted Quail-thrush",
@@ -20539,7 +22048,13 @@
           "attribution": "Greg McLachlan",
           "description": "Male calling from elevated rocky ledge. Both male and female birds observed."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Eastern Whipbird",
@@ -20641,7 +22156,13 @@
           "recordingId": "871207",
           "attribution": "Sunny Tseng"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Varied Sittella",
@@ -20746,7 +22267,18 @@
           "attribution": "Greg McLachlan",
           "description": "Group of eight birds moving from tree to tree feeding."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "ACT"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Black-faced Cuckoo-shrike",
@@ -20849,7 +22381,13 @@
           "recordingId": "550680",
           "attribution": "James Lambert"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident_or_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-bellied Cuckoo-shrike",
@@ -20951,7 +22489,13 @@
           "attribution": "James Lambert",
           "description": "repeated squeak note, interspersed with occasional rising 'wirp'"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_autumn_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Cicadabird",
@@ -20995,7 +22539,13 @@
           "attribution": "Donald Hobern from Copenhagen, Denmark"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "rare",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-winged Triller",
@@ -21098,7 +22648,18 @@
           "attribution": "Tom Tarrant",
           "description": "Taken from handycam video-footage"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "ACT"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Crested Shrike-tit",
@@ -21199,7 +22760,13 @@
           "recordingId": "959364",
           "attribution": "Louis Masarei"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Olive Whistler",
@@ -21298,7 +22865,18 @@
           "attribution": "Zebedee Muller",
           "description": "3 birds in total calling. 2 birds doing the main song and another making calls from a bush nearby. High elevation shrubland on heath. Overcast and cool. Slight breeze."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "altitudinal_migrant",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Golden Whistler",
@@ -21400,7 +22978,13 @@
           "attribution": "Richard White",
           "description": "Call modified. Trimmed out noisy bits and used noise reduction tool in Audacity (levels: NR=12,S=6, FS=6)."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "altitudinal_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Rufous Whistler",
@@ -21496,7 +23080,13 @@
           "attribution": "Nick Talbot",
           "description": "A bird calling from mallee trees"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Grey Shrike-thrush",
@@ -21591,7 +23181,13 @@
           "attribution": "Romuald Mikusek",
           "description": "bushes near the sea, such as XC1062632"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australasian Figbird",
@@ -21692,7 +23288,13 @@
           "recordingId": "838570",
           "attribution": "Sreekar"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Olive-backed Oriole",
@@ -21795,7 +23397,13 @@
           "recordingId": "767357",
           "attribution": "Sreekar"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Masked Woodswallow",
@@ -21875,7 +23483,13 @@
           "attribution": "Pieter de Groot Boersma",
           "description": "A foraging flock flying overhead in an open woodland. See here: http://www.hbw.com/ibc/video/masked-woodswallow-artamus-personatus/foraging-flock-flying-overhead"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-browed Woodswallow",
@@ -21978,7 +23592,13 @@
           "attribution": "nick talbot",
           "description": "An adult and a juvenile calling from trees."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Dusky Woodswallow",
@@ -22082,7 +23702,18 @@
           "attribution": "nick talbot",
           "description": "A juvenile bird perching in a tree and calling to its parents."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Grey Butcherbird",
@@ -22186,7 +23817,13 @@
           "attribution": "nick talbot",
           "description": "A bird calling from gardens near the shops"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Pied Butcherbird",
@@ -22289,7 +23926,13 @@
           "attribution": "nick talbot",
           "description": "A bird singing in forest along a track"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australian Magpie",
@@ -22392,7 +24035,13 @@
           "recordingId": "1054235",
           "attribution": "craig wilson"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Pied Currawong",
@@ -22494,7 +24143,13 @@
           "attribution": "nick talbot",
           "description": "A bird calling several times from trees in a suburban park"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Grey Currawong",
@@ -22598,7 +24253,13 @@
           "recordingId": "729331",
           "attribution": "Toby Esplin"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Spangled Drongo",
@@ -22700,7 +24361,13 @@
           "recordingId": "738039",
           "attribution": "Sofia Medell\u00edn"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Rufous Fantail",
@@ -22803,7 +24470,13 @@
           "recordingId": "507814",
           "attribution": "Mike FitzGerald"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Grey Fantail",
@@ -22905,7 +24578,13 @@
           "recordingId": "871213",
           "attribution": "Sunny Tseng"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident_or_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Willie Wagtail",
@@ -23001,7 +24680,13 @@
           "attribution": "\u00c9tienne Leroy",
           "description": "calling while mobbing a Pied Currawong"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australian Raven",
@@ -23105,7 +24790,13 @@
           "attribution": "nick talbot",
           "description": "A bird calling from a park and others appearing to respond"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Little Raven",
@@ -23210,7 +24901,13 @@
           "attribution": "Romuald Mikusek",
           "description": "riverbank"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Leaden Flycatcher",
@@ -23313,7 +25010,13 @@
           "recordingId": "597350",
           "attribution": "James Lambert"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Satin Flycatcher",
@@ -23414,7 +25117,13 @@
           "attribution": "Trevor Speirs",
           "description": "Male flycatcher calling near nest which was under construction"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Restless Flycatcher",
@@ -23512,7 +25221,13 @@
           "attribution": "nick talbot",
           "description": "A bird making the 'frog croak' call."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Black-faced Monarch",
@@ -23613,7 +25328,13 @@
           "recordingId": "118407",
           "attribution": "Niels Poul Dreyer"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Magpie-lark",
@@ -23709,7 +25430,13 @@
           "attribution": "Phil Gregory",
           "description": "Two calls as I was recording Torresian Crow"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-winged Chough",
@@ -23806,7 +25533,13 @@
           "attribution": "\u00c9tienne Leroy",
           "description": "Distant calls"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Apostlebird",
@@ -23910,7 +25643,13 @@
           "attribution": "Phil Gregory",
           "description": "A single bird scolding as it walked about the cafe, later joined by a second"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Jacky Winter",
@@ -24006,7 +25745,13 @@
           "recordingId": "811451",
           "attribution": "Andrew Galbraith"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Scarlet Robin",
@@ -24108,7 +25853,18 @@
           "recordingId": "992517",
           "attribution": "Niall Perrins"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "altitudinal_migrant",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "ACT"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Red-capped Robin",
@@ -24210,7 +25966,13 @@
           "attribution": "Nick Talbot",
           "description": "A male bird calling while making brief flights between small trees/shrubs."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Flame Robin",
@@ -24313,7 +26075,18 @@
           "attribution": "Greg McLachlan",
           "description": "Several males calling. Females also present."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "altitudinal_migrant",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Rose Robin",
@@ -24413,7 +26186,13 @@
           "recordingId": "833505",
           "attribution": "Mike FitzGerald"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Pink Robin",
@@ -24515,7 +26294,18 @@
           "recordingId": "327164",
           "attribution": "Pieter de Groot Boersma"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_winter_migrant",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Hooded Robin",
@@ -24618,7 +26408,18 @@
           "attribution": "Greg McLachlan",
           "description": "Soft calls from male and female in response to playback of recorded male."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "ACT"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Eastern Yellow Robin",
@@ -24714,7 +26515,13 @@
           "attribution": "Romuald Mikusek",
           "description": "park"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Horsfield's Bushlark",
@@ -24813,7 +26620,13 @@
           "recordingId": "790603",
           "attribution": "Sebastian Andrejeff"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Eurasian Skylark",
@@ -24914,7 +26727,13 @@
           "attribution": "Esperanza Poveda",
           "description": "Mosaico de cereal de secano con pastizal \u00e1rido y plantas arom\u00e1ticas variadas."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": true,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Golden-headed Cisticola",
@@ -25017,7 +26836,13 @@
           "recordingId": "1072426",
           "attribution": "Sam Hambly"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australian Reed-Warbler",
@@ -25119,7 +26944,13 @@
           "recordingId": "858831",
           "attribution": "David Tattersley"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Tawny Grassbird",
@@ -25219,7 +27050,13 @@
           "attribution": "James Lambert",
           "description": "alarm calls made by two individuals, one in grasses, the other in a sheoak"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Little Grassbird",
@@ -25320,7 +27157,13 @@
           "attribution": "nick talbot",
           "description": "A bird calling from reeds."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Rufous Songlark",
@@ -25423,7 +27266,13 @@
           "attribution": "Angus H",
           "description": "This bird was not seen. It was hidden about 1.2 metres above the ground within a dense Photinia Hedge."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Brown Songlark",
@@ -25525,7 +27374,13 @@
           "attribution": "nick talbot",
           "description": "A bird calling as it flies over a road."
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Silvereye",
@@ -25620,7 +27475,13 @@
           "attribution": "Meena Haribal",
           "description": "I think the high pitched calls are of Silvereye flock. The sonogram is very dense with all kinds of calls."
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident_or_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "White-backed Swallow",
@@ -25697,7 +27558,13 @@
           "recordingId": "377809",
           "attribution": "Stewart Ford"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Welcome Swallow",
@@ -25800,7 +27667,13 @@
           "recordingId": "604137",
           "attribution": "Phil Gregory"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Fairy Martin",
@@ -25903,7 +27776,13 @@
           "attribution": "nick talbot",
           "description": "A flock of birds calling, some in flight, others roosting on the ground."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Tree Martin",
@@ -26007,7 +27886,13 @@
           "attribution": "nick talbot",
           "description": "A small flock of birds flying among trees where some of them were nesting."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Red-whiskered Bulbul",
@@ -26107,7 +27992,13 @@
           "recordingId": "962858",
           "attribution": "David Darrell-Lambert"
         }
-      ]
+      ],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": true,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Bassian Thrush",
@@ -26210,7 +28101,13 @@
           "attribution": "Phil Gregory",
           "description": "Calling at 0620 and sang for about 10 minutes in total on the first dawn without rain for 9 days"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "altitudinal_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Common Blackbird",
@@ -26312,7 +28209,13 @@
           "attribution": "Amselforscher",
           "description": "Mondamsel"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": true,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Song Thrush",
@@ -26416,7 +28319,13 @@
           "recordingId": "1075952",
           "attribution": "Astrid Cervantes"
         }
-      ]
+      ],
+      "rarity": "extinct",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": true,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Common Starling",
@@ -26517,7 +28426,13 @@
           "recordingId": "1040845",
           "attribution": "Jack Berteau"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": true,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Common Myna",
@@ -26616,7 +28531,13 @@
           "recordingId": "1072837",
           "attribution": "David Darrell-Lambert"
         }
-      ]
+      ],
+      "rarity": "very_common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": true,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Mistletoebird",
@@ -26719,7 +28640,13 @@
           "attribution": "Meena Haribal",
           "description": "I think this is another Mistletoe bird but need confirmation."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_summer_migrant",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Zebra Finch",
@@ -26821,7 +28748,13 @@
           "attribution": "Camille Vacher",
           "description": "Song starts at 00:46\r\n\r\nRecorded with a smartphone\r\n\r\nNormalized at -3 dB"
         }
-      ]
+      ],
+      "rarity": "rare",
+      "breedingStatus": "breeding_visitor",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": true
     },
     {
       "commonName": "Double-barred Finch",
@@ -26865,7 +28798,13 @@
           "attribution": "JJ Harrison (https://www.jjharrison.com.au/)"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Plum-headed Finch",
@@ -26909,7 +28848,13 @@
           "attribution": "Lip Kee from Singapore, Republic of Singapore"
         }
       ],
-      "audio": []
+      "audio": [],
+      "rarity": "vagrant",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": true
     },
     {
       "commonName": "Red-browed Finch",
@@ -27013,7 +28958,13 @@
           "attribution": "Greg McLachlan",
           "description": "Small flock of birds."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Diamond Firetail",
@@ -27115,7 +29066,18 @@
           "attribution": "nick talbot",
           "description": "Two calls from some bushes. Many Rainbow Bee-eaters are also calling."
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": {
+        "level": "vulnerable",
+        "jurisdictions": [
+          "NSW"
+        ]
+      },
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "House Sparrow",
@@ -27209,7 +29171,13 @@
           "recordingId": "1075316",
           "attribution": "Lee Alder"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": true,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Eurasian Tree Sparrow",
@@ -27311,7 +29279,13 @@
           "attribution": "Richard E. Webster",
           "description": "singing from the roof of a cabin;"
         }
-      ]
+      ],
+      "rarity": "extinct",
+      "breedingStatus": null,
+      "conservationStatus": null,
+      "isIntroduced": true,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Australasian Pipit",
@@ -27410,7 +29384,13 @@
           "recordingId": "957622",
           "attribution": "David Boyle"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": false,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "European Goldfinch",
@@ -27512,7 +29492,13 @@
           "recordingId": "1007386",
           "attribution": "Francesco Sottile"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": true,
+      "isReintroduced": false,
+      "isEscapee": false
     },
     {
       "commonName": "Common Greenfinch",
@@ -27612,7 +29598,13 @@
           "recordingId": "1051118",
           "attribution": "C\u00e9dric PEIGNOT"
         }
-      ]
+      ],
+      "rarity": "common",
+      "breedingStatus": "breeding_resident",
+      "conservationStatus": null,
+      "isIntroduced": true,
+      "isReintroduced": false,
+      "isEscapee": false
     }
   ],
   "statistics": {
@@ -27624,6 +29616,20 @@
     "birdsWithAudio": 272,
     "birdsWithoutAudio": 25,
     "totalAudio": 1272,
-    "averageAudioPerBird": 4.28
+    "averageAudioPerBird": 4.28,
+    "rarityDistribution": {
+      "rare": 64,
+      "common": 128,
+      "vagrant": 63,
+      "very_common": 36,
+      "extinct": 5,
+      "unknown": 1
+    },
+    "conservationStatusCounts": {
+      "vulnerable": 32,
+      "endangered": 8,
+      "critically_endangered": 2
+    },
+    "introducedSpecies": 15
   }
 }
