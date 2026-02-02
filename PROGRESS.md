@@ -121,9 +121,53 @@ None.
 
 ---
 
+## Current Work: Audio Implementation (Xeno-canto)
+
+**Status:** In Progress
+
+### Completed Steps
+1. ✅ Read xeno-canto.md resource documentation
+2. ✅ Tested xeno-canto API (v2 deprecated, v3 requires API key)
+3. ✅ Updated backlog for audio implementation (5 recordings per species)
+4. ✅ Created `search_audio.py` script
+5. ✅ Created `test_xeno_canto_api.py` test script
+6. ✅ Made scripts executable
+
+### Audio Script Features
+- Searches Xeno-canto API v3 for bird audio recordings
+- Filters by quality (prefers A and B ratings, rejects D and E)
+- Filters by license (accepts CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC0)
+- Rejects CC BY-NC-ND (No Derivatives) licenses
+- Sorts by quality (highest first)
+- Targets 5 audio recordings per species
+- Includes rate limiting (1 second between requests)
+- Generates detailed log file
+
+### Next Steps for User
+1. **Register for Xeno-canto API key:**
+   - Go to https://xeno-canto.org/account
+   - Create account and verify email
+   - Get API key from account page
+
+2. **Test the API:**
+   ```bash
+   export XENO_CANTO_API_KEY='your_key_here'
+   python3 test_xeno_canto_api.py
+   ```
+
+3. **Run full audio search:**
+   ```bash
+   export XENO_CANTO_API_KEY='your_key_here'
+   python3 search_audio.py
+   ```
+
+---
+
 ## Files Modified This Session
 - `data/act_birds.json` - Added 1,435 photos to 297 species
 - `photo_search_log.txt` - Processing log with statistics
 - `PROGRESS.md` - This file (session tracking)
 - `QUESTIONS.md` - Requirements and user decisions
-- `backlog.md` - Updated completion status
+- `backlog.md` - Updated completion status for photos and audio plan
+- `search_audio.py` - NEW: Audio search script for Xeno-canto API
+- `test_xeno_canto_api.py` - NEW: API test script

@@ -432,11 +432,44 @@ Create `photo_search_log.txt` with:
 
 **Note:** Photos are sourced from reputable APIs (Wikimedia, ALA, iNaturalist) which provide validated URLs. Verification can be done later if needed.
 
-### Phase 4: Audio (Next Priority)
-- [ ] Implement `get_audio_for_species()` function
+### Phase 4: Audio (Next Priority) - Using Xeno-canto
+
+**New Approach:** Use Xeno-canto API v3 for high-quality bird audio recordings
+
+**Target:** 5 audio recordings per species (down from photos if fewer available)
+
+**Setup Requirements:**
+- [ ] Register at https://xeno-canto.org/account and get API key
+- [ ] Configure API key in script or environment variable
+
+**Implementation:**
+- [ ] Implement `search_xeno_canto()` function
+- [ ] Filter by quality ratings (prefer A and B quality)
+- [ ] Filter by acceptable licenses (CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA)
+- [ ] Reject CC BY-NC-ND (No Derivatives)
+- [ ] Prefer 'song' and 'call' types over soundscapes
 - [ ] Run audio search for all 297 species
-- [ ] Verify audio URLs
+- [ ] Handle rate limiting (be respectful of API)
 - [ ] Log species with no audio found
+
+**Audio Data Structure:**
+```json
+{
+  "audio": [
+    {
+      "url": "https://xeno-canto.org/sounds/uploaded/...",
+      "pageUrl": "https://xeno-canto.org/123456",
+      "source": "Xeno-canto",
+      "licence": "CC BY 4.0",
+      "attribution": "Recordist Name",
+      "quality": "A",
+      "type": "song",
+      "length": "0:45",
+      "recordingId": "123456"
+    }
+  ]
+}
+```
 
 ### Phase 5: Finalization
 - [x] Update JSON statistics ✅
