@@ -4,6 +4,10 @@
 
 An educational bird identification game featuring all 297 bird species found in the Australian Capital Territory. Players learn to identify birds through photos, sounds, and factual information while progressing through difficulty levels.
 
+This game will be a static website built with javascript. 
+The interface will be as clean as posssible. Just focused on getting people to play with the data and learn about cool birds!
+All open data will be properly attributed. 
+
 ---
 
 ## Available Data Assets
@@ -33,22 +37,6 @@ An educational bird identification game featuring all 297 bird species found in 
 ---
 
 ## Core Game Mechanics
-
-### 1. Identification Challenge
-
-**Visual Mode:**
-- Show a random bird photo
-- Player identifies from multiple choice or free text
-- Reveal information after answer
-
-**Audio Mode:**
-- Play a bird call/song recording
-- Player identifies by sound alone
-- Higher difficulty, higher points
-
-**Mixed Mode:**
-- Combine visual and audio clues
-- Most realistic to real birding experience
 
 ### 2. Difficulty Levels
 
@@ -83,44 +71,12 @@ An educational bird identification game featuring all 297 bird species found in 
 - **Examples:** Sharp-tailed Sandpiper, Red-necked Stint, Grey Falcon
 
 **Game Features:**
-- Multiple choice with 8+ options OR free text
+- Multiple choice with 8 options
 - Minimal hints
 - Audio-only challenges included
 - Expert-level scoring
 
-#### ⭐ Expert Mode Variants
-
-**Audio-Only Challenge:**
-- Identify birds by call/song alone
-- 272 species available (those with audio)
-- True birding experience
-
-**Time Attack:**
-- Identify as many birds as possible in limited time
-- Progressive difficulty (common → rare)
-
-**Conservation Focus:**
-- Only threatened/endangered species (42 species)
-- Educational about conservation status
-- Highlight ACT, NSW, and Federal (EPBC) listings
-
----
-
 ## Game Modes
-
-### Campaign Mode
-**Linear progression through difficulty levels**
-
-1. Start with Very Common birds (36 species)
-2. Unlock Common birds after mastering 80% (128 species)
-3. Progress to Rare and Vagrant species
-4. Final challenge: All 297 species
-
-**Progression System:**
-- Earn stars for correct identifications
-- Unlock species information cards
-- Build a personal "field guide"
-- Track statistics (accuracy, speed, favorites)
 
 ### Free Play Mode
 **Customize your experience**
@@ -130,31 +86,22 @@ An educational bird identification game featuring all 297 bird species found in 
 - Filter by rarity
 - Filter by conservation status
 - Native vs Introduced species
+- Track statistics about your run
+- Can share stats when you decide to finish.
+
+### Time Attack
+- How many birds can you get in a fixed time?
+- Photos first, audio later.
 
 ### Daily Challenge
 **New challenge every day**
 
-- 10 random birds from mixed difficulties
-- Global leaderboard
+- 1 random bird
 - Share results with friends
+- Streak tracked by browser cookie which saves a UID for each problem you correctly answered.
 - Seasonal themes (breeding visitors in summer, winter migrants)
 
-### Conservation Quest
-**Educational focus on threatened species**
-
-**Mission:** Learn about ACT's threatened birds
-- 2 Critically Endangered species
-- 8 Endangered species
-- 32 Vulnerable species
-
-**Features:**
-- Why they're threatened
-- Conservation efforts in ACT
-- How to report sightings
-- Links to conservation organizations
-
 ---
-
 ## Educational Features
 
 ### Species Information Cards
@@ -194,7 +141,6 @@ After identifying a bird (correctly or incorrectly), show:
 - Filter by attributes
 - Mark favorites
 - Add personal notes
-
 ---
 
 ## Scoring System
@@ -211,34 +157,10 @@ After identifying a bird (correctly or incorrectly), show:
 **Multipliers:**
 - Audio-only identification: 2x
 - No hints used: 1.5x
-- Fast answer (<10 seconds): 1.25x
-- First time correct: Bonus 50 points
+- Fast answer (<5 seconds): 1.25x
 
 **Penalties:**
-- Wrong answer: -5 points (min 0)
-- Hint used: -10 points
-- Skip: 0 points
-
-### Achievements
-
-**Collection Achievements:**
-- ⭐ "Backyard Birder" - Identify all Very Common species
-- 🌟 "Keen Observer" - Identify 100 species
-- 🏆 "Master Ornithologist" - Identify all 297 species
-- 🦜 "Parrot Expert" - Identify all parrots and lorikeets
-- 🦆 "Waterfowl Watcher" - Identify all ducks, geese, and grebes
-
-**Skill Achievements:**
-- 🎵 "Good Ear" - 100 correct audio-only identifications
-- ⚡ "Speed Demon" - 50 identifications in under 5 seconds
-- 🎯 "Perfect Streak" - 20 correct in a row
-- 🧠 "No Hints Needed" - 50 correct without using hints
-
-**Conservation Achievements:**
-- 🌿 "Conservation Champion" - Identify all threatened species
-- 📢 "Advocate" - Share 10 conservation facts
-- 🔴 "Critical Status" - Learn about critically endangered species
-
+- Nah don't need penalties. 
 ---
 
 ## Technical Considerations
@@ -283,42 +205,30 @@ birds.filter(b =>
 
 ## User Interface Suggestions
 
+Front page is the daily challenge. Once you answer you're shown your streak and given the main menu.
+
 ### Main Menu
-- Campaign Mode
-- Free Play
-- Daily Challenge
-- Field Guide
+- Links to game modes
+- page with canberra birding info and links to Canberra bird websites sites
 - Statistics
-- Settings
+- Settings(?)
 
 ### Identification Screen
 - Large photo/audio player area
-- Multiple choice buttons (or text input)
 - Hint button (bottom left)
 - Skip button (bottom right)
 - Score/streak display (top)
-- Progress indicator
+- Progress indicator (where relevant)
+- Exciting count-down for time attack mode
+- ID counter for time attack mode.
 
-### Results Screen
+### Results Screen (For daily challenge and free play)
 - Correct/Incorrect feedback
 - Show correct bird name and photo
 - "Learn More" button → species card
 - Play audio sample
 - "Next Bird" button
 - Statistics update
-
-### Field Guide
-- Search bar (top)
-- Filter buttons (rarity, family, conservation)
-- Grid or list view toggle
-- Species cards with:
-  - Photo thumbnail
-  - Common name
-  - Rarity indicator
-  - Conservation status badge (if applicable)
-  - "Unlocked" or "Locked" status
-
----
 
 ## Accessibility
 
@@ -331,8 +241,6 @@ birds.filter(b =>
 ### Audio
 - Visual indicators for audio cues
 - Volume controls
-- Option to play audio slowly
-- Subtitles for educational content
 
 ### Cognitive
 - Adjustable time limits
@@ -343,14 +251,6 @@ birds.filter(b =>
 ---
 
 ## Expansion Ideas
-
-### Future Features
-- **Location-based play:** Use GPS to show birds likely in your area
-- **Seasonal variations:** Different bird sets for summer/winter
-- **Photo upload:** Let users submit their own bird photos
-- **Social features:** Friend challenges, leaderboards
-- **Augmented Reality:** Point camera at real birds for ID help
-- **Integration with eBird:** Import sightings, contribute observations
 
 ### Additional Content
 - **Bird families mode:** Learn taxonomic relationships
@@ -364,6 +264,7 @@ birds.filter(b =>
 ## Educational Goals
 
 ### Primary Learning Outcomes
+1. Spread enthusiasm for birding!
 1. Identify common ACT bird species by sight and sound
 2. Understand bird families and taxonomic relationships
 3. Learn about conservation status and threats
@@ -396,20 +297,6 @@ birds.filter(b =>
 ---
 
 ## Success Metrics
-
-### Engagement
-- Daily active users
-- Average session length
-- Return rate (7-day, 30-day)
-- Campaign completion rate
-
-### Learning
-- Accuracy improvement over time
-- Number of species mastered
-- Field guide completeness
-- Conservation content views
-
-### Community
 - Daily challenge participation
 - Social shares
 - User-submitted content (if enabled)
@@ -424,38 +311,22 @@ birds.filter(b =>
 - [ ] Basic identification game (visual mode)
 - [ ] Three difficulty levels
 - [ ] Score tracking
-- [ ] Simple field guide
 - [ ] Attribution display
 
 ### Phase 2: Enhanced Features
 - [ ] Audio mode
 - [ ] Daily challenge
 - [ ] Achievements system
-- [ ] Enhanced field guide
-- [ ] Statistics dashboard
+- [ ] Stats
 
 ### Phase 3: Educational Focus
-- [ ] Conservation quest mode
-- [ ] Detailed species information
-- [ ] Educational content
 - [ ] Links to external resources
 - [ ] Accessibility features
-
-### Phase 4: Community Features
-- [ ] Leaderboards
-- [ ] Social sharing
-- [ ] User profiles
-- [ ] Location-based features
-- [ ] Integration with eBird/citizen science
 
 ---
 
 ## Licensing & Attribution
 
-### Content Sources
-- **Photos:** Wikimedia Commons, Atlas of Living Australia, iNaturalist
-- **Audio:** Xeno-canto
-- **Licenses:** CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC0
 
 ### Display Requirements
 Must display for each media item:
@@ -476,21 +347,21 @@ Recommend open source license to encourage:
 ## Next Steps
 
 1. **Design wireframes** for main screens
+2. Decide whether to host media local or link to external resources
 2. **Choose platform** (web, mobile native, progressive web app)
 3. **Select technology stack** (React, Flutter, Unity, etc.)
-4. **Create prototype** with 10-20 species
-5. **User testing** with target audience
-6. **Iterate based on feedback**
 7. **Full development** with all 297 species
+8. testing with friends
 8. **Launch & promotion**
 
 ---
 
 ## Contact & Contributions
 
-**Data prepared by:** Claude Sonnet 4.5
+**Data collected by:** Claude Sonnet 4.5
 **Date:** 2026-02-02
 **Dataset:** `data/act_birds.json`
+link to git reo
 
 **Resources:**
 - Photos: 1,435 images
@@ -498,4 +369,3 @@ Recommend open source license to encourage:
 - Species: 297 birds
 - All properly licensed and attributed
 
-Ready for game development! 🎮🐦
