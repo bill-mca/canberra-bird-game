@@ -1,0 +1,307 @@
+Photo Search Log
+================
+Timestamp: 2026-01-31 06:12:29
+
+Total birds processed: 297
+Birds with photos: 0
+Birds without photos: 297
+Total photos found: 0
+
+Species requiring manual review:
+  - Emu
+  - Magpie Goose
+  - Stubble Quail
+  - Brown Quail
+  - Indian Peafowl
+  - Plumed Whistling-Duck
+  - Musk Duck
+  - Freckled Duck
+  - Black Swan
+  - Australian Shelduck
+  - Australian Wood Duck
+  - Pink-eared Duck
+  - Australasian Shoveler
+  - Grey Teal
+  - Chestnut Teal
+  - Pacific Black Duck
+  - Hardhead
+  - Blue-billed Duck
+  - Australian Brush-turkey
+  - Australasian Grebe
+  - Hoary-headed Grebe
+  - Great Crested Grebe
+  - Rock Dove
+  - White-headed Pigeon
+  - Spotted Dove
+  - Brown Cuckoo-Dove
+  - Common Bronzewing
+  - Brush Bronzewing
+  - Crested Pigeon
+  - Diamond Dove
+  - Peaceful Dove
+  - Bar-shouldered Dove
+  - Wonga Pigeon
+  - Superb Fruit-Dove
+  - Tawny Frogmouth
+  - White-throated Nightjar
+  - Spotted Nightjar
+  - Australian Owlet-nightjar
+  - White-throated Needletail
+  - Fork-tailed Swift
+  - Australasian Darter
+  - Little Pied Cormorant
+  - Great Cormorant
+  - Little Black Cormorant
+  - Pied Cormorant
+  - Australian Pelican
+  - Black-necked Stork
+  - Australasian Bittern
+  - Australian Little Bittern
+  - White-necked Heron
+  - Great Egret
+  - Intermediate Egret
+  - Cattle Egret
+  - White-faced Heron
+  - Little Egret
+  - Nankeen Night-Heron
+  - Glossy Ibis
+  - Australian White Ibis
+  - Straw-necked Ibis
+  - Royal Spoonbill
+  - Yellow-billed Spoonbill
+  - Osprey
+  - Black-shouldered Kite
+  - Letter-winged Kite
+  - Square-tailed Kite
+  - White-bellied Sea-Eagle
+  - Whistling Kite
+  - Black Kite
+  - Brown Goshawk
+  - Collared Sparrowhawk
+  - Grey Goshawk
+  - Spotted Harrier
+  - Swamp Harrier
+  - Wedge-tailed Eagle
+  - Little Eagle
+  - Nankeen Kestrel
+  - Brown Falcon
+  - Australian Hobby
+  - Grey Falcon
+  - Black Falcon
+  - Peregrine Falcon
+  - Brolga
+  - Purple Swamphen
+  - Lewin's Rail
+  - Buff-banded Rail
+  - Baillon's Crake
+  - Australian Spotted Crake
+  - Spotless Crake
+  - Black-tailed Native-hen
+  - Dusky Moorhen
+  - Eurasian Coot
+  - Australian Bustard
+  - Bush Stone-curlew
+  - Pied Stilt
+  - Red-necked Avocet
+  - Pacific Golden Plover
+  - Red-capped Plover
+  - Double-banded Plover
+  - Black-fronted Dotterel
+  - Red-kneed Dotterel
+  - Banded Lapwing
+  - Masked Lapwing
+  - Plains-wanderer
+  - Australian Painted-snipe
+  - Latham's Snipe
+  - Bar-tailed Godwit
+  - Eastern Curlew
+  - Common Sandpiper
+  - Common Greenshank
+  - Marsh Sandpiper
+  - Wood Sandpiper
+  - Ruddy Turnstone
+  - Red Knot
+  - Red-necked Stint
+  - Long-toed Stint
+  - Pectoral Sandpiper
+  - Sharp-tailed Sandpiper
+  - Curlew Sandpiper
+  - Painted Button-quail
+  - Red-chested Button-quail
+  - Little Button-quail
+  - Gull-billed Tern
+  - Caspian Tern
+  - White-winged Black Tern
+  - Whiskered Tern
+  - Silver Gull
+  - Glossy Black-Cockatoo
+  - Yellow-tailed Black-Cockatoo
+  - Gang-gang Cockatoo
+  - Major Mitchell's Cockatoo
+  - Galah
+  - Long-billed Corella
+  - Little Corella
+  - Sulphur-crested Cockatoo
+  - Cockatiel
+  - Rainbow Lorikeet
+  - Scaly-breasted Lorikeet
+  - Musk Lorikeet
+  - Little Lorikeet
+  - Purple-crowned Lorikeet
+  - Australian King-Parrot
+  - Superb Parrot
+  - Crimson Rosella
+  - Eastern Rosella
+  - Swift Parrot
+  - Red-rumped Parrot
+  - Budgerigar
+  - Blue-winged Parrot
+  - Turquoise Parrot
+  - Eastern Koel
+  - Channel-billed Cuckoo
+  - Horsfield's Bronze-Cuckoo
+  - Black-eared Cuckoo
+  - Shining Bronze-Cuckoo
+  - Pallid Cuckoo
+  - Fan-tailed Cuckoo
+  - Brush Cuckoo
+  - Powerful Owl
+  - Barking Owl
+  - Southern Boobook
+  - Masked Owl
+  - Barn Owl
+  - Azure Kingfisher
+  - Laughing Kookaburra
+  - Red-backed Kingfisher
+  - Sacred Kingfisher
+  - Rainbow Bee-eater
+  - Dollarbird
+  - Superb Lyrebird
+  - White-throated Treecreeper
+  - Red-browed Treecreeper
+  - Brown Treecreeper
+  - Satin Bowerbird
+  - Superb Fairy-wren
+  - Pilotbird
+  - White-browed Scrubwren
+  - Chestnut-rumped Heathwren
+  - Speckled Warbler
+  - Weebill
+  - Brown Gerygone
+  - Western Gerygone
+  - White-throated Gerygone
+  - Striated Thornbill
+  - Yellow Thornbill
+  - Yellow-rumped Thornbill
+  - Chestnut-rumped Thornbill
+  - Buff-rumped Thornbill
+  - Brown Thornbill
+  - Southern Whiteface
+  - Spotted Pardalote
+  - Striated Pardalote
+  - Eastern Spinebill
+  - Lewin's Honeyeater
+  - Yellow-faced Honeyeater
+  - Singing Honeyeater
+  - White-eared Honeyeater
+  - Yellow-tufted Honeyeater
+  - Fuscous Honeyeater
+  - White-plumed Honeyeater
+  - White-fronted Honeyeater
+  - Bell Miner
+  - Noisy Miner
+  - Spiny-cheeked Honeyeater
+  - Little Wattlebird
+  - Regent Honeyeater
+  - Red Wattlebird
+  - Crimson Chat
+  - White-fronted Chat
+  - Black Honeyeater
+  - Scarlet Honeyeater
+  - Tawny-crowned Honeyeater
+  - Crescent Honeyeater
+  - New Holland Honeyeater
+  - White-cheeked Honeyeater
+  - Black-chinned Honeyeater
+  - Brown-headed Honeyeater
+  - White-naped Honeyeater
+  - Blue-faced Honeyeater
+  - Noisy Friarbird
+  - Little Friarbird
+  - Striped Honeyeater
+  - Painted Honeyeater
+  - Grey-crowned Babbler
+  - White-browed Babbler
+  - Spotted Quail-thrush
+  - Eastern Whipbird
+  - Varied Sittella
+  - Black-faced Cuckoo-shrike
+  - White-bellied Cuckoo-shrike
+  - Cicadabird
+  - White-winged Triller
+  - Crested Shrike-tit
+  - Olive Whistler
+  - Golden Whistler
+  - Rufous Whistler
+  - Grey Shrike-thrush
+  - Australasian Figbird
+  - Olive-backed Oriole
+  - Masked Woodswallow
+  - White-browed Woodswallow
+  - Dusky Woodswallow
+  - Grey Butcherbird
+  - Pied Butcherbird
+  - Australian Magpie
+  - Pied Currawong
+  - Grey Currawong
+  - Spangled Drongo
+  - Rufous Fantail
+  - Grey Fantail
+  - Willie Wagtail
+  - Australian Raven
+  - Little Raven
+  - Leaden Flycatcher
+  - Satin Flycatcher
+  - Restless Flycatcher
+  - Black-faced Monarch
+  - Magpie-lark
+  - White-winged Chough
+  - Apostlebird
+  - Jacky Winter
+  - Scarlet Robin
+  - Red-capped Robin
+  - Flame Robin
+  - Rose Robin
+  - Pink Robin
+  - Hooded Robin
+  - Eastern Yellow Robin
+  - Horsfield's Bushlark
+  - Eurasian Skylark
+  - Golden-headed Cisticola
+  - Australian Reed-Warbler
+  - Tawny Grassbird
+  - Little Grassbird
+  - Rufous Songlark
+  - Brown Songlark
+  - Silvereye
+  - White-backed Swallow
+  - Welcome Swallow
+  - Fairy Martin
+  - Tree Martin
+  - Red-whiskered Bulbul
+  - Bassian Thrush
+  - Common Blackbird
+  - Song Thrush
+  - Common Starling
+  - Common Myna
+  - Mistletoebird
+  - Zebra Finch
+  - Double-barred Finch
+  - Plum-headed Finch
+  - Red-browed Finch
+  - Diamond Firetail
+  - House Sparrow
+  - Eurasian Tree Sparrow
+  - Australasian Pipit
+  - European Goldfinch
+  - Common Greenfinch
