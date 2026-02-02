@@ -17,12 +17,13 @@ XENO_CANTO_API_KEY = os.environ.get('XENO_CANTO_API_KEY', '')
 XENO_CANTO_API_URL = 'https://xeno-canto.org/api/3/recordings'
 
 # Acceptable licenses (no ND - No Derivatives)
+# Note: Xeno-canto URLs use format "/by-nc-sa/" not "cc-by-nc-sa"
 ACCEPTABLE_LICENSES = [
-    'cc-by',
-    'cc-by-sa',
-    'cc-by-nc',
-    'cc-by-nc-sa',
-    'cc0'
+    '/by/',
+    '/by-sa/',
+    '/by-nc/',
+    '/by-nc-sa/',
+    '/cc0/'
 ]
 
 # Quality preference order (A is best)
@@ -46,20 +47,26 @@ def fetch_url(url, timeout=30):
 
 def normalize_license(license_url):
     """Convert license URL to standard format"""
-    license_map = {
-        'cc-by': 'CC BY 4.0',
-        'cc-by-sa': 'CC BY-SA 4.0',
-        'cc-by-nc': 'CC BY-NC 4.0',
-        'cc-by-nc-sa': 'CC BY-NC-SA 4.0',
-        'cc0': 'CC0 1.0'
-    }
-
-    # Extract license code from URL or string
     license_lower = license_url.lower()
-    for code, name in license_map.items():
-        if code in license_lower:
-            return name
 
+    # Map URL patterns to standard license names
+    # Xeno-canto uses format: //creativecommons.org/licenses/by-nc-sa/4.0/
+    if '/by-nc-sa/' in license_lower:
+        return 'CC BY-NC-SA 4.0'
+    elif '/by-nc-nd/' in license_lower:
+        return 'CC BY-NC-ND 4.0'
+    elif '/by-sa/' in license_lower:
+        return 'CC BY-SA 4.0'
+    elif '/by-nd/' in license_lower:
+        return 'CC BY-ND 4.0'
+    elif '/by-nc/' in license_lower:
+        return 'CC BY-NC 4.0'
+    elif '/by/' in license_lower and '/by-' not in license_lower:
+        return 'CC BY 4.0'
+    elif '/cc0/' in license_lower or 'cc0' in license_lower:
+        return 'CC0 1.0'
+
+    # Return original if we can't parse it
     return license_url
 
 
