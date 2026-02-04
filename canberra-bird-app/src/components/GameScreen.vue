@@ -22,10 +22,6 @@ const props = defineProps({
     type: Boolean,
     default: false
   },
-  score: {
-    type: Number,
-    default: 0
-  },
   questionNumber: {
     type: Number,
     default: null
@@ -80,10 +76,6 @@ function handleImageError() {
 <template>
   <div class="game-screen">
     <div class="game-header">
-      <div class="score-display" v-if="score !== null">
-        Score: {{ score.toLocaleString() }}
-      </div>
-
       <div class="progress-display" v-if="questionNumber !== null && totalQuestions !== null">
         Question {{ questionNumber }} / {{ totalQuestions }}
       </div>

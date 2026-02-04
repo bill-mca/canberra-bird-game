@@ -92,25 +92,6 @@ function goToMenu() {
         </div>
       </div>
 
-      <!-- Score Stats -->
-      <div class="stat-card card">
-        <h3>💯 Scoring</h3>
-
-        <div class="stat-row">
-          <div class="stat-item">
-            <div class="stat-value">{{ stats.totalScore.toLocaleString() }}</div>
-            <div class="stat-label">Total Score</div>
-          </div>
-
-          <div class="stat-item">
-            <div class="stat-value">
-              {{ stats.totalQuestions > 0 ? Math.round(stats.totalScore / stats.totalQuestions) : 0 }}
-            </div>
-            <div class="stat-label">Avg Per Question</div>
-          </div>
-        </div>
-      </div>
-
       <!-- Empty State -->
       <div class="empty-state card" v-if="stats.totalQuestions === 0">
         <h3>No statistics yet!</h3>

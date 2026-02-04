@@ -134,7 +134,6 @@ export function getStats() {
       totalGames: 0,
       totalQuestions: 0,
       correctAnswers: 0,
-      totalScore: 0,
       dailyChallengesCompleted: 0,
       bestStreak: 0
     };
@@ -147,7 +146,6 @@ export function getStats() {
       totalGames: 0,
       totalQuestions: 0,
       correctAnswers: 0,
-      totalScore: 0,
       dailyChallengesCompleted: 0,
       bestStreak: 0
     };
@@ -163,7 +161,6 @@ export function updateStats(sessionData) {
   stats.totalGames += 1;
   stats.totalQuestions += sessionData.totalQuestions || 0;
   stats.correctAnswers += sessionData.correctAnswers || 0;
-  stats.totalScore += sessionData.totalScore || 0;
 
   if (sessionData.isDaily) {
     stats.dailyChallengesCompleted += 1;

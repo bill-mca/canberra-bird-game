@@ -3,7 +3,6 @@ import { ref, computed, onMounted } from 'vue';
 import { getAllBirds, getRandomPhoto, createMultipleChoiceOptions } from '../utils/birdData.js';
 import { getDailyBird } from '../utils/dailySeed.js';
 import { isDailyCompleted, getDailyResult, markDailyCompleted, updateDailyStreak, getDailyStreak } from '../utils/storage.js';
-import { calculateScore } from '../utils/scoring.js';
 import GameScreen from '../components/GameScreen.vue';
 import ResultsScreen from '../components/ResultsScreen.vue';
 
@@ -15,7 +14,6 @@ const currentPhoto = ref(null);
 const options = ref([]);
 const selectedBird = ref(null);
 const isCorrect = ref(false);
-const score = ref(0);
 const streak = ref(0);
 const usedHints = ref(false);
 const showHints = ref(false);
@@ -62,15 +60,6 @@ function handleAnswer(selectedOption, timeSeconds) {
   timeTaken.value = timeSeconds;
 
   isCorrect.value = selectedOption.scientificName === dailyBird.value.scientificName;
-
-  if (isCorrect.value) {
-    const scoringOptions = {
-      audioOnly: false,
-      usedHints: usedHints.value,
-      timeSeconds: timeSeconds
-    };
-    score.value = calculateScore(dailyBird.value, scoringOptions);
-  }
 
   // Update streak and mark as completed
   streak.value = updateDailyStreak(isCorrect.value);
@@ -159,8 +148,6 @@ function goToMenu() {
         :photo="currentPhoto"
         :selected-bird="selectedBird"
         :is-correct="isCorrect"
-        :score="score"
-        :scoring-options="{ usedHints, timeSeconds: timeTaken }"
         :show-next-button="false"
         @share="handleShare"
       />

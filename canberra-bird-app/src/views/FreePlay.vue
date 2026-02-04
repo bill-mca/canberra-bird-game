@@ -13,7 +13,7 @@ import {
   createMultipleChoiceOptions,
   DIFFICULTY_LEVELS
 } from '../utils/birdData.js';
-import { calculateScore, calculateSessionStats } from '../utils/scoring.js';
+import { calculateSessionStats } from '../utils/scoring.js';
 import { updateStats } from '../utils/storage.js';
 import GameScreen from '../components/GameScreen.vue';
 import ResultsScreen from '../components/ResultsScreen.vue';
@@ -32,13 +32,11 @@ const currentBird = ref(null);
 const currentPhoto = ref(null);
 const options = ref([]);
 const currentQuestionNumber = ref(0);
-const totalScore = ref(0);
 const sessionResults = ref([]);
 const usedHints = ref(false);
 const showHints = ref(false);
 const selectedBird = ref(null);
 const isCorrect = ref(false);
-const questionScore = ref(0);
 const timeTaken = ref(0);
 
 const allFamilies = computed(() => getAllFamilies(getAllBirds()));
@@ -81,7 +79,6 @@ function startGame() {
   }
 
   sessionResults.value = [];
-  totalScore.value = 0;
   currentQuestionNumber.value = 0;
   gameState.value = 'playing';
   loadNextQuestion();
@@ -113,23 +110,10 @@ function handleAnswer(selectedOption, timeSeconds) {
 
   isCorrect.value = selectedOption.scientificName === currentBird.value.scientificName;
 
-  if (isCorrect.value) {
-    const scoringOptions = {
-      audioOnly: false,
-      usedHints: usedHints.value,
-      timeSeconds: timeSeconds
-    };
-    questionScore.value = calculateScore(currentBird.value, scoringOptions);
-    totalScore.value += questionScore.value;
-  } else {
-    questionScore.value = 0;
-  }
-
   sessionResults.value.push({
     bird: currentBird.value,
     selectedBird: selectedOption,
     isCorrect: isCorrect.value,
-    score: questionScore.value,
     timeSeconds: timeSeconds,
     usedHints: usedHints.value
   });
@@ -140,13 +124,11 @@ function handleAnswer(selectedOption, timeSeconds) {
 function handleSkip() {
   selectedBird.value = null;
   isCorrect.value = false;
-  questionScore.value = 0;
 
   sessionResults.value.push({
     bird: currentBird.value,
     selectedBird: null,
     isCorrect: false,
-    score: 0,
     timeSeconds: 0,
     usedHints: usedHints.value
   });
@@ -170,7 +152,6 @@ function completeSession() {
   const stats = calculateSessionStats(sessionResults.value);
   updateStats({
     ...stats,
-    totalScore: totalScore.value,
     isDaily: false
   });
   gameState.value = 'session-complete';
@@ -180,9 +161,8 @@ function handleShare() {
   const stats = calculateSessionStats(sessionResults.value);
   const text = `Canberra Bird Game - Free Play\n\n` +
     `✅ ${stats.correctAnswers}/${stats.totalQuestions} correct (${stats.accuracy}%)\n` +
-    `🎯 Score: ${totalScore.value.toLocaleString()}\n` +
     `⏱️ Avg time: ${stats.averageTime}s\n\n` +
-    `Can you beat my score?\n`;
+    `Can you beat your score?\n`;
 
   if (navigator.share) {
     navigator.share({
@@ -279,7 +259,6 @@ function goToMenu() {
       :options="options"
       :show-hints="showHints"
       :show-timer="true"
-      :score="totalScore"
       :question-number="currentQuestionNumber"
       :total-questions="numberOfQuestions"
       @answer="handleAnswer"
@@ -294,8 +273,6 @@ function goToMenu() {
         :photo="currentPhoto"
         :selected-bird="selectedBird"
         :is-correct="isCorrect"
-        :score="questionScore"
-        :scoring-options="{ usedHints, timeSeconds: timeTaken }"
         @next="nextQuestion"
       />
     </div>
@@ -314,11 +291,6 @@ function goToMenu() {
           <div class="stat-big">
             <div class="stat-value">{{ calculateSessionStats(sessionResults).accuracy }}%</div>
             <div class="stat-label">Accuracy</div>
-          </div>
-
-          <div class="stat-big">
-            <div class="stat-value">{{ totalScore.toLocaleString() }}</div>
-            <div class="stat-label">Total Score</div>
           </div>
 
           <div class="stat-big">

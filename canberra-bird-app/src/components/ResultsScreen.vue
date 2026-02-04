@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from 'vue';
-import { getScoreBreakdown } from '../utils/scoring.js';
 
 const props = defineProps({
   bird: {
@@ -18,14 +17,6 @@ const props = defineProps({
   isCorrect: {
     type: Boolean,
     required: true
-  },
-  score: {
-    type: Number,
-    default: 0
-  },
-  scoringOptions: {
-    type: Object,
-    default: () => ({})
   },
   showNextButton: {
     type: Boolean,
@@ -45,8 +36,6 @@ function toggleAttribution() {
 function playAudio(index) {
   currentAudioIndex.value = index;
 }
-
-const scoreBreakdown = getScoreBreakdown(props.bird, props.scoringOptions);
 </script>
 
 <template>
@@ -54,7 +43,6 @@ const scoreBreakdown = getScoreBreakdown(props.bird, props.scoringOptions);
     <div class="result-header" :class="{ correct: isCorrect, incorrect: !isCorrect }">
       <div class="result-icon">{{ isCorrect ? '✅' : '❌' }}</div>
       <h2 class="result-title">{{ isCorrect ? 'Correct!' : 'Incorrect' }}</h2>
-      <p class="result-score" v-if="isCorrect && score > 0">+{{ score.toLocaleString() }} points</p>
     </div>
 
     <div class="selected-answer" v-if="!isCorrect && selectedBird">
@@ -138,11 +126,6 @@ const scoreBreakdown = getScoreBreakdown(props.bird, props.scoringOptions);
             @click="window.open(p.pageUrl, '_blank')"
           />
         </div>
-      </div>
-
-      <div class="score-breakdown" v-if="isCorrect && scoreBreakdown">
-        <h4>Score Breakdown</h4>
-        <pre class="breakdown-text">{{ scoreBreakdown }}</pre>
       </div>
     </div>
 

@@ -8,7 +8,7 @@ import {
   createMultipleChoiceOptions,
   DIFFICULTY_LEVELS
 } from '../utils/birdData.js';
-import { calculateScore, calculateSessionStats } from '../utils/scoring.js';
+import { calculateSessionStats } from '../utils/scoring.js';
 import { updateStats } from '../utils/storage.js';
 
 const emit = defineEmits(['navigate']);
@@ -20,7 +20,6 @@ const timeRemaining = ref(60);
 const currentBird = ref(null);
 const currentPhoto = ref(null);
 const options = ref([]);
-const totalScore = ref(0);
 const correctCount = ref(0);
 const questionCount = ref(0);
 const sessionResults = ref([]);
@@ -35,7 +34,6 @@ const filteredBirds = computed(() => {
 
 function startGame() {
   sessionResults.value = [];
-  totalScore.value = 0;
   correctCount.value = 0;
   questionCount.value = 0;
   timeRemaining.value = timeLimit.value;
@@ -78,23 +76,14 @@ function loadNextQuestion() {
 function handleAnswer(selectedOption) {
   const isCorrect = selectedOption.scientificName === currentBird.value.scientificName;
 
-  let questionScore = 0;
   if (isCorrect) {
     correctCount.value++;
-    // Faster scoring in time attack mode
-    questionScore = calculateScore(currentBird.value, {
-      audioOnly: false,
-      usedHints: false,
-      timeSeconds: 0
-    });
-    totalScore.value += questionScore;
   }
 
   sessionResults.value.push({
     bird: currentBird.value,
     selectedBird: selectedOption,
     isCorrect: isCorrect,
-    score: questionScore,
     timeSeconds: 0,
     usedHints: false
   });
@@ -116,7 +105,6 @@ function endGame() {
   const stats = calculateSessionStats(sessionResults.value);
   updateStats({
     ...stats,
-    totalScore: totalScore.value,
     isDaily: false
   });
 
@@ -130,9 +118,8 @@ function handleShare() {
 
   const text = `Canberra Bird Game - Time Attack\n\n` +
     `⏱️ ${timeLimit.value} seconds\n` +
-    `🎯 ${correctCount.value}/${questionCount.value} correct (${accuracy}%)\n` +
-    `💯 Score: ${totalScore.value.toLocaleString()}\n\n` +
-    `Can you beat my score?\n`;
+    `🎯 ${correctCount.value}/${questionCount.value} correct (${accuracy}%)\n\n` +
+    `Can you beat your score?\n`;
 
   if (navigator.share) {
     navigator.share({
@@ -223,10 +210,6 @@ onUnmounted(() => {
           ⏱️ {{ timeRemaining }}s
         </div>
 
-        <div class="score-display">
-          Score: {{ totalScore.toLocaleString() }}
-        </div>
-
         <div class="count-display">
           Identified: {{ correctCount }}
         </div>
@@ -269,11 +252,6 @@ onUnmounted(() => {
           <div class="stat-big">
             <div class="stat-value">{{ questionCount }}</div>
             <div class="stat-label">Total Attempts</div>
-          </div>
-
-          <div class="stat-big">
-            <div class="stat-value">{{ totalScore.toLocaleString() }}</div>
-            <div class="stat-label">Total Score</div>
           </div>
 
           <div class="stat-big">
