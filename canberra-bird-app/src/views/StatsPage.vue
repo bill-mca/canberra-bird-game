@@ -111,41 +111,8 @@ function goToMenu() {
         </div>
       </div>
 
-      <!-- Progress Summary -->
-      <div class="progress-card card" v-if="stats.totalQuestions > 0">
-        <h3>📈 Progress Summary</h3>
-
-        <div class="progress-item">
-          <div class="progress-label">Accuracy Rate</div>
-          <div class="progress-bar">
-            <div
-              class="progress-fill"
-              :style="{ width: `${(stats.correctAnswers / stats.totalQuestions) * 100}%` }"
-            ></div>
-          </div>
-          <div class="progress-value">
-            {{ Math.round((stats.correctAnswers / stats.totalQuestions) * 100) }}%
-          </div>
-        </div>
-
-        <div class="achievement-text">
-          <p v-if="stats.correctAnswers / stats.totalQuestions >= 0.9">
-            🌟 Outstanding! You're a bird identification expert!
-          </p>
-          <p v-else-if="stats.correctAnswers / stats.totalQuestions >= 0.7">
-            🎯 Great job! You have strong bird identification skills!
-          </p>
-          <p v-else-if="stats.correctAnswers / stats.totalQuestions >= 0.5">
-            📚 Good progress! Keep practicing to improve!
-          </p>
-          <p v-else>
-            🌱 Just getting started! Every expert was once a beginner!
-          </p>
-        </div>
-      </div>
-
       <!-- Empty State -->
-      <div class="empty-state card" v-else>
+      <div class="empty-state card" v-if="stats.totalQuestions === 0">
         <h3>No statistics yet!</h3>
         <p>Play some games to start tracking your progress.</p>
         <button class="btn btn-primary" @click="emit('navigate', 'menu')">
