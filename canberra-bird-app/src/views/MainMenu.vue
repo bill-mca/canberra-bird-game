@@ -48,24 +48,12 @@ const stats = getStats();
         <h3>Birding Resources</h3>
         <p>Canberra birding links and info</p>
       </button>
-    </div>
 
-    <div class="quick-stats" v-if="stats.totalQuestions > 0">
-      <h3>Your Stats</h3>
-      <div class="stats-row">
-        <div class="stat-item">
-          <span class="stat-value">{{ stats.totalQuestions }}</span>
-          <span class="stat-label">Questions</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-value">{{ Math.round((stats.correctAnswers / stats.totalQuestions) * 100) }}%</span>
-          <span class="stat-label">Accuracy</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-value">{{ stats.totalScore.toLocaleString() }}</span>
-          <span class="stat-label">Total Score</span>
-        </div>
-      </div>
+      <button class="menu-btn about-btn" @click="emit('navigate', 'about')">
+        <span class="menu-icon">ℹ️</span>
+        <h3>About</h3>
+        <p>Learn more about this game</p>
+      </button>
     </div>
   </div>
 </template>
