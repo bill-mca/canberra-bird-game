@@ -135,6 +135,7 @@ const scoreBreakdown = getScoreBreakdown(props.bird, props.scoringOptions);
             :src="p.url"
             :alt="`${bird.commonName} photo ${index + 1}`"
             class="gallery-thumbnail"
+            @click="window.open(p.pageUrl, '_blank')"
           />
         </div>
       </div>
