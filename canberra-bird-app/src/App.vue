@@ -32,7 +32,7 @@ function navigateTo(view) {
   <div id="app">
     <header class="app-header">
       <h1 class="app-title" @click="navigateTo('menu')">
-        🦜 Canberra Bird Game
+        Canberra Bird Game
       </h1>
     </header>
 
@@ -56,12 +56,6 @@ function navigateTo(view) {
     </main>
 
     <footer class="app-footer">
-      <p>
-        Data from
-        <a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons</a>,
-        <a href="https://www.ala.org.au" target="_blank" rel="noopener">Atlas of Living Australia</a>,
-        <a href="https://xeno-canto.org" target="_blank" rel="noopener">Xeno-canto</a>
-      </p>
     </footer>
   </div>
 </template>

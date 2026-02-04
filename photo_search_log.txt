@@ -1,9 +1,0 @@
-Photo Search Log
-================
-Timestamp: 2026-02-02 18:04:25
-
-Total birds processed: 297
-Birds with photos: 297
-Birds without photos: 0
-Total photos found: 1435
-
