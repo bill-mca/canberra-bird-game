@@ -7,8 +7,9 @@ import FreePlay from './views/FreePlay.vue';
 import TimeAttack from './views/TimeAttack.vue';
 import LinksPage from './views/LinksPage.vue';
 import StatsPage from './views/StatsPage.vue';
+import AboutPage from './views/AboutPage.vue';
 
-const currentView = ref('daily'); // daily, menu, freeplay, timeattack, links, stats
+const currentView = ref('daily'); // daily, menu, freeplay, timeattack, links, stats, about
 const isLoading = ref(true);
 const loadError = ref(null);
 
@@ -52,6 +53,7 @@ function navigateTo(view) {
         <TimeAttack v-else-if="currentView === 'timeattack'" @navigate="navigateTo" />
         <LinksPage v-else-if="currentView === 'links'" @navigate="navigateTo" />
         <StatsPage v-else-if="currentView === 'stats'" @navigate="navigateTo" />
+        <AboutPage v-else-if="currentView === 'about'" @navigate="navigateTo" />
       </template>
     </main>
 
