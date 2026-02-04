@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Photo Review Tool</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #2c5f2d;
+            margin-bottom: 20px;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background-color: #2c5f2d;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #234d24;
+        }
+
+        .btn-secondary {
+            background-color: #97bc62;
+            color: #212529;
+        }
+
+        .btn-secondary:hover {
+            background-color: #88aa55;
+        }
+
+        .btn-danger {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+
+        .stats {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .stats-row {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c5f2d;
+        }
+
+        .bird-section {
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .bird-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .bird-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2c5f2d;
+        }
+
+        .bird-scientific {
+            font-style: italic;
+            color: #6c757d;
+            font-size: 14px;
+        }
+
+        .bird-controls {
+            display: flex;
+            gap: 10px;
+        }
+
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .photo-card {
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+            transition: all 0.2s;
+            background: white;
+        }
+
+        .photo-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .photo-card.selected {
+            border-color: #2c5f2d;
+            box-shadow: 0 0 0 3px rgba(44, 95, 45, 0.2);
+        }
+
+        .photo-card.flagged {
+            border-color: #dc3545;
+            box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.2);
+        }
+
+        .photo-img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            cursor: pointer;
+            display: block;
+        }
+
+        .photo-info {
+            padding: 10px;
+            font-size: 12px;
+        }
+
+        .photo-source {
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+
+        .photo-attribution {
+            color: #495057;
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+
+        .photo-actions {
+            display: flex;
+            gap: 5px;
+            margin-top: 8px;
+        }
+
+        .photo-actions button {
+            flex: 1;
+            padding: 5px;
+            font-size: 11px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 18px;
+            color: #6c757d;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #fileInput {
+            display: none;
+        }
+
+        .search-box {
+            padding: 10px;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            font-size: 14px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🦜 Bird Photo Review Tool</h1>
+
+        <div class="controls">
+            <label for="fileInput" class="btn btn-primary">Load Bird Data (act_birds.json)</label>
+            <input type="file" id="fileInput" accept=".json">
+
+            <button class="btn btn-secondary" id="selectAllBtn" disabled>Select All Photos</button>
+            <button class="btn btn-secondary" id="deselectAllBtn" disabled>Deselect All Photos</button>
+            <button class="btn btn-primary" id="downloadBtn" disabled>Download Selection</button>
+            <button class="btn btn-danger" id="downloadFlaggedBtn" disabled>Download Flagged</button>
+
+            <input type="text" class="search-box" id="searchBox" placeholder="Search bird names..." disabled>
+        </div>
+
+        <div class="stats hidden" id="stats">
+            <div class="stats-row">
+                <div class="stat-item">
+                    <span class="stat-label">Total Birds</span>
+                    <span class="stat-value" id="totalBirds">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Total Photos</span>
+                    <span class="stat-value" id="totalPhotos">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Selected</span>
+                    <span class="stat-value" id="selectedCount">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Flagged</span>
+                    <span class="stat-value" id="flaggedCount">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="loading">Load a bird data file to begin</div>
+        </div>
+    </div>
+
+    <script>
+        let birdData = null;
+        let selectedPhotos = new Set();
+        let flaggedPhotos = new Set();
+
+        const fileInput = document.getElementById('fileInput');
+        const content = document.getElementById('content');
+        const stats = document.getElementById('stats');
+        const searchBox = document.getElementById('searchBox');
+
+        fileInput.addEventListener('change', handleFileLoad);
+        document.getElementById('selectAllBtn').addEventListener('click', selectAll);
+        document.getElementById('deselectAllBtn').addEventListener('click', deselectAll);
+        document.getElementById('downloadBtn').addEventListener('click', downloadSelection);
+        document.getElementById('downloadFlaggedBtn').addEventListener('click', downloadFlagged);
+        searchBox.addEventListener('input', filterBirds);
+
+        function handleFileLoad(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    birdData = data;
+                    selectedPhotos.clear();
+                    flaggedPhotos.clear();
+                    renderBirds();
+                    enableControls();
+                } catch (error) {
+                    alert('Error loading file: ' + error.message);
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function enableControls() {
+            document.getElementById('selectAllBtn').disabled = false;
+            document.getElementById('deselectAllBtn').disabled = false;
+            document.getElementById('downloadBtn').disabled = false;
+            document.getElementById('downloadFlaggedBtn').disabled = false;
+            searchBox.disabled = false;
+        }
+
+        function renderBirds(filterText = '') {
+            stats.classList.remove('hidden');
+
+            const birds = birdData.birds || [];
+            const filteredBirds = filterText
+                ? birds.filter(b =>
+                    b.commonName.toLowerCase().includes(filterText.toLowerCase()) ||
+                    b.scientificName.toLowerCase().includes(filterText.toLowerCase())
+                )
+                : birds;
+
+            let totalPhotos = 0;
+            birds.forEach(bird => totalPhotos += (bird.photos || []).length);
+
+            document.getElementById('totalBirds').textContent = birds.length;
+            document.getElementById('totalPhotos').textContent = totalPhotos;
+            updateCounts();
+
+            content.innerHTML = filteredBirds.map(bird => renderBird(bird)).join('');
+
+            // Add event listeners to photo cards
+            document.querySelectorAll('.photo-card').forEach(card => {
+                const img = card.querySelector('.photo-img');
+                const selectBtn = card.querySelector('.select-btn');
+                const flagBtn = card.querySelector('.flag-btn');
+
+                img.addEventListener('click', () => togglePhoto(card.dataset.photoId));
+                selectBtn.addEventListener('click', () => togglePhoto(card.dataset.photoId));
+                flagBtn.addEventListener('click', () => toggleFlag(card.dataset.photoId));
+            });
+
+            // Add bird-level controls
+            document.querySelectorAll('.select-bird-all').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    const birdName = e.target.dataset.bird;
+                    selectBirdPhotos(birdName);
+                });
+            });
+
+            document.querySelectorAll('.deselect-bird-all').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    const birdName = e.target.dataset.bird;
+                    deselectBirdPhotos(birdName);
+                });
+            });
+        }
+
+        function renderBird(bird) {
+            const photos = bird.photos || [];
+            if (photos.length === 0) return '';
+
+            return `
+                <div class="bird-section">
+                    <div class="bird-header">
+                        <div>
+                            <div class="bird-name">${bird.commonName}</div>
+                            <div class="bird-scientific">${bird.scientificName}</div>
+                        </div>
+                        <div class="bird-controls">
+                            <button class="btn btn-secondary btn-small select-bird-all" data-bird="${bird.scientificName}">
+                                Select All (${photos.length})
+                            </button>
+                            <button class="btn btn-secondary btn-small deselect-bird-all" data-bird="${bird.scientificName}">
+                                Deselect All
+                            </button>
+                        </div>
+                    </div>
+                    <div class="photo-grid">
+                        ${photos.map((photo, idx) => renderPhoto(bird, photo, idx)).join('')}
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderPhoto(bird, photo, index) {
+            const photoId = `${bird.scientificName}-${index}`;
+            const isSelected = selectedPhotos.has(photoId);
+            const isFlagged = flaggedPhotos.has(photoId);
+
+            return `
+                <div class="photo-card ${isSelected ? 'selected' : ''} ${isFlagged ? 'flagged' : ''}"
+                     data-photo-id="${photoId}">
+                    <img src="${photo.url}" alt="${bird.commonName}" class="photo-img"
+                         onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'200\\' height=\\'150\\'%3E%3Crect fill=\\'%23ddd\\' width=\\'200\\' height=\\'150\\'/%3E%3Ctext x=\\'50%25\\' y=\\'50%25\\' text-anchor=\\'middle\\' fill=\\'%23666\\'%3EError%3C/text%3E%3C/svg%3E'">
+                    <div class="photo-info">
+                        <div class="photo-source">${photo.source || 'Unknown'}</div>
+                        <div class="photo-attribution">${photo.attribution || 'No attribution'}</div>
+                        <div class="photo-actions">
+                            <button class="btn btn-primary select-btn">${isSelected ? 'Deselect' : 'Select'}</button>
+                            <button class="btn ${isFlagged ? 'btn-danger' : 'btn-secondary'} flag-btn">
+                                ${isFlagged ? 'Unflag' : 'Flag'}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function togglePhoto(photoId) {
+            if (selectedPhotos.has(photoId)) {
+                selectedPhotos.delete(photoId);
+            } else {
+                selectedPhotos.add(photoId);
+            }
+            renderBirds(searchBox.value);
+        }
+
+        function toggleFlag(photoId) {
+            if (flaggedPhotos.has(photoId)) {
+                flaggedPhotos.delete(photoId);
+            } else {
+                flaggedPhotos.add(photoId);
+            }
+            renderBirds(searchBox.value);
+        }
+
+        function selectBirdPhotos(birdName) {
+            const bird = birdData.birds.find(b => b.scientificName === birdName);
+            if (!bird) return;
+
+            bird.photos.forEach((photo, idx) => {
+                selectedPhotos.add(`${bird.scientificName}-${idx}`);
+            });
+            renderBirds(searchBox.value);
+        }
+
+        function deselectBirdPhotos(birdName) {
+            const bird = birdData.birds.find(b => b.scientificName === birdName);
+            if (!bird) return;
+
+            bird.photos.forEach((photo, idx) => {
+                selectedPhotos.delete(`${bird.scientificName}-${idx}`);
+            });
+            renderBirds(searchBox.value);
+        }
+
+        function selectAll() {
+            birdData.birds.forEach(bird => {
+                (bird.photos || []).forEach((photo, idx) => {
+                    selectedPhotos.add(`${bird.scientificName}-${idx}`);
+                });
+            });
+            renderBirds(searchBox.value);
+        }
+
+        function deselectAll() {
+            selectedPhotos.clear();
+            renderBirds(searchBox.value);
+        }
+
+        function updateCounts() {
+            document.getElementById('selectedCount').textContent = selectedPhotos.size;
+            document.getElementById('flaggedCount').textContent = flaggedPhotos.size;
+        }
+
+        function downloadSelection() {
+            const selection = {
+                timestamp: new Date().toISOString(),
+                totalSelected: selectedPhotos.size,
+                photos: Array.from(selectedPhotos).map(photoId => {
+                    const [scientificName, ...idxParts] = photoId.split('-');
+                    const idx = parseInt(idxParts.join('-'));
+                    const bird = birdData.birds.find(b => b.scientificName === scientificName);
+                    const photo = bird?.photos[idx];
+
+                    return {
+                        birdScientificName: scientificName,
+                        birdCommonName: bird?.commonName,
+                        photoIndex: idx,
+                        photoUrl: photo?.url,
+                        source: photo?.source
+                    };
+                })
+            };
+
+            downloadJSON(selection, 'bird-photo-selection.json');
+        }
+
+        function downloadFlagged() {
+            const flagged = {
+                timestamp: new Date().toISOString(),
+                totalFlagged: flaggedPhotos.size,
+                reason: 'inappropriate (eggs, dead birds, etc.)',
+                photos: Array.from(flaggedPhotos).map(photoId => {
+                    const [scientificName, ...idxParts] = photoId.split('-');
+                    const idx = parseInt(idxParts.join('-'));
+                    const bird = birdData.birds.find(b => b.scientificName === scientificName);
+                    const photo = bird?.photos[idx];
+
+                    return {
+                        birdScientificName: scientificName,
+                        birdCommonName: bird?.commonName,
+                        photoIndex: idx,
+                        photoUrl: photo?.url,
+                        source: photo?.source
+                    };
+                })
+            };
+
+            downloadJSON(flagged, 'bird-photo-flagged.json');
+        }
+
+        function downloadJSON(data, filename) {
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function filterBirds(event) {
+            renderBirds(event.target.value);
+        }
+    </script>
+</body>
+</html>
