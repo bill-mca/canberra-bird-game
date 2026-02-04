@@ -165,8 +165,12 @@ def search_xeno_canto(scientific_name, max_audio=5):
             file_name = rec.get('file-name', '')
 
             # Construct URLs
-            # Audio file URL format: https://xeno-canto.org/sounds/uploaded/...
-            audio_url = f"https://xeno-canto.org/{rec.get('file', '')}"
+            # The 'file' field from API already contains full URL
+            file_field = rec.get('file', '')
+            if file_field.startswith('http://') or file_field.startswith('https://'):
+                audio_url = file_field
+            else:
+                audio_url = f"https://xeno-canto.org/{file_field}"
             page_url = f"https://xeno-canto.org/{recording_id}"
 
             audio_entry = {
