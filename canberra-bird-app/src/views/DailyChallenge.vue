@@ -160,7 +160,7 @@ function goToMenu() {
       </div>
 
       <div class="daily-actions">
-        <button class="btn btn-primary" @click="goToMenu">Main Menu</button>
+        <button class="btn btn-primary btn-large" @click="goToMenu">← Back to Main Menu</button>
         <button class="btn btn-secondary" @click="handleShare">📤 Share Results</button>
       </div>
     </div>
@@ -261,6 +261,11 @@ function goToMenu() {
   gap: var(--spacing-md);
   justify-content: center;
   margin-top: var(--spacing-xl);
+}
+
+.btn-large {
+  font-size: 1.125rem;
+  padding: 0.75rem 2rem;
 }
 
 @media (max-width: 768px) {

@@ -17,12 +17,17 @@ const gameState = ref('setup'); // setup, countdown, playing, results
 const difficulty = ref('beginner');
 const timeLimit = ref(60); // seconds
 const timeRemaining = ref(60);
+const countdownValue = ref(3);
 const currentBird = ref(null);
 const currentPhoto = ref(null);
 const options = ref([]);
 const correctCount = ref(0);
 const questionCount = ref(0);
 const sessionResults = ref([]);
+
+// Preloading for smoother experience
+const preloadedBird = ref(null);
+const preloadedPhoto = ref(null);
 
 let timerInterval = null;
 
@@ -37,13 +42,13 @@ function startGame() {
   correctCount.value = 0;
   questionCount.value = 0;
   timeRemaining.value = timeLimit.value;
+  countdownValue.value = 3;
   gameState.value = 'countdown';
 
   // Start countdown
-  let count = 3;
   const countdownInterval = setInterval(() => {
-    count--;
-    if (count === 0) {
+    countdownValue.value--;
+    if (countdownValue.value === 0) {
       clearInterval(countdownInterval);
       gameState.value = 'playing';
       loadNextQuestion();
@@ -64,14 +69,43 @@ function startTimer() {
 
 function loadNextQuestion() {
   questionCount.value++;
-  currentBird.value = getRandomBird(filteredBirds.value);
-  currentPhoto.value = getRandomPhoto(currentBird.value);
+
+  // Use preloaded data if available
+  if (preloadedBird.value && preloadedPhoto.value) {
+    currentBird.value = preloadedBird.value;
+    currentPhoto.value = preloadedPhoto.value;
+    preloadedBird.value = null;
+    preloadedPhoto.value = null;
+  } else {
+    currentBird.value = getRandomBird(filteredBirds.value);
+    currentPhoto.value = getRandomPhoto(currentBird.value);
+  }
+
   options.value = createMultipleChoiceOptions(
     filteredBirds.value,
     currentBird.value,
     difficultyConfig.value.optionCount,
     difficulty.value
   );
+
+  // Preload next bird and photo
+  preloadNextBird();
+}
+
+function preloadNextBird() {
+  // Preload next bird's image in background
+  const nextBird = getRandomBird(filteredBirds.value);
+  const nextPhoto = getRandomPhoto(nextBird);
+
+  // Store for next use
+  preloadedBird.value = nextBird;
+  preloadedPhoto.value = nextPhoto;
+
+  // Preload the image
+  if (nextPhoto && nextPhoto.url) {
+    const img = new Image();
+    img.src = nextPhoto.url;
+  }
 }
 
 function handleAnswer(selectedOption) {
@@ -199,7 +233,7 @@ onUnmounted(() => {
     <!-- Countdown Screen -->
     <div v-else-if="gameState === 'countdown'" class="countdown-screen">
       <div class="countdown-number">
-        {{ Math.ceil(timeRemaining - (timeLimit - 3)) }}
+        {{ countdownValue }}
       </div>
       <p>Get ready!</p>
     </div>
