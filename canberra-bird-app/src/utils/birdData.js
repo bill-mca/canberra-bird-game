@@ -133,11 +133,66 @@ export function getWrongOptions(allBirds, correctBird, count) {
 }
 
 /**
- * Create multiple choice options (correct + wrong answers)
+ * Get taxonomically similar wrong options for harder difficulty
  */
-export function createMultipleChoiceOptions(allBirds, correctBird, totalOptions) {
+export function getTaxonomicWrongOptions(allBirds, correctBird, count, difficulty = 'beginner') {
+  const availableBirds = allBirds.filter(bird =>
+    bird.scientificName !== correctBird.scientificName
+  );
+
+  if (difficulty === 'beginner') {
+    // Beginner: completely random selection
+    const shuffled = [...availableBirds].sort(() => Math.random() - 0.5);
+    return shuffled.slice(0, count);
+  }
+
+  // Try to get taxonomically similar birds
+  let candidates = [];
+
+  if (difficulty === 'advanced') {
+    // Advanced: prefer same genus, then family, then random
+    // First try same genus
+    const sameGenus = availableBirds.filter(bird => bird.genus === correctBird.genus);
+    if (sameGenus.length >= count) {
+      const shuffled = [...sameGenus].sort(() => Math.random() - 0.5);
+      return shuffled.slice(0, count);
+    }
+    candidates = [...sameGenus];
+
+    // Fill remaining with same family
+    const sameFamily = availableBirds.filter(bird =>
+      bird.family === correctBird.family && !candidates.includes(bird)
+    );
+    candidates = [...candidates, ...sameFamily];
+  } else if (difficulty === 'intermediate') {
+    // Intermediate: prefer same family, then random
+    const sameFamily = availableBirds.filter(bird => bird.family === correctBird.family);
+    candidates = [...sameFamily];
+  }
+
+  // Shuffle candidates
+  const shuffledCandidates = [...candidates].sort(() => Math.random() - 0.5);
+
+  // If not enough candidates, fill with random birds
+  if (shuffledCandidates.length < count) {
+    const remaining = availableBirds.filter(bird => !shuffledCandidates.includes(bird));
+    const shuffledRemaining = [...remaining].sort(() => Math.random() - 0.5);
+    return [...shuffledCandidates, ...shuffledRemaining].slice(0, count);
+  }
+
+  return shuffledCandidates.slice(0, count);
+}
+
+/**
+ * Create multiple choice options (correct + wrong answers)
+ * @param {Array} allBirds - All available birds
+ * @param {Object} correctBird - The correct answer bird
+ * @param {number} totalOptions - Total number of options including correct answer
+ * @param {string} difficulty - Difficulty level ('beginner', 'intermediate', 'advanced')
+ */
+export function createMultipleChoiceOptions(allBirds, correctBird, totalOptions, difficulty = 'beginner') {
   const wrongCount = totalOptions - 1;
-  const wrongOptions = getWrongOptions(allBirds, correctBird, wrongCount);
+  const wrongOptions = getTaxonomicWrongOptions(allBirds, correctBird, wrongCount, difficulty);
 
   // Combine and shuffle
   const allOptions = [correctBird, ...wrongOptions];

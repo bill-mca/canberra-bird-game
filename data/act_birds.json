@@ -131,7 +131,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Dromaius"
     },
     {
       "commonName": "Magpie Goose",
@@ -241,7 +242,8 @@
       "conservationStatus": null,
       "isIntroduced": true,
       "isReintroduced": true,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Anseranas"
     },
     {
       "commonName": "Stubble Quail",
@@ -349,7 +351,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Coturnix"
     },
     {
       "commonName": "Brown Quail",
@@ -459,7 +462,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Synoicus"
     },
     {
       "commonName": "Indian Peafowl",
@@ -567,7 +571,8 @@
       "conservationStatus": null,
       "isIntroduced": true,
       "isReintroduced": false,
-      "isEscapee": true
+      "isEscapee": true,
+      "genus": "Pavo"
     },
     {
       "commonName": "Plumed Whistling-Duck",
@@ -678,7 +683,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Dendrocygna"
     },
     {
       "commonName": "Musk Duck",
@@ -789,7 +795,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Biziura"
     },
     {
       "commonName": "Freckled Duck",
@@ -854,7 +861,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Stictonetta"
     },
     {
       "commonName": "Black Swan",
@@ -963,7 +971,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Cygnus"
     },
     {
       "commonName": "Australian Shelduck",
@@ -1073,7 +1082,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Tadorna"
     },
     {
       "commonName": "Australian Wood Duck",
@@ -1169,7 +1179,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Chenonetta"
     },
     {
       "commonName": "Pink-eared Duck",
@@ -1279,7 +1290,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Malacorhynchus"
     },
     {
       "commonName": "Australasian Shoveler",
@@ -1342,7 +1354,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Spatula"
     },
     {
       "commonName": "Grey Teal",
@@ -1439,7 +1452,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Anas"
     },
     {
       "commonName": "Chestnut Teal",
@@ -1535,7 +1549,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Anas"
     },
     {
       "commonName": "Pacific Black Duck",
@@ -1636,7 +1651,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Anas"
     },
     {
       "commonName": "Hardhead",
@@ -1679,7 +1695,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Aythya"
     },
     {
       "commonName": "Blue-billed Duck",
@@ -1771,7 +1788,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Oxyura"
     },
     {
       "commonName": "Australian Brush-turkey",
@@ -1881,7 +1899,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Alectura"
     },
     {
       "commonName": "Australasian Grebe",
@@ -1992,7 +2011,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Tachybaptus"
     },
     {
       "commonName": "Hoary-headed Grebe",
@@ -2042,7 +2062,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Poliocephalus"
     },
     {
       "commonName": "Great Crested Grebe",
@@ -2150,7 +2171,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Podiceps"
     },
     {
       "commonName": "Rock Dove",
@@ -2253,7 +2275,8 @@
       "conservationStatus": null,
       "isIntroduced": true,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Columba"
     },
     {
       "commonName": "White-headed Pigeon",
@@ -2360,7 +2383,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Columba"
     },
     {
       "commonName": "Spotted Dove",
@@ -2410,7 +2434,8 @@
       "conservationStatus": null,
       "isIntroduced": true,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Streptopelia"
     },
     {
       "commonName": "Brown Cuckoo-Dove",
@@ -2517,7 +2542,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Macropygia"
     },
     {
       "commonName": "Common Bronzewing",
@@ -2625,7 +2651,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Phaps"
     },
     {
       "commonName": "Brush Bronzewing",
@@ -2735,7 +2762,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Phaps"
     },
     {
       "commonName": "Crested Pigeon",
@@ -2838,7 +2866,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Ocyphaps"
     },
     {
       "commonName": "Diamond Dove",
@@ -2898,7 +2927,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": true
+      "isEscapee": true,
+      "genus": "Geopelia"
     },
     {
       "commonName": "Peaceful Dove",
@@ -2999,7 +3029,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Geopelia"
     },
     {
       "commonName": "Bar-shouldered Dove",
@@ -3107,7 +3138,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Geopelia"
     },
     {
       "commonName": "Wonga Pigeon",
@@ -3215,7 +3247,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Leucosarcia"
     },
     {
       "commonName": "Superb Fruit-Dove",
@@ -3328,7 +3361,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Ptilinopus"
     },
     {
       "commonName": "Tawny Frogmouth",
@@ -3432,7 +3466,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Podargus"
     },
     {
       "commonName": "White-throated Nightjar",
@@ -3517,7 +3552,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Eurostopodus"
     },
     {
       "commonName": "Spotted Nightjar",
@@ -3590,7 +3626,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Eurostopodus"
     },
     {
       "commonName": "Australian Owlet-nightjar",
@@ -3699,7 +3736,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Aegotheles"
     },
     {
       "commonName": "White-throated Needletail",
@@ -3810,7 +3848,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Hirundapus"
     },
     {
       "commonName": "Fork-tailed Swift",
@@ -3915,7 +3954,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Apus"
     },
     {
       "commonName": "Australasian Darter",
@@ -4007,7 +4047,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Anhinga"
     },
     {
       "commonName": "Little Pied Cormorant",
@@ -4081,7 +4122,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Microcarbo"
     },
     {
       "commonName": "Great Cormorant",
@@ -4182,7 +4224,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Phalacrocorax"
     },
     {
       "commonName": "Little Black Cormorant",
@@ -4256,7 +4299,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Phalacrocorax"
     },
     {
       "commonName": "Pied Cormorant",
@@ -4342,7 +4386,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Phalacrocorax"
     },
     {
       "commonName": "Australian Pelican",
@@ -4445,7 +4490,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Pelecanus"
     },
     {
       "commonName": "Black-necked Stork",
@@ -4500,7 +4546,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Ephippiorhynchus"
     },
     {
       "commonName": "Australasian Bittern",
@@ -4579,7 +4626,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Botaurus"
     },
     {
       "commonName": "Australian Little Bittern",
@@ -4686,7 +4734,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Ixobrychus"
     },
     {
       "commonName": "White-necked Heron",
@@ -4773,7 +4822,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Ardea"
     },
     {
       "commonName": "Great Egret",
@@ -4880,7 +4930,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Ardea"
     },
     {
       "commonName": "Intermediate Egret",
@@ -4987,7 +5038,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Ardea"
     },
     {
       "commonName": "Cattle Egret",
@@ -5087,7 +5139,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Bubulcus"
     },
     {
       "commonName": "White-faced Heron",
@@ -5183,7 +5236,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Egretta"
     },
     {
       "commonName": "Little Egret",
@@ -5291,7 +5345,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Egretta"
     },
     {
       "commonName": "Nankeen Night-Heron",
@@ -5400,7 +5455,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Nycticorax"
     },
     {
       "commonName": "Glossy Ibis",
@@ -5511,7 +5567,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Plegadis"
     },
     {
       "commonName": "Australian White Ibis",
@@ -5554,7 +5611,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Threskiornis"
     },
     {
       "commonName": "Straw-necked Ibis",
@@ -5641,7 +5699,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Threskiornis"
     },
     {
       "commonName": "Royal Spoonbill",
@@ -5707,7 +5766,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Platalea"
     },
     {
       "commonName": "Yellow-billed Spoonbill",
@@ -5769,7 +5829,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Platalea"
     },
     {
       "commonName": "Osprey",
@@ -5879,7 +5940,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Pandion"
     },
     {
       "commonName": "Black-shouldered Kite",
@@ -5977,7 +6039,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Elanus"
     },
     {
       "commonName": "Letter-winged Kite",
@@ -6084,7 +6147,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Elanus"
     },
     {
       "commonName": "Square-tailed Kite",
@@ -6190,7 +6254,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Lophoictinia"
     },
     {
       "commonName": "White-bellied Sea-Eagle",
@@ -6297,7 +6362,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Haliaeetus"
     },
     {
       "commonName": "Whistling Kite",
@@ -6399,7 +6465,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Haliastur"
     },
     {
       "commonName": "Black Kite",
@@ -6507,7 +6574,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Milvus"
     },
     {
       "commonName": "Brown Goshawk",
@@ -6615,7 +6683,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Accipiter"
     },
     {
       "commonName": "Collared Sparrowhawk",
@@ -6719,7 +6788,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Accipiter"
     },
     {
       "commonName": "Grey Goshawk",
@@ -6828,7 +6898,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Accipiter"
     },
     {
       "commonName": "Spotted Harrier",
@@ -6883,7 +6954,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Circus"
     },
     {
       "commonName": "Swamp Harrier",
@@ -6989,7 +7061,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Circus"
     },
     {
       "commonName": "Wedge-tailed Eagle",
@@ -7063,7 +7136,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Aquila"
     },
     {
       "commonName": "Little Eagle",
@@ -7166,7 +7240,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Hieraaetus"
     },
     {
       "commonName": "Nankeen Kestrel",
@@ -7234,7 +7309,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Falco"
     },
     {
       "commonName": "Brown Falcon",
@@ -7345,7 +7421,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Falco"
     },
     {
       "commonName": "Australian Hobby",
@@ -7443,7 +7520,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Falco"
     },
     {
       "commonName": "Grey Falcon",
@@ -7521,7 +7599,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Falco"
     },
     {
       "commonName": "Black Falcon",
@@ -7571,7 +7650,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Falco"
     },
     {
       "commonName": "Peregrine Falcon",
@@ -7679,7 +7759,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Falco"
     },
     {
       "commonName": "Brolga",
@@ -7795,7 +7876,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Antigone"
     },
     {
       "commonName": "Purple Swamphen",
@@ -7901,7 +7983,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Porphyrio"
     },
     {
       "commonName": "Lewin's Rail",
@@ -8009,7 +8092,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Lewinia"
     },
     {
       "commonName": "Buff-banded Rail",
@@ -8116,7 +8200,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Hypotaenidia"
     },
     {
       "commonName": "Baillon's Crake",
@@ -8223,7 +8308,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Zapornia"
     },
     {
       "commonName": "Australian Spotted Crake",
@@ -8319,7 +8405,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Porzana"
     },
     {
       "commonName": "Spotless Crake",
@@ -8427,7 +8514,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Zapornia"
     },
     {
       "commonName": "Black-tailed Native-hen",
@@ -8477,7 +8565,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Tribonyx"
     },
     {
       "commonName": "Dusky Moorhen",
@@ -8584,7 +8673,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Gallinula"
     },
     {
       "commonName": "Eurasian Coot",
@@ -8693,7 +8783,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Fulica"
     },
     {
       "commonName": "Australian Bustard",
@@ -8748,7 +8839,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Ardeotis"
     },
     {
       "commonName": "Bush Stone-curlew",
@@ -8862,7 +8954,8 @@
       },
       "isIntroduced": true,
       "isReintroduced": true,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Burhinus"
     },
     {
       "commonName": "Pied Stilt",
@@ -8969,7 +9062,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Himantopus"
     },
     {
       "commonName": "Red-necked Avocet",
@@ -9055,7 +9149,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Recurvirostra"
     },
     {
       "commonName": "Pacific Golden Plover",
@@ -9161,7 +9256,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Pluvialis"
     },
     {
       "commonName": "Red-capped Plover",
@@ -9248,7 +9344,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Charadrius"
     },
     {
       "commonName": "Double-banded Plover",
@@ -9358,7 +9455,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Charadrius"
     },
     {
       "commonName": "Black-fronted Dotterel",
@@ -9467,7 +9565,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Elseyornis"
     },
     {
       "commonName": "Red-kneed Dotterel",
@@ -9542,7 +9641,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Erythrogonys"
     },
     {
       "commonName": "Banded Lapwing",
@@ -9649,7 +9749,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Vanellus"
     },
     {
       "commonName": "Masked Lapwing",
@@ -9757,7 +9858,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Vanellus"
     },
     {
       "commonName": "Plains-wanderer",
@@ -9860,7 +9962,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Pedionomus"
     },
     {
       "commonName": "Australian Painted-snipe",
@@ -9915,7 +10018,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Rostratula"
     },
     {
       "commonName": "Latham's Snipe",
@@ -10025,7 +10129,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Gallinago"
     },
     {
       "commonName": "Bar-tailed Godwit",
@@ -10134,7 +10239,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Limosa"
     },
     {
       "commonName": "Eastern Curlew",
@@ -10243,7 +10349,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Numenius"
     },
     {
       "commonName": "Common Sandpiper",
@@ -10350,7 +10457,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Actitis"
     },
     {
       "commonName": "Common Greenshank",
@@ -10456,7 +10564,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Tringa"
     },
     {
       "commonName": "Marsh Sandpiper",
@@ -10563,7 +10672,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Tringa"
     },
     {
       "commonName": "Wood Sandpiper",
@@ -10673,7 +10783,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Tringa"
     },
     {
       "commonName": "Ruddy Turnstone",
@@ -10781,7 +10892,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Arenaria"
     },
     {
       "commonName": "Red Knot",
@@ -10887,7 +10999,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Calidris"
     },
     {
       "commonName": "Red-necked Stint",
@@ -10993,7 +11106,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Calidris"
     },
     {
       "commonName": "Long-toed Stint",
@@ -11099,7 +11213,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Calidris"
     },
     {
       "commonName": "Pectoral Sandpiper",
@@ -11206,7 +11321,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Calidris"
     },
     {
       "commonName": "Sharp-tailed Sandpiper",
@@ -11269,7 +11385,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Calidris"
     },
     {
       "commonName": "Curlew Sandpiper",
@@ -11381,7 +11498,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Calidris"
     },
     {
       "commonName": "Painted Button-quail",
@@ -11489,7 +11607,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Turnix"
     },
     {
       "commonName": "Red-chested Button-quail",
@@ -11536,7 +11655,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Turnix"
     },
     {
       "commonName": "Little Button-quail",
@@ -11597,7 +11717,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Turnix"
     },
     {
       "commonName": "Gull-billed Tern",
@@ -11708,7 +11829,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Gelochelidon"
     },
     {
       "commonName": "Caspian Tern",
@@ -11814,7 +11936,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Hydroprogne"
     },
     {
       "commonName": "White-winged Black Tern",
@@ -11922,7 +12045,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Chlidonias"
     },
     {
       "commonName": "Whiskered Tern",
@@ -12032,7 +12156,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Chlidonias"
     },
     {
       "commonName": "Silver Gull",
@@ -12133,7 +12258,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Chroicocephalus"
     },
     {
       "commonName": "Glossy Black-Cockatoo",
@@ -12249,7 +12375,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Calyptorhynchus"
     },
     {
       "commonName": "Yellow-tailed Black-Cockatoo",
@@ -12298,7 +12425,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Zanda"
     },
     {
       "commonName": "Gang-gang Cockatoo",
@@ -12413,7 +12541,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Callocephalon"
     },
     {
       "commonName": "Major Mitchell's Cockatoo",
@@ -12468,7 +12597,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": true
+      "isEscapee": true,
+      "genus": "Cacatua"
     },
     {
       "commonName": "Galah",
@@ -12576,7 +12706,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Eolophus"
     },
     {
       "commonName": "Long-billed Corella",
@@ -12683,7 +12814,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": true
+      "isEscapee": true,
+      "genus": "Cacatua"
     },
     {
       "commonName": "Little Corella",
@@ -12792,7 +12924,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Cacatua"
     },
     {
       "commonName": "Sulphur-crested Cockatoo",
@@ -12900,7 +13033,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Cacatua"
     },
     {
       "commonName": "Cockatiel",
@@ -13007,7 +13141,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": true
+      "isEscapee": true,
+      "genus": "Nymphicus"
     },
     {
       "commonName": "Rainbow Lorikeet",
@@ -13117,7 +13252,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Trichoglossus"
     },
     {
       "commonName": "Scaly-breasted Lorikeet",
@@ -13227,7 +13363,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": true
+      "isEscapee": true,
+      "genus": "Trichoglossus"
     },
     {
       "commonName": "Musk Lorikeet",
@@ -13330,7 +13467,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Glossopsitta"
     },
     {
       "commonName": "Little Lorikeet",
@@ -13377,7 +13515,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Glossopsitta"
     },
     {
       "commonName": "Purple-crowned Lorikeet",
@@ -13432,7 +13571,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Glossopsitta"
     },
     {
       "commonName": "Australian King-Parrot",
@@ -13541,7 +13681,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Alisterus"
     },
     {
       "commonName": "Superb Parrot",
@@ -13656,7 +13797,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Polytelis"
     },
     {
       "commonName": "Crimson Rosella",
@@ -13764,7 +13906,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Platycercus"
     },
     {
       "commonName": "Eastern Rosella",
@@ -13871,7 +14014,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Platycercus"
     },
     {
       "commonName": "Swift Parrot",
@@ -13986,7 +14130,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Lathamus"
     },
     {
       "commonName": "Red-rumped Parrot",
@@ -14097,7 +14242,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Psephotus"
     },
     {
       "commonName": "Budgerigar",
@@ -14204,7 +14350,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": true
+      "isEscapee": true,
+      "genus": "Melopsittacus"
     },
     {
       "commonName": "Blue-winged Parrot",
@@ -14301,7 +14448,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Neophema"
     },
     {
       "commonName": "Turquoise Parrot",
@@ -14403,7 +14551,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": true
+      "isEscapee": true,
+      "genus": "Neophema"
     },
     {
       "commonName": "Eastern Koel",
@@ -14512,7 +14661,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Eudynamys"
     },
     {
       "commonName": "Channel-billed Cuckoo",
@@ -14622,7 +14772,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Scythrops"
     },
     {
       "commonName": "Horsfield's Bronze-Cuckoo",
@@ -14672,7 +14823,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Chalcites"
     },
     {
       "commonName": "Black-eared Cuckoo",
@@ -14721,7 +14873,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Chalcites"
     },
     {
       "commonName": "Shining Bronze-Cuckoo",
@@ -14771,7 +14924,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Chalcites"
     },
     {
       "commonName": "Pallid Cuckoo",
@@ -14821,7 +14975,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Heteroscenes"
     },
     {
       "commonName": "Fan-tailed Cuckoo",
@@ -14930,7 +15085,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Cacomantis"
     },
     {
       "commonName": "Brush Cuckoo",
@@ -15037,7 +15193,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Cacomantis"
     },
     {
       "commonName": "Powerful Owl",
@@ -15151,7 +15308,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Ninox"
     },
     {
       "commonName": "Barking Owl",
@@ -15262,7 +15420,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Ninox"
     },
     {
       "commonName": "Southern Boobook",
@@ -15369,7 +15528,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Ninox"
     },
     {
       "commonName": "Masked Owl",
@@ -15484,7 +15644,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Tyto"
     },
     {
       "commonName": "Barn Owl",
@@ -15592,7 +15753,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Tyto"
     },
     {
       "commonName": "Azure Kingfisher",
@@ -15701,7 +15863,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Ceyx"
     },
     {
       "commonName": "Laughing Kookaburra",
@@ -15808,7 +15971,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Dacelo"
     },
     {
       "commonName": "Red-backed Kingfisher",
@@ -15893,7 +16057,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Todiramphus"
     },
     {
       "commonName": "Sacred Kingfisher",
@@ -15993,7 +16158,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Todiramphus"
     },
     {
       "commonName": "Rainbow Bee-eater",
@@ -16103,7 +16269,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Merops"
     },
     {
       "commonName": "Dollarbird",
@@ -16212,7 +16379,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Eurystomus"
     },
     {
       "commonName": "Superb Lyrebird",
@@ -16312,7 +16480,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Menura"
     },
     {
       "commonName": "White-throated Treecreeper",
@@ -16418,7 +16587,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Cormobates"
     },
     {
       "commonName": "Red-browed Treecreeper",
@@ -16467,7 +16637,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Climacteris"
     },
     {
       "commonName": "Brown Treecreeper",
@@ -16573,7 +16744,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Climacteris"
     },
     {
       "commonName": "Satin Bowerbird",
@@ -16681,7 +16853,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Ptilonorhynchus"
     },
     {
       "commonName": "Superb Fairy-wren",
@@ -16781,7 +16954,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Malurus"
     },
     {
       "commonName": "Pilotbird",
@@ -16889,7 +17063,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Pycnoptilus"
     },
     {
       "commonName": "White-browed Scrubwren",
@@ -16989,7 +17164,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Sericornis"
     },
     {
       "commonName": "Chestnut-rumped Heathwren",
@@ -17039,7 +17215,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Calamanthus"
     },
     {
       "commonName": "Speckled Warbler",
@@ -17147,7 +17324,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Pyrrholaemus"
     },
     {
       "commonName": "Weebill",
@@ -17256,7 +17434,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Smicrornis"
     },
     {
       "commonName": "Brown Gerygone",
@@ -17364,7 +17543,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Gerygone"
     },
     {
       "commonName": "Western Gerygone",
@@ -17473,7 +17653,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Gerygone"
     },
     {
       "commonName": "White-throated Gerygone",
@@ -17579,7 +17760,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Gerygone"
     },
     {
       "commonName": "Striated Thornbill",
@@ -17690,7 +17872,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Acanthiza"
     },
     {
       "commonName": "Yellow Thornbill",
@@ -17799,7 +17982,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Acanthiza"
     },
     {
       "commonName": "Yellow-rumped Thornbill",
@@ -17907,7 +18091,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Acanthiza"
     },
     {
       "commonName": "Chestnut-rumped Thornbill",
@@ -18016,7 +18201,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Acanthiza"
     },
     {
       "commonName": "Buff-rumped Thornbill",
@@ -18117,7 +18303,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Acanthiza"
     },
     {
       "commonName": "Brown Thornbill",
@@ -18223,7 +18410,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Acanthiza"
     },
     {
       "commonName": "Southern Whiteface",
@@ -18327,7 +18515,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Aphelocephala"
     },
     {
       "commonName": "Spotted Pardalote",
@@ -18435,7 +18624,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Pardalotus"
     },
     {
       "commonName": "Striated Pardalote",
@@ -18536,7 +18726,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Pardalotus"
     },
     {
       "commonName": "Eastern Spinebill",
@@ -18640,7 +18831,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Acanthorhynchus"
     },
     {
       "commonName": "Lewin's Honeyeater",
@@ -18750,7 +18942,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Meliphaga"
     },
     {
       "commonName": "Yellow-faced Honeyeater",
@@ -18850,7 +19043,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Caligavis"
     },
     {
       "commonName": "Singing Honeyeater",
@@ -18960,7 +19154,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Gavicalis"
     },
     {
       "commonName": "White-eared Honeyeater",
@@ -19067,7 +19262,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Nesoptilotis"
     },
     {
       "commonName": "Yellow-tufted Honeyeater",
@@ -19177,7 +19373,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Lichenostomus"
     },
     {
       "commonName": "Fuscous Honeyeater",
@@ -19286,7 +19483,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Ptilotula"
     },
     {
       "commonName": "White-plumed Honeyeater",
@@ -19394,7 +19592,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Ptilotula"
     },
     {
       "commonName": "White-fronted Honeyeater",
@@ -19503,7 +19702,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Purnella"
     },
     {
       "commonName": "Bell Miner",
@@ -19603,7 +19803,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Manorina"
     },
     {
       "commonName": "Noisy Miner",
@@ -19711,7 +19912,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Manorina"
     },
     {
       "commonName": "Spiny-cheeked Honeyeater",
@@ -19821,7 +20023,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Acanthagenys"
     },
     {
       "commonName": "Little Wattlebird",
@@ -19922,7 +20125,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Anthochaera"
     },
     {
       "commonName": "Regent Honeyeater",
@@ -20035,7 +20239,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Anthochaera"
     },
     {
       "commonName": "Red Wattlebird",
@@ -20143,7 +20348,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Anthochaera"
     },
     {
       "commonName": "Crimson Chat",
@@ -20205,7 +20411,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Epthianura"
     },
     {
       "commonName": "White-fronted Chat",
@@ -20285,7 +20492,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Epthianura"
     },
     {
       "commonName": "Black Honeyeater",
@@ -20370,7 +20578,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Sugomel"
     },
     {
       "commonName": "Scarlet Honeyeater",
@@ -20479,7 +20688,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Myzomela"
     },
     {
       "commonName": "Tawny-crowned Honeyeater",
@@ -20529,7 +20739,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Glyciphila"
     },
     {
       "commonName": "Crescent Honeyeater",
@@ -20635,7 +20846,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Phylidonyris"
     },
     {
       "commonName": "New Holland Honeyeater",
@@ -20742,7 +20954,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Phylidonyris"
     },
     {
       "commonName": "White-cheeked Honeyeater",
@@ -20853,7 +21066,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Phylidonyris"
     },
     {
       "commonName": "Black-chinned Honeyeater",
@@ -20967,7 +21181,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Melithreptus"
     },
     {
       "commonName": "Brown-headed Honeyeater",
@@ -21076,7 +21291,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Melithreptus"
     },
     {
       "commonName": "White-naped Honeyeater",
@@ -21177,7 +21393,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Melithreptus"
     },
     {
       "commonName": "Blue-faced Honeyeater",
@@ -21287,7 +21504,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Entomyzon"
     },
     {
       "commonName": "Noisy Friarbird",
@@ -21390,7 +21608,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Philemon"
     },
     {
       "commonName": "Little Friarbird",
@@ -21498,7 +21717,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Philemon"
     },
     {
       "commonName": "Striped Honeyeater",
@@ -21608,7 +21828,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Plectorhyncha"
     },
     {
       "commonName": "Painted Honeyeater",
@@ -21722,7 +21943,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Grantiella"
     },
     {
       "commonName": "Grey-crowned Babbler",
@@ -21836,7 +22058,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Pomatostomus"
     },
     {
       "commonName": "White-browed Babbler",
@@ -21943,7 +22166,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Pomatostomus"
     },
     {
       "commonName": "Spotted Quail-thrush",
@@ -22054,7 +22278,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Cinclosoma"
     },
     {
       "commonName": "Eastern Whipbird",
@@ -22162,7 +22387,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Psophodes"
     },
     {
       "commonName": "Varied Sittella",
@@ -22278,7 +22504,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Daphoenositta"
     },
     {
       "commonName": "Black-faced Cuckoo-shrike",
@@ -22387,7 +22614,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Coracina"
     },
     {
       "commonName": "White-bellied Cuckoo-shrike",
@@ -22495,7 +22723,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Coracina"
     },
     {
       "commonName": "Cicadabird",
@@ -22545,7 +22774,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Edolisoma"
     },
     {
       "commonName": "White-winged Triller",
@@ -22659,7 +22889,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Lalage"
     },
     {
       "commonName": "Crested Shrike-tit",
@@ -22766,7 +22997,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Falcunculus"
     },
     {
       "commonName": "Olive Whistler",
@@ -22876,7 +23108,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Pachycephala"
     },
     {
       "commonName": "Golden Whistler",
@@ -22984,7 +23217,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Pachycephala"
     },
     {
       "commonName": "Rufous Whistler",
@@ -23086,7 +23320,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Pachycephala"
     },
     {
       "commonName": "Grey Shrike-thrush",
@@ -23187,7 +23422,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Colluricincla"
     },
     {
       "commonName": "Australasian Figbird",
@@ -23294,7 +23530,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Sphecotheres"
     },
     {
       "commonName": "Olive-backed Oriole",
@@ -23403,7 +23640,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Oriolus"
     },
     {
       "commonName": "Masked Woodswallow",
@@ -23489,7 +23727,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Artamus"
     },
     {
       "commonName": "White-browed Woodswallow",
@@ -23598,7 +23837,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Artamus"
     },
     {
       "commonName": "Dusky Woodswallow",
@@ -23713,7 +23953,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Artamus"
     },
     {
       "commonName": "Grey Butcherbird",
@@ -23823,7 +24064,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Cracticus"
     },
     {
       "commonName": "Pied Butcherbird",
@@ -23932,7 +24174,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Cracticus"
     },
     {
       "commonName": "Australian Magpie",
@@ -24041,7 +24284,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Gymnorhina"
     },
     {
       "commonName": "Pied Currawong",
@@ -24149,7 +24393,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Strepera"
     },
     {
       "commonName": "Grey Currawong",
@@ -24259,7 +24504,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Strepera"
     },
     {
       "commonName": "Spangled Drongo",
@@ -24367,7 +24613,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Dicrurus"
     },
     {
       "commonName": "Rufous Fantail",
@@ -24476,7 +24723,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Rhipidura"
     },
     {
       "commonName": "Grey Fantail",
@@ -24584,7 +24832,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Rhipidura"
     },
     {
       "commonName": "Willie Wagtail",
@@ -24686,7 +24935,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Rhipidura"
     },
     {
       "commonName": "Australian Raven",
@@ -24796,7 +25046,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Corvus"
     },
     {
       "commonName": "Little Raven",
@@ -24907,7 +25158,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Corvus"
     },
     {
       "commonName": "Leaden Flycatcher",
@@ -25016,7 +25268,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Myiagra"
     },
     {
       "commonName": "Satin Flycatcher",
@@ -25123,7 +25376,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Myiagra"
     },
     {
       "commonName": "Restless Flycatcher",
@@ -25227,7 +25481,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Myiagra"
     },
     {
       "commonName": "Black-faced Monarch",
@@ -25334,7 +25589,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Monarcha"
     },
     {
       "commonName": "Magpie-lark",
@@ -25436,7 +25692,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Grallina"
     },
     {
       "commonName": "White-winged Chough",
@@ -25539,7 +25796,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Corcorax"
     },
     {
       "commonName": "Apostlebird",
@@ -25649,7 +25907,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Struthidea"
     },
     {
       "commonName": "Jacky Winter",
@@ -25751,7 +26010,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Microeca"
     },
     {
       "commonName": "Scarlet Robin",
@@ -25864,7 +26124,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Petroica"
     },
     {
       "commonName": "Red-capped Robin",
@@ -25972,7 +26233,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Petroica"
     },
     {
       "commonName": "Flame Robin",
@@ -26086,7 +26348,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Petroica"
     },
     {
       "commonName": "Rose Robin",
@@ -26192,7 +26455,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Petroica"
     },
     {
       "commonName": "Pink Robin",
@@ -26305,7 +26569,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Petroica"
     },
     {
       "commonName": "Hooded Robin",
@@ -26419,7 +26684,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Melanodryas"
     },
     {
       "commonName": "Eastern Yellow Robin",
@@ -26521,7 +26787,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Eopsaltria"
     },
     {
       "commonName": "Horsfield's Bushlark",
@@ -26626,7 +26893,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Mirafra"
     },
     {
       "commonName": "Eurasian Skylark",
@@ -26733,7 +27001,8 @@
       "conservationStatus": null,
       "isIntroduced": true,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Alauda"
     },
     {
       "commonName": "Golden-headed Cisticola",
@@ -26842,7 +27111,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Cisticola"
     },
     {
       "commonName": "Australian Reed-Warbler",
@@ -26950,7 +27220,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Acrocephalus"
     },
     {
       "commonName": "Tawny Grassbird",
@@ -27056,7 +27327,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Cincloramphus"
     },
     {
       "commonName": "Little Grassbird",
@@ -27163,7 +27435,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Poodytes"
     },
     {
       "commonName": "Rufous Songlark",
@@ -27272,7 +27545,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Cincloramphus"
     },
     {
       "commonName": "Brown Songlark",
@@ -27380,7 +27654,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Cincloramphus"
     },
     {
       "commonName": "Silvereye",
@@ -27481,7 +27756,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Zosterops"
     },
     {
       "commonName": "White-backed Swallow",
@@ -27564,7 +27840,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Cheramoeca"
     },
     {
       "commonName": "Welcome Swallow",
@@ -27673,7 +27950,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Hirundo"
     },
     {
       "commonName": "Fairy Martin",
@@ -27782,7 +28060,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Petrochelidon"
     },
     {
       "commonName": "Tree Martin",
@@ -27892,7 +28171,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Petrochelidon"
     },
     {
       "commonName": "Red-whiskered Bulbul",
@@ -27998,7 +28278,8 @@
       "conservationStatus": null,
       "isIntroduced": true,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Pycnonotus"
     },
     {
       "commonName": "Bassian Thrush",
@@ -28107,7 +28388,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Zoothera"
     },
     {
       "commonName": "Common Blackbird",
@@ -28215,7 +28497,8 @@
       "conservationStatus": null,
       "isIntroduced": true,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Turdus"
     },
     {
       "commonName": "Song Thrush",
@@ -28325,7 +28608,8 @@
       "conservationStatus": null,
       "isIntroduced": true,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Turdus"
     },
     {
       "commonName": "Common Starling",
@@ -28432,7 +28716,8 @@
       "conservationStatus": null,
       "isIntroduced": true,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Sturnus"
     },
     {
       "commonName": "Common Myna",
@@ -28537,7 +28822,8 @@
       "conservationStatus": null,
       "isIntroduced": true,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Acridotheres"
     },
     {
       "commonName": "Mistletoebird",
@@ -28646,7 +28932,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Dicaeum"
     },
     {
       "commonName": "Zebra Finch",
@@ -28754,7 +29041,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": true
+      "isEscapee": true,
+      "genus": "Taeniopygia"
     },
     {
       "commonName": "Double-barred Finch",
@@ -28804,7 +29092,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Taeniopygia"
     },
     {
       "commonName": "Plum-headed Finch",
@@ -28854,7 +29143,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": true
+      "isEscapee": true,
+      "genus": "Neochmia"
     },
     {
       "commonName": "Red-browed Finch",
@@ -28964,7 +29254,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Neochmia"
     },
     {
       "commonName": "Diamond Firetail",
@@ -29077,7 +29368,8 @@
       },
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Stagonopleura"
     },
     {
       "commonName": "House Sparrow",
@@ -29177,7 +29469,8 @@
       "conservationStatus": null,
       "isIntroduced": true,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Passer"
     },
     {
       "commonName": "Eurasian Tree Sparrow",
@@ -29285,7 +29578,8 @@
       "conservationStatus": null,
       "isIntroduced": true,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Passer"
     },
     {
       "commonName": "Australasian Pipit",
@@ -29390,7 +29684,8 @@
       "conservationStatus": null,
       "isIntroduced": false,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Anthus"
     },
     {
       "commonName": "European Goldfinch",
@@ -29498,7 +29793,8 @@
       "conservationStatus": null,
       "isIntroduced": true,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Carduelis"
     },
     {
       "commonName": "Common Greenfinch",
@@ -29604,7 +29900,8 @@
       "conservationStatus": null,
       "isIntroduced": true,
       "isReintroduced": false,
-      "isEscapee": false
+      "isEscapee": false,
+      "genus": "Chloris"
     }
   ],
   "statistics": {

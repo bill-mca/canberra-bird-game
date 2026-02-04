@@ -100,7 +100,8 @@ function loadNextQuestion() {
   options.value = createMultipleChoiceOptions(
     filteredBirds.value,
     currentBird.value,
-    difficultyConfig.value.optionCount
+    difficultyConfig.value.optionCount,
+    difficulty.value
   );
 }
 

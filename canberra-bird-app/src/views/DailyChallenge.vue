@@ -51,7 +51,7 @@ async function initializeDaily() {
   }
 
   currentPhoto.value = getRandomPhoto(dailyBird.value);
-  options.value = createMultipleChoiceOptions(birds, dailyBird.value, 4);
+  options.value = createMultipleChoiceOptions(birds, dailyBird.value, 4, 'beginner');
   gameState.value = 'playing';
 }
 
