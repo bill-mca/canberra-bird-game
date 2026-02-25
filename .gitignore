@@ -1,0 +1,10 @@
+# Deployment docs (private)
+deploy/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
