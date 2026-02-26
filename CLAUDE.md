@@ -4,154 +4,119 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Canberra Bird Game is an educational bird identification game featuring all 297 bird species found in the Australian Capital Territory. The project consists of:
+Canberra Bird Game is an educational bird identification quiz featuring 297 bird species from the Australian Capital Territory. The project has two parts:
 
-- **Main Application** (`canberra-bird-app/`): A Vue 3 web application with three game modes (Daily Challenge, Free Play, Time Attack)
-- **Data Tools** (`data-search/`): Python scripts for searching and collecting bird photos and audio from online sources
-- **Bird Data** (`data/act_birds.json`): Master dataset with 297 bird species including 1,435 photos and 1,272 audio recordings
+- **Web Application** (`canberra-bird-app/`): Vue 3 SPA with three game modes (Daily Challenge, Free Play, Time Attack)
+- **Data Tools** (`data-search/`): Python scripts for collecting bird photos and audio from external APIs (ALA, Xeno-canto, Wikimedia)
 
 ## Development Commands
 
 ### Web Application (canberra-bird-app/)
 
 ```bash
-# Install dependencies
-npm install
-
-# Start development server (http://localhost:5173)
-npm run dev
-
-# Build for production (outputs to dist/)
-npm run build
-
-# Preview production build
-npm run preview
+npm install              # Install dependencies
+npm run dev              # Dev server at http://localhost:5173
+npm run build            # Production build to dist/
+npm run preview          # Preview production build
 ```
 
-### Data Collection Scripts (data-search/)
+There is no test framework, linter, or formatter configured. Verify changes by running `npm run build` to check for compilation errors.
+
+### Data Scripts (data-search/)
+
+Python scripts for media collection. Require a virtual environment:
 
 ```bash
-# Search for bird photos
-python3 search_photos.py
-
-# Search for bird audio from Xeno-canto
-python3 search_audio.py
-
-# Add/update rarity fields in bird data
-python3 add_rarity_fields.py
-
-# Test Xeno-canto API
-python3 test_xeno_canto_api.py
+cd data-search
+python3 -m venv .venv && source .venv/bin/activate
+pip install requests     # Main dependency
 ```
+
+Key scripts: `search_ala_photos.py` (ALA photo search), `search_audio.py` (Xeno-canto audio), `add_rarity_fields.py` (rarity classification), `optimize_wikimedia_urls.py` (thumbnail optimization).
 
 ## Architecture
 
-### Vue Application Structure
+### Routing
 
-The app uses Vue 3 Composition API with `<script setup>` syntax and a simple client-side routing system:
+The app uses **custom client-side routing** (no Vue Router). `App.vue` holds a `currentView` ref with string values (`'daily'`, `'menu'`, `'freeplay'`, `'timeattack'`, `'links'`, `'stats'`, `'about'`). Views are conditionally rendered with `v-if` and navigate by emitting a `@navigate` event that calls `navigateTo(view)`. There is no URL-based routing or deep linking.
 
-- **App.vue**: Root component that manages view navigation and initial data loading
-  - Loads bird data on mount via `loadBirdData()` from `utils/birdData.js`
-  - Renders current view based on `currentView` ref (daily, menu, freeplay, etc.)
-  - Provides global navigation via `navigateTo()` function passed to child components
+The default view on app load is `'daily'` (Daily Challenge).
 
-- **Views** (`src/views/`): Full-page components for each game mode/screen
-  - Each view receives a `@navigate` event handler to switch between views
-  - Views manage their own game state (current question, score, results)
+### Data Loading
 
-- **Components** (`src/components/`): Reusable game interface components
-  - `GameScreen.vue`: Main quiz interface with photo/audio display and multiple choice buttons
-  - `ResultsScreen.vue`: Displays bird information after answering
+`App.vue` calls `loadBirdData()` from `utils/birdData.js` on mount, which fetches `/act_birds.json` from the public directory. All views access the loaded data through utility functions rather than props — `birdData.js` caches the data in a module-level variable.
 
-- **Utils** (`src/utils/`): Pure JavaScript modules with no Vue dependencies
-  - `birdData.js`: Data loading, filtering (by difficulty/family/rarity), random selection
-  - `scoring.js`: Point calculations based on rarity with multipliers (no hints, fast answer)
-  - `storage.js`: LocalStorage persistence for streaks, stats, daily challenge completion
-  - `dailySeed.js`: Deterministic daily bird selection using date-based seeding
+**Important:** Bird data exists in two locations:
+- `data/act_birds.json` — master copy for data scripts to modify
+- `canberra-bird-app/public/act_birds.json` — copy served by the web app
 
-### Data Flow
+These must be kept in sync manually.
 
-1. App loads `act_birds.json` from `/public` on mount
-2. Views filter birds based on difficulty/settings using `birdData.js` utilities
-3. Game modes select birds and generate multiple choice options
-4. User answers trigger scoring calculations via `scoring.js`
-5. Results are persisted to LocalStorage via `storage.js`
-6. Daily Challenge uses deterministic seeding to ensure all players see the same bird
+### Game Components
 
-### Bird Data Schema
+Two shared components power all game modes:
+- **`GameScreen.vue`**: Quiz interface with photo display, multiple-choice buttons, hints, timer, and progress counter
+- **`ResultsScreen.vue`**: Post-answer display with bird info, audio player, photo gallery, and attribution
 
-The `act_birds.json` file contains:
-- `commonName`, `scientificName`, `family`: Bird identification
-- `statusInACT`: Original status text from checklist
-- `rarity`: Standardized field (very_common, common, uncommon, rare, vagrant, extinct)
-- `isIntroduced`: Boolean for non-native species
-- `conservationStatus`: Object with ACT/NSW/National/IUCN status codes
-- `photos`: Array of objects with `url`, `pageUrl`, `source`, `licence`, `attribution`
-- `audio`: Array of objects with `url`, `pageUrl`, `source`, `licence`, `attribution`
+Views manage their own game state and pass data to these components.
+
+### Utility Modules (src/utils/)
+
+All modules are pure JavaScript with no Vue dependencies:
+
+- **`birdData.js`**: Data loading, filtering (difficulty/family/rarity/conservation/origin), random selection, and multiple-choice generation. Contains `DIFFICULTY_LEVELS` config and `getTaxonomicWrongOptions()` which generates wrong answers from the same genus/family for harder difficulties.
+- **`dailySeed.js`**: Deterministic daily bird selection using date-seeded Mulberry32 PRNG — same date always produces the same bird for all players.
+- **`storage.js`**: LocalStorage wrapper for streaks, stats, and daily completion state. All keys prefixed with `canberra_birds_`.
+- **`scoring.js`**: Simplified to just `calculateSessionStats(results)` — returns correct/incorrect counts, accuracy %, and average time.
 
 ### Difficulty System
 
-Three difficulty levels defined in `DIFFICULTY_LEVELS` (birdData.js):
-- **Beginner**: Very Common + Common birds (164 species, 4 options)
-- **Intermediate**: Adds Uncommon + Rare birds (228 species, 6 options)
-- **Advanced**: All birds including Vagrant/Extinct (297 species, 8 options)
+Three levels defined in `DIFFICULTY_LEVELS` (birdData.js):
+- **Beginner**: Very Common + Common birds, 4 answer options, random wrong answers
+- **Intermediate**: Adds Uncommon + Rare, 6 options, prefers same-family wrong answers
+- **Advanced**: All 297 species, 8 options, prefers same-genus wrong answers
 
-### Scoring System
+### Daily Challenge
 
-Base points by rarity (scoring.js):
-- Very Common: 10 pts
-- Common: 25 pts
-- Uncommon: 40 pts
-- Rare: 50 pts
-- Vagrant: 100 pts
-- Extinct: 150 pts
+Uses deterministic seeding (`hashString('canberra-birds-YYYY-MM-DD')` → Mulberry32 PRNG) so all players see the same bird each day. Streak increments on correct answers and breaks only if a day is missed (not on wrong answers). Completion state prevents replay on the same day.
 
-Multipliers: No hints (1.5x), Fast answer <5s (1.25x), Audio-only (2x - future feature)
+### Bird Data Schema
 
-### Daily Challenge Mechanism
-
-Uses deterministic seeding to ensure consistent daily birds:
-1. Generate seed from date string: `hashString('canberra-birds-YYYY-MM-DD')`
-2. Use Mulberry32 PRNG with that seed
-3. Select bird at index `floor(random() * totalBirds)`
-4. Same date always produces same bird for all players
-
-Streak tracking:
-- Increments on correct daily challenge answers
-- Persists in LocalStorage with last played date
-- Only breaks if user misses a day (not if they answer incorrectly)
-
-### Storage Keys
-
-LocalStorage uses prefixed keys to avoid conflicts:
-- `canberra_birds_daily_streak`: Current streak count
-- `canberra_birds_daily_completed`: JSON with today's result
-- `canberra_birds_stats`: All-time statistics object
-- `canberra_birds_last_played`: Last played date (YYYY-MM-DD)
+Each bird in `act_birds.json` has: `commonName`, `scientificName`, `family`, `genus`, `statusInACT`, `rarity` (very_common/common/uncommon/rare/vagrant/extinct), `isIntroduced`, `conservationStatus` (ACT/NSW/National/IUCN), `photos[]` and `audio[]` arrays with `url`, `pageUrl`, `source`, `licence`, `attribution`.
 
 ## Deployment
 
-The app is a static site built with Vite. No backend required.
+### Frontend (Cloudflare Workers + Git Integration)
 
-**Cloudflare Pages** (recommended):
-- Build command: `npm run build`
-- Build output: `dist`
-- Root directory: `canberra-bird-app`
+The frontend is deployed as a **Cloudflare Workers** project (not Pages) named `canberra-bird-game`, connected to the `bill-mca/canberra-bird-game` GitHub repo. It auto-deploys on push to `main`.
 
-The `dist/` folder contains all static assets and can be deployed to any static hosting service.
+- **Production domain:** `birdguesser.org`
+- **Workers domain:** `canberra-bird-game.<account>.workers.dev`
+- **Config:** `canberra-bird-app/wrangler.jsonc`
+- **Build:** `npm run build` → output `dist/`
 
-## Data Sources and Licensing
+Branch/preview deployments can be triggered manually:
+```bash
+cd canberra-bird-app && npm run build && wrangler versions upload
+```
 
-- Bird checklist: Canberra Ornithologists Group
-- Photos: Wikimedia Commons, Atlas of Living Australia, iNaturalist (various CC licenses)
-- Audio: Xeno-canto community recordings (CC licenses)
-- All media includes full attribution metadata in `act_birds.json`
+### Push Notification Worker
+
+A separate Cloudflare Worker at `push-worker/` handles push subscriptions and daily notification cron.
+
+- **Worker name:** `bird-guesser-push`
+- **URL:** `https://bird-guesser-push.u5007063.workers.dev`
+- **Config:** `push-worker/wrangler.toml`
+- **Deploy:** `cd push-worker && wrangler deploy`
+
+**Important:** The push worker's `FRONTEND_ORIGIN` var and the frontend's `VITE_PUSH_WORKER_URL` env must stay in sync with the actual deployed URLs.
 
 ## Code Style
 
-- Vue 3 Composition API with `<script setup>`
-- No TypeScript (vanilla JavaScript)
-- CSS custom properties for theming in App.vue
-- Vanilla CSS (no preprocessors or utility frameworks)
-- Mobile-first responsive design
-- Semantic HTML for accessibility
+- Vue 3 Composition API with `<script setup>`, vanilla JavaScript (no TypeScript)
+- CSS custom properties for theming (defined in `App.vue` `:root`), vanilla CSS, mobile-first responsive
+- Global utility classes (`.btn`, `.btn-primary`, `.card`) defined in `App.vue`'s unscoped `<style>` block
+
+## Task Management
+
+Tasks are tracked in `backlog.md` at the repository root. Progress is documented in `PROGRESS.md`.

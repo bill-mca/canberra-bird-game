@@ -3,7 +3,7 @@ main = "src/index.js"
 compatibility_date = "2024-12-01"
 
 [vars]
-FRONTEND_ORIGIN = "https://canberra-bird-game.pages.dev"
+FRONTEND_ORIGIN = "https://birdguesser.org"
 
 [[kv_namespaces]]
 binding = "PUSH_SUBSCRIPTIONS"
