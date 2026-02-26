@@ -1,20 +1,35 @@
 import { subscribe, unsubscribe, listSubscriptions, deleteSubscription } from './subscriptions.js';
 import { sendPushNotification } from './push.js';
 
-function corsHeaders(env) {
+function getAllowedOrigin(request, env) {
+  const origin = request.headers.get('Origin') || '';
+  const allowed = [env.FRONTEND_ORIGIN];
+
+  // Allow preview deployment origins (*.workers.dev subdomains)
+  if (env.PREVIEW_ORIGINS) {
+    allowed.push(...env.PREVIEW_ORIGINS.split(',').map(s => s.trim()));
+  }
+
+  if (allowed.includes(origin) || origin.endsWith('.workers.dev')) {
+    return origin;
+  }
+  return env.FRONTEND_ORIGIN || '';
+}
+
+function corsHeaders(request, env) {
   return {
-    'Access-Control-Allow-Origin': env.FRONTEND_ORIGIN || '*',
+    'Access-Control-Allow-Origin': getAllowedOrigin(request, env),
     'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type',
   };
 }
 
-function jsonResponse(data, status, env) {
+function jsonResponse(data, status, request, env) {
   return new Response(JSON.stringify(data), {
     status,
     headers: {
       'Content-Type': 'application/json',
-      ...corsHeaders(env),
+      ...corsHeaders(request, env),
     },
   });
 }
@@ -24,12 +39,12 @@ async function handleRequest(request, env) {
 
   // CORS preflight
   if (request.method === 'OPTIONS') {
-    return new Response(null, { status: 204, headers: corsHeaders(env) });
+    return new Response(null, { status: 204, headers: corsHeaders(request, env) });
   }
 
   // GET /api/vapid-public-key
   if (url.pathname === '/api/vapid-public-key' && request.method === 'GET') {
-    return jsonResponse({ key: env.VAPID_PUBLIC_KEY }, 200, env);
+    return jsonResponse({ key: env.VAPID_PUBLIC_KEY }, 200, request, env);
   }
 
   // POST /api/subscribe
@@ -37,9 +52,9 @@ async function handleRequest(request, env) {
     try {
       const body = await request.json();
       await subscribe(env.PUSH_SUBSCRIPTIONS, body);
-      return jsonResponse({ ok: true }, 201, env);
+      return jsonResponse({ ok: true }, 201, request, env);
     } catch (err) {
-      return jsonResponse({ error: err.message }, 400, env);
+      return jsonResponse({ error: err.message }, 400, request, env);
     }
   }
 
@@ -48,13 +63,13 @@ async function handleRequest(request, env) {
     try {
       const body = await request.json();
       await unsubscribe(env.PUSH_SUBSCRIPTIONS, body.endpoint);
-      return jsonResponse({ ok: true }, 200, env);
+      return jsonResponse({ ok: true }, 200, request, env);
     } catch (err) {
-      return jsonResponse({ error: err.message }, 400, env);
+      return jsonResponse({ error: err.message }, 400, request, env);
     }
   }
 
-  return jsonResponse({ error: 'Not found' }, 404, env);
+  return jsonResponse({ error: 'Not found' }, 404, request, env);
 }
 
 async function handleCron(env) {
