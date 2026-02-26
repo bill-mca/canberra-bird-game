@@ -10,7 +10,7 @@ const stats = getStats();
 <template>
   <div class="main-menu">
     <div class="welcome-section">
-      <h2>Welcome to the Canberra Bird Game!</h2>
+      <h2>Welcome to Bird Guesser!</h2>
       <p>Test your knowledge of the 297 bird species found in the Australian Capital Territory.</p>
     </div>
 

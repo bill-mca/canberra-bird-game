@@ -87,11 +87,11 @@ function toggleHints() {
 function handleShare() {
   const today = new Date().toLocaleDateString();
   const emoji = isCorrect.value ? '✅' : '❌';
-  const text = `Canberra Bird Game - Daily Challenge ${today}\n\n${emoji} ${isCorrect.value ? 'Correct!' : 'Incorrect'}\n🔥 Streak: ${streak.value}\n\nCan you identify today's bird?\n`;
+  const text = `Bird Guesser - Daily Challenge ${today}\n\n${emoji} ${isCorrect.value ? 'Correct!' : 'Incorrect'}\n🔥 Streak: ${streak.value}\n\nCan you identify today's bird?\n`;
 
   if (navigator.share) {
     navigator.share({
-      title: 'Canberra Bird Game',
+      title: 'Bird Guesser',
       text: text
     }).catch(err => console.log('Share cancelled'));
   } else {

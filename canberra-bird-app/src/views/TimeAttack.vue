@@ -151,14 +151,14 @@ function handleShare() {
     ? Math.round((correctCount.value / questionCount.value) * 100)
     : 0;
 
-  const text = `Canberra Bird Game - Time Attack\n\n` +
+  const text = `Bird Guesser - Time Attack\n\n` +
     `⏱️ ${timeLimit.value} seconds\n` +
     `🎯 ${correctCount.value}/${questionCount.value} correct (${accuracy}%)\n\n` +
     `Can you beat your score?\n`;
 
   if (navigator.share) {
     navigator.share({
-      title: 'Canberra Bird Game - Time Attack',
+      title: 'Bird Guesser - Time Attack',
       text: text
     }).catch(err => console.log('Share cancelled'));
   } else {

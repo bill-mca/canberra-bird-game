@@ -5,14 +5,14 @@ const emit = defineEmits(['navigate']);
 <template>
   <div class="about-page">
     <div class="about-header">
-      <h2>About Canberra Bird Game</h2>
+      <h2>About Bird Guesser</h2>
     </div>
 
     <div class="about-content card">
       <section class="about-section">
         <h3>What is this?</h3>
         <p>
-          Canberra Bird Game is an educational bird identification game featuring all 297 bird species
+          Bird Guesser is an educational bird identification game featuring all 297 bird species
           found in the Australian Capital Territory. Test your knowledge through photos and sounds while
           learning about local biodiversity!
         </p>

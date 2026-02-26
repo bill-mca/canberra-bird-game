@@ -33,7 +33,7 @@ function navigateTo(view) {
   <div id="app">
     <header class="app-header">
       <h1 class="app-title" @click="navigateTo('menu')">
-        Canberra Bird Game
+        Bird Guesser
       </h1>
     </header>
 

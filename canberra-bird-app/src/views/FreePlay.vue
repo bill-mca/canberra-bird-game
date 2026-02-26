@@ -160,14 +160,14 @@ function completeSession() {
 
 function handleShare() {
   const stats = calculateSessionStats(sessionResults.value);
-  const text = `Canberra Bird Game - Free Play\n\n` +
+  const text = `Bird Guesser - Free Play\n\n` +
     `✅ ${stats.correctAnswers}/${stats.totalQuestions} correct (${stats.accuracy}%)\n` +
     `⏱️ Avg time: ${stats.averageTime}s\n\n` +
     `Can you beat your score?\n`;
 
   if (navigator.share) {
     navigator.share({
-      title: 'Canberra Bird Game',
+      title: 'Bird Guesser',
       text: text
     }).catch(err => console.log('Share cancelled'));
   } else {
