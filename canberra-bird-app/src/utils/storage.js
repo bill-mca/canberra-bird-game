@@ -11,25 +11,30 @@ const STORAGE_KEYS = {
 
 /**
  * Get today's date as YYYY-MM-DD string
+ * TESTING: rotates every 10 minutes instead of daily — revert before merging to main
  */
 export function getTodayString() {
-  const today = new Date();
-  const year = today.getFullYear();
-  const month = String(today.getMonth() + 1).padStart(2, '0');
-  const day = String(today.getDate()).padStart(2, '0');
-  return `${year}-${month}-${day}`;
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  const hour = String(now.getHours()).padStart(2, '0');
+  const chunk = String(Math.floor(now.getMinutes() / 10));
+  return `${year}-${month}-${day}-${hour}-${chunk}`;
 }
 
 /**
- * Get yesterday's date as YYYY-MM-DD string
+ * Get previous period's string
+ * TESTING: previous 10-minute window — revert before merging to main
  */
 function getYesterdayString() {
-  const yesterday = new Date();
-  yesterday.setDate(yesterday.getDate() - 1);
-  const year = yesterday.getFullYear();
-  const month = String(yesterday.getMonth() + 1).padStart(2, '0');
-  const day = String(yesterday.getDate()).padStart(2, '0');
-  return `${year}-${month}-${day}`;
+  const prev = new Date(Date.now() - 10 * 60 * 1000);
+  const year = prev.getFullYear();
+  const month = String(prev.getMonth() + 1).padStart(2, '0');
+  const day = String(prev.getDate()).padStart(2, '0');
+  const hour = String(prev.getHours()).padStart(2, '0');
+  const chunk = String(Math.floor(prev.getMinutes() / 10));
+  return `${year}-${month}-${day}-${hour}-${chunk}`;
 }
 
 /**
