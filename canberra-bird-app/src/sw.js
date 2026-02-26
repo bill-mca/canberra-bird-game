@@ -41,3 +41,41 @@ registerRoute(
     ],
   })
 );
+
+// Push notification handler
+self.addEventListener('push', (event) => {
+  let data = { title: 'Bird Guesser', body: "Today's bird challenge is ready!" };
+  try {
+    if (event.data) {
+      data = { ...data, ...event.data.json() };
+    }
+  } catch (e) {
+    // Use defaults if payload parsing fails
+  }
+
+  event.waitUntil(
+    self.registration.showNotification(data.title, {
+      body: data.body,
+      icon: data.icon || '/pwa-192x192.png',
+      badge: '/pwa-192x192.png',
+    })
+  );
+});
+
+// Notification click handler — open the app
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+
+  event.waitUntil(
+    self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then((clients) => {
+      // Focus existing window if available
+      for (const client of clients) {
+        if (client.url.includes(self.location.origin) && 'focus' in client) {
+          return client.focus();
+        }
+      }
+      // Otherwise open a new window
+      return self.clients.openWindow('/');
+    })
+  );
+});

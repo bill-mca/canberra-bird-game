@@ -1,5 +1,6 @@
 <script setup>
 import { getDailyStreak, getStats } from '../utils/storage.js';
+import NotificationSettings from '../components/NotificationSettings.vue';
 
 const emit = defineEmits(['navigate']);
 
@@ -55,6 +56,8 @@ const stats = getStats();
         <p>Learn more about this game</p>
       </button>
     </div>
+
+    <NotificationSettings />
   </div>
 </template>
 
