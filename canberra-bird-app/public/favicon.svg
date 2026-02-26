@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="32" fill="#2c5f2d"/>
+  <g transform="translate(12, 14)" fill="white">
+    <!-- body -->
+    <ellipse cx="22" cy="22" rx="16" ry="12"/>
+    <!-- head -->
+    <circle cx="6" cy="12" r="8"/>
+    <!-- beak -->
+    <polygon points="-2,11 -8,13 -2,15" fill="#ff6b35"/>
+    <!-- eye -->
+    <circle cx="4" cy="10" r="2" fill="#2c5f2d"/>
+    <!-- tail -->
+    <polygon points="34,16 44,10 44,18 38,22"/>
+    <!-- wing -->
+    <ellipse cx="24" cy="20" rx="10" ry="6" fill="#234d24"/>
+  </g>
+</svg>
