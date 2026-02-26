@@ -8,6 +8,7 @@ import TimeAttack from './views/TimeAttack.vue';
 import LinksPage from './views/LinksPage.vue';
 import StatsPage from './views/StatsPage.vue';
 import AboutPage from './views/AboutPage.vue';
+import InstallPrompt from './components/InstallPrompt.vue';
 
 const currentView = ref('daily'); // daily, menu, freeplay, timeattack, links, stats, about
 const isLoading = ref(true);
@@ -59,6 +60,8 @@ function navigateTo(view) {
 
     <footer class="app-footer">
     </footer>
+
+    <InstallPrompt />
   </div>
 </template>
 
