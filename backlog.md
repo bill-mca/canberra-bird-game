@@ -106,6 +106,36 @@ Tasks for autonomous development session based on user feedback.
 
 **Note**: Testing requires running against live ALA API. A comprehensive testing guide has been created with 10 test cases. Human testing recommended before production use.
 
+## PWA Conversion
+
+### 16. Basic PWA setup (Phase 1) ✅
+- [x] Create a `manifest.json` with app name, icons, theme color, display mode (standalone)
+- [x] Generate PWA icons at required sizes (192x192, 512x512) from existing favicon
+- [x] Register a service worker with offline caching strategy
+- [x] Cache bird data (`act_birds.json`), app shell, and key assets for offline use
+- [x] Add install prompt UI (e.g., subtle banner or menu option for "Add to Home Screen")
+- [ ] Test installability on Android Chrome, iOS Safari, and desktop
+- [ ] Verify the app works offline after first load
+
+### 17. Push notification backend (Phase 2) ✅
+- [x] Create a Cloudflare Worker to handle push subscription management
+- [x] Set up KV namespace (or D1 database) to store Web Push subscriptions
+- [x] Implement `POST /subscribe` endpoint to save push subscriptions
+- [x] Implement `POST /unsubscribe` endpoint to remove subscriptions
+- [x] Generate VAPID keys for Web Push authentication
+- [x] Add a cron trigger (e.g., 8am AEST daily) to send daily reminder notifications
+- [x] Implement push sending logic using the Web Push protocol
+- [x] Handle expired/invalid subscriptions gracefully (remove on 410 response)
+
+### 18. Push notification frontend (Phase 3) ✅
+- [x] Add notification permission request UI in the app (opt-in, not aggressive)
+- [x] Implement service worker `push` event handler to display notifications
+- [x] Implement `notificationclick` handler to open the app/daily challenge
+- [x] Subscribe to push notifications and send subscription to backend
+- [x] Add a setting to enable/disable notifications
+- [x] Store notification preference in localStorage
+- [ ] Test on Android Chrome, iOS Safari (home screen PWA), and desktop
+
 ## Tasks Requiring Human Input (Not for Autonomous Session)
 
 The following items from feedback cannot be completed autonomously:
