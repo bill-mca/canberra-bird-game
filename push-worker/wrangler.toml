@@ -3,11 +3,11 @@ main = "src/index.js"
 compatibility_date = "2024-12-01"
 
 [vars]
-FRONTEND_ORIGIN = "https://bird-guesser.pages.dev"
+FRONTEND_ORIGIN = "https://canberra-bird-game.pages.dev"
 
 [[kv_namespaces]]
 binding = "PUSH_SUBSCRIPTIONS"
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
+id = "c083e742d11e4db09f036989821a6f4e"
 
 [triggers]
 crons = ["0 22 * * *"]
