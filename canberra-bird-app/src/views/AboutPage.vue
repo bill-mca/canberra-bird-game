@@ -116,8 +116,8 @@ const emit = defineEmits(['navigate']);
 }
 
 .about-section ul {
-  list-style: disc;
-  margin-left: var(--spacing-xl);
+  list-style: none;
+  margin-left: 0;
   line-height: 1.8;
 }
 
